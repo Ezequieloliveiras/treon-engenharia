@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Header from "../partials/Header"
+import Header from "../partials/header/Header"
 
 function Home() {
     return (
         <>
-            <Header />
             <h1>Pagina Inicial</h1>
             <ul>
                 <li>
