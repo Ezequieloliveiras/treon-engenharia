@@ -4,7 +4,6 @@ import Container from '@mui/material/Container'
 import { styled } from '@mui/system'
 
 
-
 const StyledContainer = styled(Container)(() => ({
     padding: '30px 0',
 }))
