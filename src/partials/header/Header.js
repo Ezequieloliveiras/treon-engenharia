@@ -87,7 +87,7 @@ function Header() {
                             <Button
                                 key={page}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'black', display: 'block' }}
+                                sx={{ my: 2, color: '#093170', display: 'block' }}
                             >
                                 {page}
                             </Button>
