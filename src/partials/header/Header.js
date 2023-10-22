@@ -15,7 +15,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu'
 
 
-const pages = ['Products', 'Pricing', 'Blog']
+const pages = ['Trabalhos', 'Contato', 'Sobre']
 
 function Header() {
     const [anchorElNav, setAnchorElNav] = React.useState(null)
@@ -29,14 +29,14 @@ function Header() {
     }
 
     return (
-        <AppBar position="static">
-            <Container maxWidth="xl">
+        <AppBar position="static" sx={{ backgroundColor: 'white', color: 'black' }}>
+            <Container maxWidth="xl" sx={{display:'flex', justifyContent:'center'}}>
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
                         sx={{
                             mr: 2,
-                            display: { xs: 'none', md: 'flex' },
+                            display: { xs: 'none', md: 'flex'},
                             fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
@@ -44,7 +44,7 @@ function Header() {
                             textDecoration: 'none',
                         }}
                     >
-                        TREON ENGENHARIA
+                        <img style={{width:'70%'}} src='https://static.wixstatic.com/media/b65cfd_4c13e2b968b543f5901f4f2af4a2ce13~mv2.png/v1/fill/w_221,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b65cfd_4c13e2b968b543f5901f4f2af4a2ce13~mv2.png' alt='logo-treon' />
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -87,7 +87,7 @@ function Header() {
                             <Button
                                 key={page}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ my: 2, color: 'black', display: 'block' }}
                             >
                                 {page}
                             </Button>

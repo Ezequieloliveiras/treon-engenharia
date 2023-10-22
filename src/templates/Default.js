@@ -5,7 +5,9 @@ import { styled } from '@mui/system'
 
 
 const StyledContainer = styled(Container)(() => ({
-    padding: '30px 0',
+    minWidth: '100%',
+    height:'100vh',
+
 }))
 
 const Default = ({ children }) => {
@@ -13,7 +15,7 @@ const Default = ({ children }) => {
     return (
         <>
             <Header />
-            <StyledContainer >
+            <StyledContainer style={{padding: '0px 0px'}}>
                 {children}
             </StyledContainer>
         </>
