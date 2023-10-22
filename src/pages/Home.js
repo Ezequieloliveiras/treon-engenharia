@@ -1,23 +1,35 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import SectionOne from '../partials/sectionOne/Section-One'
-import Content from "../partials/sectionOne/Section-One"
+import styled from "@emotion/styled"
+import StyledSectionOne from '../partials/sectionOne/Section-One'
 
+
+const StyledDiv = styled('div')(() => ({
+    position: 'relative',
+    textAlign:'center',
+    paddingTop:'50px'
+
+}))
+
+const BackgroundSection = styled(StyledSectionOne)(() => ({
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+
+}))
 
 function Home() {
     return (
         <>
-            <Content>
-                <SectionOne>
-                    <h1>Pagina Inicial</h1>
-                    <ul>
-                        <li>
-                            <Link to="/users">Usuários</Link>
-                        </li>
-                    </ul>
-
-                </SectionOne>
-            </Content>
+            <BackgroundSection />
+            <StyledDiv>
+                <h1>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
+                <ul>
+                    <li>
+                        <Link to="/users">Usuários</Link>
+                    </li>
+                </ul>
+            </StyledDiv>
         </>
     )
 }
