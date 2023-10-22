@@ -15,7 +15,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu'
 
 
-const pages = ['Trabalhos', 'Contato', 'Sobre']
+const pages = ['Inicio', 'Trabalhos', 'Contato', 'Sobre']
 
 function Header() {
     const [anchorElNav, setAnchorElNav] = React.useState(null)

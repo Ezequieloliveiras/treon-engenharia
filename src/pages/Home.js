@@ -7,7 +7,7 @@ import StyledSectionOne from '../partials/sectionOne/Section-One'
 const StyledDiv = styled('div')(() => ({
     position: 'relative',
     textAlign:'center',
-    paddingTop:'50px'
+    paddingTop:'80px'
 
 }))
 
@@ -23,7 +23,7 @@ function Home() {
         <>
             <BackgroundSection />
             <StyledDiv>
-                <h1>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
+                <h1 style={{fontSize: '62px', }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
                 <ul>
                     <li>
                         <Link to="/users">Usuários</Link>
