@@ -34,7 +34,7 @@ const ContentSectionOne = () => {
             <StyledSection >
                 <h1 style={{ fontSize: '62px', }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
                 <ul>
-                    <li>
+                    <li style={{listStyle:'none'}}>
                         <Link to="/users">Usuários</Link>
                     </li>
                 </ul>

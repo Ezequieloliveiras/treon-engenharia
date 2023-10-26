@@ -27,9 +27,9 @@ const ContentSectionTwo = () => {
     return (
         <>
             <StyledSection >
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345, boxShadow: '0px 10px 10px 10px   rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ height: 140 }}
+                        sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_8865fcfce5364f11831ccc7f0eab3e81~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/pmoc.jpg"
                         title="PMOC"
                     />
@@ -47,9 +47,9 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345, boxShadow: '0px 10px 10px 10px   rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ height: 140 }}
+                        sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_8bb602e949a0413284ef77c7be5fcbfe~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ppci.jpg"
                         title="PMOC"
                     />
@@ -67,9 +67,9 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345 }}>
+                <Card sx={{ maxWidth: 345, boxShadow: '0px 10px 10px 10px   rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ height: 140 }}
+                        sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_d24eb9faae4c4960a229e8fc6baebdc0~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/alcb_edited.jpg"
                         title="PMOC"
                     />
@@ -79,7 +79,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Ajudamos empresas de todos os segmentos na regularização e liberação dos alvarás de funcionamento junto ao CBMES.
-                            <ul style={{paddingLeft:'20px', paddingTop:'30px'}}>
+                            <ul style={{paddingLeft:'25px', paddingTop:'30px'}}>
                                 <li>
                                     Consultoria de ALCB;
                                 </li>

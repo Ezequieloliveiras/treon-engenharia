@@ -3,6 +3,7 @@ import { styled } from "@mui/material"
 
 const StyledSection = styled('section')(() => ({
     background: 'red',
+    marginTop:'80px',
     height: '100vh'
 }))
 
