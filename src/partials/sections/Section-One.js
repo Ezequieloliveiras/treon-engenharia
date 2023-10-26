@@ -24,7 +24,10 @@ const StyledBackground = styled('div')(() => ({
     zIndex: -1,
 }))
 
-
+const LinkWithoutUnderline = styled(Link)(({ theme }) => ({
+    textDecoration: 'none', // Remove o sublinhado do link
+    color: '#1976d2', // Define a cor do link com base no tema do Material-UI
+}))
 
 const ContentSectionOne = () => {
 
@@ -32,10 +35,10 @@ const ContentSectionOne = () => {
         <>
             <StyledBackground />
             <StyledSection >
-                <h1 style={{ fontSize: '62px', }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
+                <h1 style={{ fontSize: '62px', color:'#1976d2' }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
                 <ul>
-                    <li style={{listStyle:'none'}}>
-                        <Link to="/users">Usuários</Link>
+                    <li style={{listStyle:'none', textDecoration:'none'}}>
+                        <LinkWithoutUnderline to="/users">Usuários</LinkWithoutUnderline>
                     </li>
                 </ul>
 
