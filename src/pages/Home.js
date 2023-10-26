@@ -10,6 +10,17 @@ function Home() {
             <ContentSectionOne />
             <ContentSectionTwo />
             <ContentSectionTree />
+            <footer style={{
+                width: '100%',
+                backgroundColor: 'grey',
+                color: 'white',
+                height: '70px',
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                
+
+            }}>FOOTER</footer>
         </>
     )
 }

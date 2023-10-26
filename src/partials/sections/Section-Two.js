@@ -1,25 +1,23 @@
 import { styled } from "@mui/material"
 
-
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-
-
-
+import {
+    Card, 
+    CardActions,
+    CardContent,
+    CardMedia,
+    Button,
+    Typography,
+} from '@mui/material'
 
 
 const StyledSection = styled('section')(() => ({
+    position: 'relative',
     background: 'withe',
-    height: '100vh',
+    padding: '150px 0px 100px 0px',
+    height: '115vh',
     display: 'flex',
     justifyContent: 'space-around'
 }))
-
-
 
 
 const ContentSectionTwo = () => {
@@ -27,7 +25,8 @@ const ContentSectionTwo = () => {
     return (
         <>
             <StyledSection >
-                <Card sx={{ maxWidth: 345, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <h1 style={{ position: 'absolute', top: '0px' }}>ENGENHARIA MECÂNICA</h1>
+                <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_8865fcfce5364f11831ccc7f0eab3e81~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/pmoc.jpg"
@@ -47,7 +46,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_8bb602e949a0413284ef77c7be5fcbfe~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ppci.jpg"
@@ -67,7 +66,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_d24eb9faae4c4960a229e8fc6baebdc0~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/alcb_edited.jpg"
@@ -79,7 +78,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Ajudamos empresas de todos os segmentos na regularização e liberação dos alvarás de funcionamento junto ao CBMES.
-                            <ul style={{paddingLeft:'25px', paddingTop:'15px'}}>
+                            <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
                                 <li>
                                     Consultoria de ALCB;
                                 </li>
@@ -102,7 +101,6 @@ const ContentSectionTwo = () => {
         </>
     )
 }
-
 
 
 export default ContentSectionTwo

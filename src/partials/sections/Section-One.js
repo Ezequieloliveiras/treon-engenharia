@@ -35,20 +35,16 @@ const ContentSectionOne = () => {
         <>
             <StyledBackground />
             <StyledSection >
-                <h1 style={{ fontSize: '62px', color:'#1976d2' }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
+                <h1 style={{ fontSize: '62px', color: '#1976d2' }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
                 <ul>
-                    <li style={{listStyle:'none', textDecoration:'none'}}>
+                    <li style={{ listStyle: 'none', textDecoration: 'none' }}>
                         <LinkWithoutUnderline to="/users">Usuários</LinkWithoutUnderline>
                     </li>
                 </ul>
-
             </StyledSection>
-
-
         </>
     )
 }
-
 
 
 export default ContentSectionOne
