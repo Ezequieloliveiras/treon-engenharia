@@ -28,7 +28,7 @@ const ContentSectionTree = () => {
         <>
                 
             <StyledSection >
-            <h1 style={{position:'absolute', top:'70px'}}>ENGENHARIA ELÉTRICA</h1>
+            <h1 style={{position:'absolute', top:'70px', color:'#093170'}}>ENGENHARIA ELÉTRICA</h1>
                 <Card sx={{ maxWidth: 345, maxHeight: 700,boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300}}

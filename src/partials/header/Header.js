@@ -1,4 +1,5 @@
 import React from 'react'
+import image from'../image/logo-treon.png'
 
 import {
     AppBar,
@@ -44,7 +45,8 @@ function Header() {
                             textDecoration: 'none',
                         }}
                     >
-                        <img style={{width:'70%'}} src='https://static.wixstatic.com/media/b65cfd_4c13e2b968b543f5901f4f2af4a2ce13~mv2.png/v1/fill/w_221,h_71,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b65cfd_4c13e2b968b543f5901f4f2af4a2ce13~mv2.png' alt='logo-treon' />
+                        <img style={{ width: '28%' }} src={image} alt="logo-treon" />
+
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton

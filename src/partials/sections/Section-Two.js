@@ -25,7 +25,7 @@ const ContentSectionTwo = () => {
     return (
         <>
             <StyledSection >
-                <h1 style={{ position: 'absolute', top: '0px' }}>ENGENHARIA MECÂNICA</h1>
+                <h1 style={{ position: 'absolute', top: '0px', color:'#093170' }}>ENGENHARIA MECÂNICA</h1>
                 <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
