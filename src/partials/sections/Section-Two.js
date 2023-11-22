@@ -14,7 +14,7 @@ const StyledSection = styled('section')(() => ({
     position: 'relative',
     background: 'withe',
     padding: '150px 0px 100px 0px',
-    height: '115vh',
+    height: 'auto',
     display: 'flex',
     justifyContent: 'space-around'
 }))
@@ -26,9 +26,9 @@ const ContentSectionTwo = () => {
         <>
             <StyledSection >
                 <h1 style={{ position: 'absolute', top: '0px', color:'#093170' }}>ENGENHARIA MECÂNICA</h1>
-                <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ height: 300 }}
+                        sx={{ maxWidth:'100%', height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_8865fcfce5364f11831ccc7f0eab3e81~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/pmoc.jpg"
                         title="PMOC"
                     />
@@ -46,7 +46,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_8bb602e949a0413284ef77c7be5fcbfe~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ppci.jpg"
@@ -66,7 +66,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, maxHeight: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_d24eb9faae4c4960a229e8fc6baebdc0~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/alcb_edited.jpg"

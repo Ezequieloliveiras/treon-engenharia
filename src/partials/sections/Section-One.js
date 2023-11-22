@@ -25,8 +25,8 @@ const StyledBackground = styled('div')(() => ({
 }))
 
 const LinkWithoutUnderline = styled(Link)(({ theme }) => ({
-    textDecoration: 'none', // Remove o sublinhado do link
-    color: '#093170', // Define a cor do link com base no tema do Material-UI
+    textDecoration: 'none',
+    color: '#093170',
 }))
 
 const ContentSectionOne = () => {
