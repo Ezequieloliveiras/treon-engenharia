@@ -66,7 +66,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, maxHeight: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_d24eb9faae4c4960a229e8fc6baebdc0~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/alcb_edited.jpg"

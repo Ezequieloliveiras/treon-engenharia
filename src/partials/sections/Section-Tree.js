@@ -1,7 +1,7 @@
 import { styled } from "@mui/material"
 
 import {
-    Card, 
+    Card,
     CardActions,
     CardContent,
     CardMedia,
@@ -10,28 +10,26 @@ import {
 } from '@mui/material'
 
 
-
 const StyledSection = styled('section')(() => ({
-    position:'relative',
-    padding:'200px 0px 100px 0px',
-    height: '125vh',
+    position: 'relative',
+    padding: '200px 0px 100px 0px',
+    height: 'auto',
     display: 'flex',
     justifyContent: 'space-around',
     background: '#f5f5f5',
 }))
 
 
-
 const ContentSectionTree = () => {
 
     return (
         <>
-                
+
             <StyledSection >
-            <h1 style={{position:'absolute', top:'70px', color:'#093170'}}>ENGENHARIA ELÉTRICA</h1>
-                <Card sx={{ maxWidth: 345, maxHeight: 700,boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <h1 style={{ position: 'absolute', top: '70px', color: '#093170' }}>ENGENHARIA ELÉTRICA</h1>
+                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ height: 300}}
+                        sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_496a99e8a0e449ab9a7a2c7bf0a18ffd~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/PROJ%20ELETRICO_edited.jpg"
                         title="PMOC"
                     />
@@ -53,7 +51,7 @@ const ContentSectionTree = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345,maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_3f4bc27f10284a0d9b1ce039475a7fa3~mv2.jpg/v1/fill/w_254,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/fotovoltaico_edited.jpg"
@@ -84,7 +82,7 @@ const ContentSectionTree = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345,maxHeight: 700, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://static.wixstatic.com/media/b65cfd_d24eb9faae4c4960a229e8fc6baebdc0~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/alcb_edited.jpg"

@@ -4,7 +4,9 @@ import { Link } from "react-router-dom"
 function Users() {
     return (
         <>
-            <h1>Usuários</h1>
+            <h1>
+                Sobre
+            </h1>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
