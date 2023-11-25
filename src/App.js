@@ -6,14 +6,12 @@ import {
     Routes,
 } from "react-router-dom"
 
-import Sobre from "./pages/Sobre";
+import Sobre from "./pages/sobre/Sobre";
 import Inicio from "./pages/Inicio";
 import TemplateDefault from './templates/Default'
 
-
-// componente react = funcao js que retorna JSX
 function App() {
-    return ( // JSX dentro do return
+    return (
         <TemplateDefault>
             <Router>
                 <Routes>
@@ -25,4 +23,4 @@ function App() {
     )
 }
 
-export default App // syntax sugar
+export default App 
