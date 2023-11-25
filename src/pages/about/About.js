@@ -1,13 +1,12 @@
 import React from "react"
 
-import Background from "./image/Image"
-
-import Container from "./sobrestyles/Container"
-import Content from "./sobrestyles/Content"
-import PrimaryBox from "./sobrestyles/boxes/PrimaryBox"
-import SecondaryBox from "./sobrestyles/boxes/SecondaryBox"
-import Text from "./sobrestyles/boxes/Text"
-import ImageSobre from "./sobrestyles/boxes/ImageSobre"
+import Background from "../about/imageBackground/ImageBackground"
+import Container from "./components/containers/Container"
+import Content from "./components/content/Content"
+import PrimaryBox from "./aboutStyles/boxes/PrimaryBox"
+import SecondaryBox from "./aboutStyles/boxes/SecondaryBox"
+import Text from "./components/text/Text"
+import ImageSobre from "./components/imageAbout/ImageAbout"
 
 function Sobre() {
     return (

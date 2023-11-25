@@ -1,6 +1,6 @@
 import styled from "@emotion/styled"
 
-const StyledImage = styled('div')(() => ({
+const BackgroundImage = styled('div')(() => ({
     position:'absolute',
     backgroundImage:'url(https://www.10wallpaper.com/wallpaper/1366x768/1609/Gear_art_mechanism-3D_Artwork_Vector_Wallpaper_1366x768.jpg)',
     width: '100%',
@@ -13,4 +13,4 @@ const StyledImage = styled('div')(() => ({
 }))
 
 
-export default StyledImage
+export default BackgroundImage

@@ -1,12 +1,11 @@
-
 import {
     BrowserRouter as Router,
     Route,
     Routes,
 } from "react-router-dom"
 
-import Sobre from "./pages/sobre/Sobre"
-import Inicio from "./pages/home/Inicio"
+import About from "./pages/about/About"
+import Home from "./pages/home/Home"
 import TemplateDefault from './templates/Default'
 
 function App() {
@@ -14,8 +13,8 @@ function App() {
         <TemplateDefault>
             <Router>
                 <Routes>
-                    <Route path="/sobre" element={<Sobre />} />
-                    <Route path="/" element={<Inicio />} />
+                    <Route path="/sobre" element={<About />} />
+                    <Route path="/" element={<Home />} />
                 </Routes>
             </Router>
         </TemplateDefault>
