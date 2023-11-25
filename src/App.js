@@ -7,7 +7,7 @@ import {
 } from "react-router-dom"
 
 import Sobre from "./pages/sobre/Sobre";
-import Inicio from "./pages/Inicio";
+import Inicio from "./pages/inicio/Inicio";
 import TemplateDefault from './templates/Default'
 
 function App() {

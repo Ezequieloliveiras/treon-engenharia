@@ -1,8 +1,8 @@
 import React from "react"
 
-import ContentSectionOne from '../partials/sections/Section-One'
-import ContentSectionTwo from '../partials/sections/Section-Two'
-import ContentSectionTree from '../partials/sections/Section-Tree'
+import ContentSectionOne from './sections/Section-One'
+import ContentSectionTwo from './sections/Section-Two'
+import ContentSectionTree from './sections/Section-Tree'
 
 function Home() {
     return (
