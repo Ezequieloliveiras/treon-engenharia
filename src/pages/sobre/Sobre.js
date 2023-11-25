@@ -1,9 +1,7 @@
 import React from "react"
-<<<<<<< HEAD
+
 import Background from "./image/Image"
-=======
-import Background from "./Image"
->>>>>>> e9a19fe3e00a47f0bb25f6c2a21ef1de4700e2da
+
 import Container from "./sobrestyles/Container"
 import Content from "./sobrestyles/Content"
 import PrimaryBox from "./sobrestyles/boxes/PrimaryBox"

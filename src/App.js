@@ -1,4 +1,3 @@
-import React from "react"
 
 import {
     BrowserRouter as Router,
@@ -6,8 +5,8 @@ import {
     Routes,
 } from "react-router-dom"
 
-import Sobre from "./pages/sobre/Sobre";
-import Inicio from "./pages/inicio/Inicio";
+import Sobre from "./pages/sobre/Sobre"
+import Inicio from "./pages/home/Inicio"
 import TemplateDefault from './templates/Default'
 
 function App() {

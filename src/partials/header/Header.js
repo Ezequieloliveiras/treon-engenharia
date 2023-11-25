@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../image/logo-treon.png'
+import image from '../logo/logo-treon.png'
 
 import {
     AppBar,
