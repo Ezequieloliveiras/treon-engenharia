@@ -1,5 +1,5 @@
 import React from 'react'
-import image from'../image/logo-treon.png'
+import image from '../image/logo-treon.png'
 
 import {
     AppBar,
@@ -10,30 +10,17 @@ import {
     Button,
 } from '@mui/material'
 
-
-
-const pages = ['Inicio', 'Trabalhos', 'Contato', 'Sobre']
-
 function Header() {
-    const [anchorElNav, setAnchorElNav] = React.useState(null)
-
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget)
-    }
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null)
-    }
 
     return (
         <AppBar position="static" sx={{ backgroundColor: 'white', color: 'black' }}>
-            <Container maxWidth="xl" sx={{display:'flex', justifyContent:'center'}}>
+            <Container maxWidth="xl" sx={{ display: 'flex', justifyContent: 'center' }}>
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
                         sx={{
                             mr: 2,
-                            display: { xs: 'none', md: 'flex'},
+                            display: { xs: 'none', md: 'flex' },
                             fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
@@ -44,18 +31,25 @@ function Header() {
                         <img style={{ width: '28%' }} src={image} alt="logo-treon" />
 
                     </Typography>
-               
+
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: '#093170', display: 'block' }}
-                            >
-                                {page}
-                                teste
-                            </Button>
-                        ))}
+                        <Button
+                            sx={{ my: 2, color: '#093170', display: 'block' }}
+                            href="/">
+                            Início
+                        </Button>
+
+                        <Button
+                            sx={{ my: 2, color: '#093170', display: 'block' }}
+                            href="/contato">
+                            Contato
+                        </Button>
+                        <Button
+                            sx={{ my: 2, color: '#093170', display: 'block' }}
+                            href="/sobre">
+                            Sobre
+                        </Button>
+
                     </Box>
                 </Toolbar>
             </Container>

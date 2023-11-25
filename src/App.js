@@ -6,8 +6,8 @@ import {
     Routes,
 } from "react-router-dom"
 
-import Users from "./pages/Users";
-import Home from "./pages/Home";
+import Sobre from "./pages/Sobre";
+import Inicio from "./pages/Inicio";
 import TemplateDefault from './templates/Default'
 
 
@@ -17,8 +17,8 @@ function App() {
         <TemplateDefault>
             <Router>
                 <Routes>
-                    <Route path="/users" element={<Users />} />
-                    <Route path="/" element={<Home />} />
+                    <Route path="/sobre" element={<Sobre />} />
+                    <Route path="/" element={<Inicio />} />
                 </Routes>
             </Router>
         </TemplateDefault>

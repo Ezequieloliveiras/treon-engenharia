@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { styled } from "@mui/material"
 
 
@@ -24,11 +23,6 @@ const StyledBackground = styled('div')(() => ({
     zIndex: -1,
 }))
 
-const LinkWithoutUnderline = styled(Link)(({ theme }) => ({
-    textDecoration: 'none',
-    color: '#093170',
-}))
-
 const ContentSectionOne = () => {
 
     return (
@@ -36,11 +30,6 @@ const ContentSectionOne = () => {
             <StyledBackground />
             <StyledSection >
                 <h1 style={{ fontSize: '62px', color: '#093170' }}>NOSSOS SERVIÇOS DE ENGENHARIA</h1>
-                <ul>
-                    <li style={{ listStyle: 'none', textDecoration: 'none' }}>
-                        <LinkWithoutUnderline to="/users">Usuários</LinkWithoutUnderline>
-                    </li>
-                </ul>
             </StyledSection>
         </>
     )

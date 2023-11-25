@@ -1,26 +1,18 @@
 import React from "react"
-import { Link } from "react-router-dom"
 import styled from "@emotion/styled"
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
-
     height: '670px',
-    
 }))
 
 
-function Users() {
+function Sobre() {
     return (
         <StyledSection >
             <h1 style={{ color: '#093170', marginTop: '80px', marginLeft:'80px' }}>
                 QUEM SOMOS
             </h1>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-            </ul>
             <div style={{
                 height: '400px',
                 width: '650px',
@@ -37,7 +29,6 @@ function Users() {
                 height: '400px',
                 width: '500px',
                 borderRadius: '10px',
-
                 padding: '30px',
                 position: 'absolute',
                 top: '150px',
@@ -52,5 +43,5 @@ function Users() {
     )
 }
 
-export default Users
+export default Sobre
 
