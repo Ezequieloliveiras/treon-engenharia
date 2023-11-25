@@ -8,7 +8,7 @@ const StyledDiv = styled('div')(() => ({
     alignItems: 'center',
     height: '100vh',
     position:'absolute',
-    top:'-30px'
+    top:'-70px'
 }))
 
 
