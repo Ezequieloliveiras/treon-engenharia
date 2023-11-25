@@ -1,8 +1,7 @@
-import React from "react"
-
 import ContentSectionOne from './sections/Section-One'
 import ContentSectionTwo from './sections/Section-Two'
 import ContentSectionTree from './sections/Section-Tree'
+import Footer from './footer/Footer'
 
 function Home() {
     return (
@@ -10,17 +9,7 @@ function Home() {
             <ContentSectionOne />
             <ContentSectionTwo />
             <ContentSectionTree />
-            <footer style={{
-                width: '100%',
-                backgroundColor: 'grey',
-                color: 'white',
-                height: '70px',
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                
-
-            }}>FOOTER</footer>
+            <Footer/>
         </>
     )
 }
