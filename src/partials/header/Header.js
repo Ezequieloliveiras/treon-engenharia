@@ -41,7 +41,7 @@ function Header() {
 
                         <Button
                             sx={{ my: 2, color: '#093170', display: 'block' }}
-                            href="/contato">
+                            href="/contact">
                             Contato
                         </Button>
                         <Button
