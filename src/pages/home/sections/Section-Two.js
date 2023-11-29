@@ -14,9 +14,10 @@ const StyledSection = styled('section')(() => ({
     position: 'relative',
     background: 'withe',
     padding: '150px 0px 100px 0px',
-    height: 'auto',
+    height: '1000px',
     display: 'flex',
-    justifyContent: 'space-around'
+    justifyContent: 'space-around',
+    alignItems:'center'
 }))
 
 

@@ -13,9 +13,10 @@ import {
 const StyledSection = styled('section')(() => ({
     position: 'relative',
     padding: '200px 0px 100px 0px',
-    height: 'auto',
+    height: '1000px',
     display: 'flex',
     justifyContent: 'space-around',
+    alignItems:'center',
     background: '#f5f5f5',
 }))
 
