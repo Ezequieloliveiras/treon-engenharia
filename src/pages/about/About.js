@@ -2,11 +2,11 @@ import React from "react"
 
 import Background from "./components/imageBackground/ImageBackground"
 import Container from "./components/containers/Container"
-import Content from "./components/containers/content/Content"
-import PrimaryBox from "./components/containers/content/boxes/PrimaryBox"
-import SecondaryBox from "./components/containers/content/boxes/SecondaryBox"
-import Text from "./components/containers/content/boxes/text/Text"
-import ImageSobre from "./components/containers/content/boxes/imageAbout/ImageAbout"
+import Content from "./components/content/Content"
+import PrimaryBox from "./components/boxes/PrimaryBox"
+import SecondaryBox from "./components/boxes/SecondaryBox"
+import Text from "./components/text/Text"
+import ImageSobre from "./components/imageAbout/ImageAbout"
 
 function Sobre() {
     return (
