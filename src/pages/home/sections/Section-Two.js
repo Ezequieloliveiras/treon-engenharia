@@ -13,7 +13,7 @@ import image from './image/teste image.png'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
-    background: 'withe',
+    background: '#f5f5f5',
     padding: '200px 0px 100px 0px',
     height: '1000px',
     display: 'flex',
@@ -27,11 +27,11 @@ const ContentSectionTwo = () => {
     return (
         <>
             <StyledSection >
-                <h1 style={{ position: 'absolute', top: '0px', color: '#093170' }}>ENGENHARIA MECÂNICA</h1>
-                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <h1 style={{ position: 'absolute', top: '70px', color: '#093170' }}>ENGENHARIA MECÂNICA</h1>
+                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ width: 'auto', height: 300 }}
-                        image="https://www.10wallpaper.com/wallpaper/1366x768/1401/AC_7-High-quality_wallpaper_1366x768.jpg"
+                        image="https://img.freepik.com/fotos-premium/servico-tecnico-remover-o-filtro-de-ar-do-ar-condicionado-para-limpeza_35076-3617.jpg"
                         title="PMOC"
                     />
                     <CardContent>
@@ -48,7 +48,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 400,  height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://www.comefogo.com.br/uploads/pagina/elemento/campo/2020/06/NLeHvUYQwRdigdwP/projeto-de-prevencao-e-combate-a-incendio-qual-a-importancia-e-quem-deve-fazer_875x540.jpg"
@@ -68,7 +68,7 @@ const ContentSectionTwo = () => {
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 400,  height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{
                             height: 300, display: 'flex',
