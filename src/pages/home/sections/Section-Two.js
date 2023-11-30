@@ -1,7 +1,7 @@
 import { styled } from "@mui/material"
 
 import {
-    Card, 
+    Card,
     CardActions,
     CardContent,
     CardMedia,
@@ -9,15 +9,16 @@ import {
     Typography,
 } from '@mui/material'
 
+import image from './image/teste image.png'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
     background: 'withe',
-    padding: '150px 0px 100px 0px',
+    padding: '200px 0px 100px 0px',
     height: '1000px',
     display: 'flex',
     justifyContent: 'space-around',
-    alignItems:'center'
+    alignItems: 'center'
 }))
 
 
@@ -26,11 +27,11 @@ const ContentSectionTwo = () => {
     return (
         <>
             <StyledSection >
-                <h1 style={{ position: 'absolute', top: '0px', color:'#093170' }}>ENGENHARIA MECÂNICA</h1>
+                <h1 style={{ position: 'absolute', top: '0px', color: '#093170' }}>ENGENHARIA MECÂNICA</h1>
                 <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ maxWidth:'100%', height: 300 }}
-                        image="https://static.wixstatic.com/media/b65cfd_8865fcfce5364f11831ccc7f0eab3e81~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/pmoc.jpg"
+                        sx={{ width: 'auto', height: 300 }}
+                        image="https://www.10wallpaper.com/wallpaper/1366x768/1401/AC_7-High-quality_wallpaper_1366x768.jpg"
                         title="PMOC"
                     />
                     <CardContent>
@@ -50,7 +51,7 @@ const ContentSectionTwo = () => {
                 <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
                         sx={{ height: 300 }}
-                        image="https://static.wixstatic.com/media/b65cfd_8bb602e949a0413284ef77c7be5fcbfe~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ppci.jpg"
+                        image="https://www.comefogo.com.br/uploads/pagina/elemento/campo/2020/06/NLeHvUYQwRdigdwP/projeto-de-prevencao-e-combate-a-incendio-qual-a-importancia-e-quem-deve-fazer_875x540.jpg"
                         title="PMOC"
                     />
                     <CardContent>
@@ -69,10 +70,16 @@ const ContentSectionTwo = () => {
 
                 <Card sx={{ maxWidth: 345, height: 600, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
                     <CardMedia
-                        sx={{ height: 300 }}
-                        image="https://static.wixstatic.com/media/b65cfd_d24eb9faae4c4960a229e8fc6baebdc0~mv2.jpg/v1/fill/w_300,h_227,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/alcb_edited.jpg"
+                        sx={{
+                            height: 300, display: 'flex',
+                            justifyContent: 'center',
+                            backgroundColor: '#e0e0e0',
+                            padding: '5px 0px 30px'
+                        }}
                         title="PMOC"
-                    />
+                    >
+                        <img src={image} alt="Descrição da Imagem" style={{ width: '250px', height: '290px' }} />
+                    </CardMedia>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             ALVARÁ DE FUNCIONAMENTO CBMES
