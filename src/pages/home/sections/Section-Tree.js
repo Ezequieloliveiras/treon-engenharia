@@ -1,7 +1,7 @@
 import { styled } from "@mui/material"
 
-import image from './image/projeto-eletrico-predial-02.jpg'
-import imageSpda from './image/SPDA.jpg'
+import image from './image/projeto_eletrico.jpg'
+import imageSpda from './image/spda.jpg'
 
 import {
     Card,
@@ -29,7 +29,7 @@ const ContentSectionTree = () => {
         <>
             <StyledSection >
                 <h1 style={{ position: 'absolute', top: '70px', color: '#093170' }}>ENGENHARIA ELÉTRICA</h1>
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position:'relative' }}>
                     <CardMedia
                         sx={{ height: 300, display: 'flex', justifyContent: 'center' }}
                         title="PMOC"
@@ -53,13 +53,13 @@ const ContentSectionTree = () => {
                             <br /> <br />
                             Contamos com profissionais experientes para entregar o melhor custo beneficio, e também homologamos o seu projeto junto a EDP seguindo todos os procedimentos legais.                        </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions sx={{position:'absolute', bottom:'0'}}>
                         <Button size="small">COMPARTILHAR</Button>
                         <Button size="small">SABER MAIS</Button>
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position:'relative' }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg"
@@ -84,13 +84,13 @@ const ContentSectionTree = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions sx={{position:'absolute', bottom:'0'}}>
                         <Button size="small">COMPARTILHAR</Button>
                         <Button size="small">SABER MAIS</Button>
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position:'relative'}}>
                     <CardMedia
                         sx={{ height: 300 }}
                         title="PMOC"
@@ -121,7 +121,7 @@ const ContentSectionTree = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions sx={{position:'absolute', bottom:'0'}}>
                         <Button size="small">COMPARTILHAR</Button>
                         <Button size="small">SABER MAIS</Button>
                     </CardActions>

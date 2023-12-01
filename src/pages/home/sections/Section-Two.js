@@ -9,7 +9,7 @@ import {
     Typography,
 } from '@mui/material'
 
-import image from './image/teste image.png'
+import image from './image/alvara_de_licenca.png'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
@@ -27,8 +27,16 @@ const ContentSectionTwo = () => {
     return (
         <>
             <StyledSection >
-                <h1 style={{ position: 'absolute', top: '70px', color: '#093170' }}>ENGENHARIA MECÂNICA</h1>
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <h1 style={{
+                    position: 'absolute',
+                    top: '70px',
+                    color: '#093170'
+                }}>ENGENHARIA MECÂNICA</h1>
+                <Card sx={{
+                    maxWidth: 400, height: 580,
+                    boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                    position: 'relative'
+                }}>
                     <CardMedia
                         sx={{ width: 'auto', height: 300 }}
                         image="https://img.freepik.com/fotos-premium/servico-tecnico-remover-o-filtro-de-ar-do-ar-condicionado-para-limpeza_35076-3617.jpg"
@@ -42,13 +50,18 @@ const ContentSectionTwo = () => {
                             A Treon Engenharia é referência no setor de refrigeração e climatização, onde nossos engenheiros possuem expertise na elaboração do plano de manutenção, operação e controle (PMOC). Também realizamos a manutenção preventiva e corretiva de ar condicionados de todos modelos.
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
                         <Button size="small">COMPARTILHAR</Button>
                         <Button size="small">SABER MAIS</Button>
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 400,  height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{
+                    maxWidth: 400,
+                    height: 580,
+                    boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                    position: 'relative'
+                }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://www.comefogo.com.br/uploads/pagina/elemento/campo/2020/06/NLeHvUYQwRdigdwP/projeto-de-prevencao-e-combate-a-incendio-qual-a-importancia-e-quem-deve-fazer_875x540.jpg"
@@ -62,13 +75,17 @@ const ContentSectionTwo = () => {
                             Contamos com um time de projetistas experientes para regularizar sua empresa junto ao corpo de bombeiro. Elaboramos o projeto de prevenção e combate a incêndio (PPCI) conforme sua necessidade. Também te ajudamos na liberação do alvará de funcionamento.
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
                         <Button size="small">COMPARTILHAR</Button>
                         <Button size="small">SABER MAIS</Button>
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 400,  height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)' }}>
+                <Card sx={{
+                    maxWidth: 400, height: 580,
+                    boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                    position: 'relative'
+                }}>
                     <CardMedia
                         sx={{
                             height: 300, display: 'flex',
@@ -99,7 +116,7 @@ const ContentSectionTwo = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
                         <Button size="small">COMPARTILHAR</Button>
                         <Button size="small">SABER MAIS</Button>
                     </CardActions>
