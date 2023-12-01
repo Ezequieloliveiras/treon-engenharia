@@ -54,8 +54,7 @@ const ContentSectionTree = () => {
                             Contamos com profissionais experientes para entregar o melhor custo beneficio, e também homologamos o seu projeto junto a EDP seguindo todos os procedimentos legais.                        </Typography>
                     </CardContent>
                     <CardActions sx={{position:'absolute', bottom:'0'}}>
-                        <Button size="small">COMPARTILHAR</Button>
-                        <Button size="small">SABER MAIS</Button>
+                        <Button size="small">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
 
@@ -85,8 +84,7 @@ const ContentSectionTree = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{position:'absolute', bottom:'0'}}>
-                        <Button size="small">COMPARTILHAR</Button>
-                        <Button size="small">SABER MAIS</Button>
+                        <Button size="small">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
 
@@ -122,8 +120,7 @@ const ContentSectionTree = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{position:'absolute', bottom:'0'}}>
-                        <Button size="small">COMPARTILHAR</Button>
-                        <Button size="small">SABER MAIS</Button>
+                        <Button size="small">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
 

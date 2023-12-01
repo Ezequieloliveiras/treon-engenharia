@@ -51,8 +51,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">COMPARTILHAR</Button>
-                        <Button size="small">SABER MAIS</Button>
+                        <Button size="small">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
 
@@ -76,8 +75,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">COMPARTILHAR</Button>
-                        <Button size="small">SABER MAIS</Button>
+                        <Button size="small">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
 
@@ -117,8 +115,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">COMPARTILHAR</Button>
-                        <Button size="small">SABER MAIS</Button>
+                        <Button size="small">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
             </StyledSection>
