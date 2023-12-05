@@ -7,79 +7,30 @@ import imagem3 from './imageCarousel/3.webp'
 
 function DarkVariantExample() {
     return (
-        <Carousel height='800px'>
+        <Carousel>
             <Carousel.Item style={{
-                objectFit: 'cover',
-                maxHeight: '800px',
-                width: '100%'
-            }}>
-                <img
-                    className="d-block w-100"
-                    src={imagem5}
-                    alt="First slide"
-                    style={{ objectFit: 'cover',minHeight: '800px', opacity: 0.7 }}
-                />
-                <Carousel.Caption style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    position: 'absolute',
-                    top: '10px',
-                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
-                }}>
-                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>SPDA</h1>
-                    <p style={{ color: '#ffffff' }}>
-                        Sistema de proteção contra descarga atmosférica.
-                    </p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item style={{
-                objectFit: 'cover',
-                maxHeight: '800px',
-                width: '100%'
-            }}>
-                <img
-                    style={{
-                        objectFit: 'cover',
-                        minHeight: '800px',
-                        opacity: 0.7
-                    }}
-                    className="d-block w-100"
-                    src={imagem3}
-                    alt="Second slide"
-                />
-                <Carousel.Caption style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    position: 'absolute',
-                    top: '10px',
-                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
-                }}>
-                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>
-                    <p style={{ color: '#ffffff' }}>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item style={{
-                objectFit: 'cover',
-                maxHeight: '800px',
+                position: 'relative',
                 width: '100%',
-                position: 'relative'
+                height: '800px'
             }}>
-                <img
-                    style={{
-                        objectFit: 'cover',
-                        minHeight: '800px',
-                        opacity: 0.7
-                    }}
-                    className="d-block w-100"
-                    src={imagem4}
-                    alt="Third slide"
-                />
+                <div style={{
+                    position: 'relative',
+                    width: '100%',
+                    height: '100%',
+                    backgroundColor: 'rgba(0, 0, 0, 0.8)'
+                }}>
+                    <img
+                        className="d-block w-100"
+                        src={imagem4}
+                        alt="First slide"
+                        style={{
+                            objectFit: 'cover',
+                            width: '100%',
+                            height: '100%',
+                            filter: 'blur(2px)'
+                        }}
+                    />
+                </div>
                 <Carousel.Caption style={{
                     display: 'flex',
                     justifyContent: 'center',
@@ -87,15 +38,96 @@ function DarkVariantExample() {
                     alignItems: 'center',
                     position: 'absolute',
                     top: '10px',
-                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+                    color: '#ffffff',
                 }}>
-                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>PROJETOS FOTOVOLTAICOS</h1>
-                    <p style={{ color: '#ffffff' }}>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h1 style={{
+                        fontSize: '60px',
+                        fontWeight: 'bold'
+                    }}>PROJETOS FOTOVOLTAICOS</h1>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item style={{
+                position: 'relative',
+                width: '100%',
+                height: '800px'
+            }}>
+                <div style={{
+                    position: 'relative',
+                    width: '100%',
+                    height: '100%',
+                    backgroundColor: 'rgba(0, 0, 0, 0.8)'
+                }}>
+                    <img
+                        className="d-block w-100"
+                        src={imagem5}
+                        alt="First slide"
+                        style={{
+                            objectFit: 'cover',
+                            width: '100%',
+                            height: '100%',
+                            filter: 'blur(2px)'
+                        }}
+                    />
+                </div>
+                <Carousel.Caption style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    position: 'absolute',
+                    top: '10px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+                    color: '#ffffff',
+
+                }}>
+                    <h1 style={{
+                        fontSize: '60px',
+                        fontWeight: 'bold'
+                    }}>SPDA</h1>
+                    <p>Sistema de proteção contra descarga atmosférica.</p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item style={{
+                position: 'relative',
+                width: '100%',
+                height: '800px'
+            }}>
+                <div style={{
+                    position: 'relative',
+                    width: '100%',
+                    height: '100%',
+                    backgroundColor: 'rgba(0, 0, 0, 0.8)'
+                }}>
+                    <img
+                        className="d-block w-100"
+                        src={imagem3}
+                        alt="First slide"
+                        style={{
+                            objectFit: 'cover',
+                            width: '100%',
+                            height: '100%',
+                            filter: 'blur(2px)'
+                        }}
+                    />
+                </div>
+                <Carousel.Caption style={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    position: 'absolute',
+                    top: '10px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+                    color: '#ffffff',
+                }}>
+                    <h1 style={{ fontSize: '60px', fontWeight: 'bold' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
+
     )
 }
 
