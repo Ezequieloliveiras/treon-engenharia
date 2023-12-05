@@ -44,7 +44,8 @@ function Header() {
                                 my: 2, color: '#ffffff',
                                 display: 'block',
                                 fontFamily: 'Manrope',
-                                textTransform: 'none'
+                                textTransform: 'none',
+                                fontSize:'15px'
                             }}
                             href="/">
                             Início
@@ -55,7 +56,8 @@ function Header() {
                                 my: 2, color: '#ffffff',
                                 display: 'block',
                                 fontFamily: 'Manrope',
-                                textTransform: 'none'
+                                textTransform: 'none',
+                                fontSize:'15px'
                             }}
                             href="/contact">
                             Contato
@@ -64,7 +66,8 @@ function Header() {
                             sx={{
                                 my: 2, color: '#ffffff',
                                 display: 'block', fontFamily: 'Manrope',
-                                textTransform: 'none'
+                                textTransform: 'none',
+                                fontSize:'15px'
                             }}
                             href="/sobre">
                             Sobre

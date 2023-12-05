@@ -2,9 +2,9 @@ import React from "react"
 
 import Background from "./components/imageBackground/ImageBackground"
 import Container from "./components/containers/Container"
-import Content from "./components/containers/content/Content"
-import PrimaryBox from "./components/containers/content/boxes/PrimaryBox"
-import Social from "./components/containers/content/boxes/socials/Social"
+import Content from "./components/content/Content"
+import PrimaryBox from "./components/boxes/PrimaryBox"
+import Social from "./components/socials/Social"
 
 
 function Sobre() {

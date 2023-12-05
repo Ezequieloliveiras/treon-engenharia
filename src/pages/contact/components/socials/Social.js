@@ -1,8 +1,8 @@
 import styled from "@emotion/styled"
 
-import WhatsAppIcon from "./icons/Whatsapp_Icon"
-import LinkedInicon from "./icons/Linkedin_Icon"
-import EmailIcon from "./icons/Email_Icon"
+import WhatsAppIcon from "../icons/Whatsapp_Icon"
+import LinkedInicon from "../icons/Linkedin_Icon"
+import EmailIcon from "../icons/Email_Icon"
 
 const Socials = styled('div')(() => ({
     height: '400px',

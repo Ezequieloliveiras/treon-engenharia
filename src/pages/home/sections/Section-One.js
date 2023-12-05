@@ -1,7 +1,6 @@
 import { styled } from "@mui/material"
 import Carousel from './carousel/Carousel'
 
-
 const StyledSection = styled('section')(() => ({
     position: 'relative',
     minHeight: 'auto',
@@ -17,11 +16,9 @@ const ContentSectionOne = () => {
 
     return (
         <>
-          
-
+        
             <StyledSection >
                 <Carousel />
-              
             </StyledSection>
             
         </>

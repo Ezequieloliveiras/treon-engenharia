@@ -40,9 +40,10 @@ function DarkVariantExample() {
                     top: '10px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
+                  
                 }}>
                     <h1 style={{
-                        fontSize: '60px',
+                        fontSize: '80px',
                         fontWeight: 'bold',
                     }}>Projetos Fotovoltaicos</h1>
                 </Carousel.Caption>
@@ -82,11 +83,11 @@ function DarkVariantExample() {
 
                 }}>
                     <h1 style={{
-                        fontSize: '60px',
+                        fontSize: '80px',
                         fontWeight: 'bold',
-                        letterSpacing:'2px' 
+                        letterSpacing: '2px'
                     }}>SPDA</h1>
-                    <p style={{letterSpacing:'2px'}}>Sistema de proteção contra descarga atmosférica.</p>
+                    <p style={{ letterSpacing: '2px' }}>Sistema de proteção contra descarga atmosférica.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
@@ -107,7 +108,7 @@ function DarkVariantExample() {
                             objectFit: 'cover',
                             width: '100%',
                             height: '100%',
-                            
+
                         }}
                     />
                 </div>
@@ -121,7 +122,11 @@ function DarkVariantExample() {
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                 }}>
-                    <h1 style={{ fontSize: '60px', fontWeight: 'bold', letterSpacing:'2px' }}>Sistema de detecção de incêndio</h1>                  
+                    <h1 style={{
+                        fontSize: '80px',
+                        fontWeight: 'bold',
+                        letterSpacing: '2px'
+                    }}>Sistema de detecção de incêndio</h1>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
