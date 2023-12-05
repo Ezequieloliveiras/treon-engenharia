@@ -58,7 +58,7 @@ function DarkVariantExample() {
                     top: '10px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
                 }}>
-                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>Sistema de detecção de Incêndio</h1>
+                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>
                     <p style={{ color: '#ffffff' }}>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
@@ -89,7 +89,7 @@ function DarkVariantExample() {
                     top: '10px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
                 }}>
-                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>Projetos Fotovoltaicos</h1>
+                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>PROJETOS FOTOVOLTAICOS</h1>
                     <p style={{ color: '#ffffff' }}>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
