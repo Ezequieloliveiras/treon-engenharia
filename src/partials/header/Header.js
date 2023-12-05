@@ -13,8 +13,14 @@ import {
 function Header() {
 
     return (
-        <AppBar position="static" sx={{ backgroundColor: '#093170', boxShadow:'2px 1px 10px #000000'}}>
-            <Container maxWidth="xl" sx={{ display: 'flex', justifyContent: 'center'}}>
+        <AppBar position="static" sx={{
+            backgroundColor: '#093170',
+            boxShadow: '2px 1px 10px #000000'
+        }}>
+            <Container maxWidth="xl" sx={{
+                display: 'flex',
+                justifyContent: 'center'
+            }}>
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
@@ -34,18 +40,32 @@ function Header() {
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Button
-                            sx={{ my: 2, color: '#ffffff', display: 'block' }}
+                            sx={{
+                                my: 2, color: '#ffffff',
+                                display: 'block',
+                                fontFamily: 'Manrope',
+                                textTransform: 'none'
+                            }}
                             href="/">
                             Início
                         </Button>
 
                         <Button
-                            sx={{ my: 2, color: '#ffffff', display: 'block' }}
+                            sx={{
+                                my: 2, color: '#ffffff',
+                                display: 'block',
+                                fontFamily: 'Manrope',
+                                textTransform: 'none'
+                            }}
                             href="/contact">
                             Contato
                         </Button>
                         <Button
-                            sx={{ my: 2, color: '#ffffff', display: 'block' }}
+                            sx={{
+                                my: 2, color: '#ffffff',
+                                display: 'block', fontFamily: 'Manrope',
+                                textTransform: 'none'
+                            }}
                             href="/sobre">
                             Sobre
                         </Button>

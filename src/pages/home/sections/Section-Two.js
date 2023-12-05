@@ -30,8 +30,9 @@ const ContentSectionTwo = () => {
                 <h1 style={{
                     position: 'absolute',
                     top: '70px',
-                    color: '#093170'
-                }}>ENGENHARIA MECÂNICA</h1>
+                    color: '#093170',
+                    fontWeight:'700'
+                }}>Engenharia Mecânica</h1>
                 <Card sx={{
                     maxWidth: 400, height: 580,
                     boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
@@ -51,7 +52,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">SAIBA MAIS</Button>
+                        <Button size="small">Saiba Mais</Button>
                     </CardActions>
                 </Card>
 
@@ -68,7 +69,7 @@ const ContentSectionTwo = () => {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            PROJETOS DE PREVENÇÃO A INCÊNDIO
+                            Projetos de preveção a incêndio
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Contamos com um time de projetistas experientes para regularizar sua empresa junto ao corpo de bombeiro. Elaboramos o projeto de prevenção e combate a incêndio (PPCI) conforme sua necessidade. Também te ajudamos na liberação do alvará de funcionamento.
@@ -97,7 +98,7 @@ const ContentSectionTwo = () => {
                     </CardMedia>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            ALVARÁ DE FUNCIONAMENTO CBMES
+                            Alvará de funcionamento CBMES
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Ajudamos empresas de todos os segmentos na regularização e liberação dos alvarás de funcionamento junto ao CBMES.

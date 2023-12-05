@@ -19,7 +19,7 @@ const Text = () => {
     return (
         <>
             <h1 style={{ color: '#093170', marginBottom: '50px', textAlign: 'center' }}>
-                CONTATO
+                Contato
             </h1>
             <Socials>
                 <WhatsAppIcon />
