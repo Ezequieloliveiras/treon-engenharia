@@ -1,7 +1,7 @@
 import { styled } from "@mui/material"
 
 import image from './image/projeto_eletrico.jpg'
-import imageSpda from './image/SPDA.jpg'
+import imageSpda from './image/spda.jpg'
 
 import {
     Card,

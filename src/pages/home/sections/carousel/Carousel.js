@@ -1,7 +1,8 @@
-import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import imagem4 from './imageCarousel/4.jpg';
-import imagem3 from './imageCarousel/3.webp';
+import Carousel from 'react-bootstrap/Carousel'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import imagem5 from './imageCarousel/5.jpg'
+import imagem4 from './imageCarousel/4.webp'
+import imagem3 from './imageCarousel/3.webp'
 
 
 function DarkVariantExample() {
@@ -14,9 +15,9 @@ function DarkVariantExample() {
             }}>
                 <img
                     className="d-block w-100"
-                    src={imagem4}
+                    src={imagem5}
                     alt="First slide"
-                    style={{ opacity: 0.9 }}
+                    style={{ objectFit: 'cover',minHeight: '800px', opacity: 0.7 }}
                 />
                 <Carousel.Caption style={{
                     display: 'flex',
@@ -26,9 +27,9 @@ function DarkVariantExample() {
                     position: 'absolute',
                     top: '10px'
                 }}>
-                    <h1 style={{ color: '#093170', fontWeight: 'bold', fontSize: '60px' }}> Elétrica</h1>
-                    <p style={{ color: '#093170' }}>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}>SPDA</h1>
+                    <p style={{ color: '#fff' }}>
+                        Sistema de proteção contra descarga atmosférica.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -41,7 +42,7 @@ function DarkVariantExample() {
                     style={{
                         objectFit: 'cover',
                         minHeight: '800px',
-                        opacity: 0.9
+                        opacity: 0.7
                     }}
                     className="d-block w-100"
                     src={imagem3}
@@ -55,7 +56,7 @@ function DarkVariantExample() {
                     position: 'absolute',
                     top: '10px'
                 }}>
-                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}> Sinalizador de Incêndio</h1>
+                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}>Sistema de detecção de Incêndio</h1>
                     <p style={{ color: '#fff' }}>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
@@ -85,14 +86,14 @@ function DarkVariantExample() {
                     position: 'absolute',
                     top: '10px'
                 }}>
-                    <h1 style={{ color: '#093170', fontWeight: 'bold', fontSize: '60px' }}> Elétrica</h1>
-                    <p style={{ color: '#093170' }}>
+                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}>Projetos Fotovoltaicos</h1>
+                    <p style={{ color: '#fff' }}>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-    );
+    )
 }
 
-export default DarkVariantExample;
+export default DarkVariantExample

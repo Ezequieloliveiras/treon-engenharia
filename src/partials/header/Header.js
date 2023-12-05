@@ -13,8 +13,8 @@ import {
 function Header() {
 
     return (
-        <AppBar position="static" sx={{ backgroundColor: 'white', color: 'black' }}>
-            <Container maxWidth="xl" sx={{ display: 'flex', justifyContent: 'center' }}>
+        <AppBar position="static" sx={{ backgroundColor: 'white'}}>
+            <Container maxWidth="xl" sx={{ display: 'flex', justifyContent: 'center'}}>
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
