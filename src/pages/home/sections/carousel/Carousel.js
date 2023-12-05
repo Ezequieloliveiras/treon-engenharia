@@ -43,7 +43,7 @@ function DarkVariantExample() {
                 }}>
                     <h1 style={{
                         fontSize: '60px',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold',
                     }}>PROJETOS FOTOVOLTAICOS</h1>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -83,9 +83,10 @@ function DarkVariantExample() {
                 }}>
                     <h1 style={{
                         fontSize: '60px',
-                        fontWeight: 'bold'
+                        fontWeight: 'bold',
+                        letterSpacing:'2px' 
                     }}>SPDA</h1>
-                    <p>Sistema de proteção contra descarga atmosférica.</p>
+                    <p style={{letterSpacing:'2px'}}>SISTEMA DE PROTEÇÃO CONTRA DESCARGA ATMOSFÉRICA.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
@@ -120,7 +121,7 @@ function DarkVariantExample() {
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                 }}>
-                    <h1 style={{ fontSize: '60px', fontWeight: 'bold' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>                  
+                    <h1 style={{ fontSize: '60px', fontWeight: 'bold', letterSpacing:'2px' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>                  
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -12,7 +12,7 @@ export default function Footer() {
       component="footer"
       sx={{
         backgroundColor: '#093170',
-        color:'white',
+        color: 'white',
         p: 6,
       }}
     >
@@ -20,52 +20,48 @@ export default function Footer() {
         <Grid container spacing={5}>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="white" gutterBottom>
-              About Us
+              Sobre nós
             </Typography>
             <Typography variant="body2" color="white">
-              We are XYZ company, dedicated to providing the best service to our
-              customers.
+              Somos uma empresa que preza pela excelência, dedicada a fornecer o melhor serviço aos nossos clientes.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="white" gutterBottom>
-              Contact Us
+              Contate-nos
             </Typography>
             <Typography variant="body2" color="white">
-              123 Main Street, Anytown, USA
+              R. João Galerani, 90 - Jucutuquara, Vitória - ES, 29043-282, Brasil
             </Typography>
             <Typography variant="body2" color="white">
-              Email: info@example.com
+              Email: contato@treonengenharia.com.br
             </Typography>
             <Typography variant="body2" color="white">
-              Phone: +1 234 567 8901
+              Phone: +55 27 99621-3588
             </Typography>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="white" gutterBottom>
-              Follow Us
+              Siga-nos
             </Typography>
-            <Link href="https://www.facebook.com/" color="inherit">
-              <Facebook />
-            </Link>
             <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/p/CWnauUFLLgr/"
               color="inherit"
               sx={{ pl: 1, pr: 1 }}
             >
               <Instagram />
             </Link>
-            <Link href="https://www.twitter.com/" color="inherit">
+            <Link href="##" color="inherit">
+              <Facebook />
+            </Link>
+            <Link href="##" color="inherit">
               <Twitter />
             </Link>
           </Grid>
         </Grid>
         <Box mt={5}>
-          <Typography variant="body2" color="text.secondary" align="center" sx={{color:'white'}}>
+          <Typography variant="body2" color="text.secondary" align="center" sx={{ color: 'white' }}>
             {"Copyright © "}
-            <Link color="inherit" href="https://your-website.com/">
-              Your Website
-            </Link>{" "}
             {new Date().getFullYear()}
             {"."}
           </Typography>
