@@ -25,10 +25,11 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '10px'
+                    top: '10px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
                 }}>
-                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}>SPDA</h1>
-                    <p style={{ color: '#fff' }}>
+                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>SPDA</h1>
+                    <p style={{ color: '#ffffff' }}>
                         Sistema de proteção contra descarga atmosférica.
                     </p>
                 </Carousel.Caption>
@@ -54,10 +55,11 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '10px'
+                    top: '10px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
                 }}>
-                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}>Sistema de detecção de Incêndio</h1>
-                    <p style={{ color: '#fff' }}>
+                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>Sistema de detecção de Incêndio</h1>
+                    <p style={{ color: '#ffffff' }}>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
                 </Carousel.Caption>
@@ -84,10 +86,11 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '10px'
+                    top: '10px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
                 }}>
-                    <h1 style={{ color: '#fff', fontWeight: 'bold', fontSize: '60px' }}>Projetos Fotovoltaicos</h1>
-                    <p style={{ color: '#fff' }}>
+                    <h1 style={{ color: '#ffffff', fontWeight: 'bold', fontSize: '70px' }}>Projetos Fotovoltaicos</h1>
+                    <p style={{ color: '#ffffff' }}>
                         Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                     </p>
                 </Carousel.Caption>
