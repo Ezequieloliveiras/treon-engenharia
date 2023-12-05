@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import imagem5 from './imageCarousel/5.jpg'
+import imagem5 from './imageCarousel/5.png'
 import imagem4 from './imageCarousel/4.webp'
-import imagem3 from './imageCarousel/3.webp'
+import imagem3 from './imageCarousel/3.jpg'
 
 
 function DarkVariantExample() {
@@ -27,7 +27,7 @@ function DarkVariantExample() {
                             objectFit: 'cover',
                             width: '100%',
                             height: '100%',
-                            filter: 'blur(2px)'
+                            filter: 'blur(1px)'
                         }}
                     />
                 </div>
@@ -45,7 +45,6 @@ function DarkVariantExample() {
                         fontSize: '60px',
                         fontWeight: 'bold'
                     }}>PROJETOS FOTOVOLTAICOS</h1>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
@@ -67,7 +66,7 @@ function DarkVariantExample() {
                             objectFit: 'cover',
                             width: '100%',
                             height: '100%',
-                            filter: 'blur(2px)'
+                            filter: 'blur(1px)'
                         }}
                     />
                 </div>
@@ -91,7 +90,6 @@ function DarkVariantExample() {
             </Carousel.Item>
             <Carousel.Item style={{
                 position: 'relative',
-                width: '100%',
                 height: '800px'
             }}>
                 <div style={{
@@ -108,7 +106,7 @@ function DarkVariantExample() {
                             objectFit: 'cover',
                             width: '100%',
                             height: '100%',
-                            filter: 'blur(2px)'
+                            
                         }}
                     />
                 </div>
@@ -122,8 +120,7 @@ function DarkVariantExample() {
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                 }}>
-                    <h1 style={{ fontSize: '60px', fontWeight: 'bold' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h1 style={{ fontSize: '60px', fontWeight: 'bold' }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>                  
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
