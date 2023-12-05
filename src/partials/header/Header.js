@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../logo/logo-treon.png'
+import image from '../logo/logo_treon_2.png'
 
 import {
     AppBar,
@@ -13,7 +13,7 @@ import {
 function Header() {
 
     return (
-        <AppBar position="static" sx={{ backgroundColor: 'white'}}>
+        <AppBar position="static" sx={{ backgroundColor: '#093170'}}>
             <Container maxWidth="xl" sx={{ display: 'flex', justifyContent: 'center'}}>
                 <Toolbar disableGutters>
                     <Typography
@@ -34,18 +34,18 @@ function Header() {
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Button
-                            sx={{ my: 2, color: '#093170', display: 'block' }}
+                            sx={{ my: 2, color: '#ffffff', display: 'block' }}
                             href="/">
                             Início
                         </Button>
 
                         <Button
-                            sx={{ my: 2, color: '#093170', display: 'block' }}
+                            sx={{ my: 2, color: '#ffffff', display: 'block' }}
                             href="/contact">
                             Contato
                         </Button>
                         <Button
-                            sx={{ my: 2, color: '#093170', display: 'block' }}
+                            sx={{ my: 2, color: '#ffffff', display: 'block' }}
                             href="/sobre">
                             Sobre
                         </Button>
