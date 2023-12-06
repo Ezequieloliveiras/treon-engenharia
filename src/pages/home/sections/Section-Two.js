@@ -15,12 +15,11 @@ const StyledSection = styled('section')(() => ({
     position: 'relative',
     background: '#f5f5f5',
     padding: '200px 0px 100px 0px',
-    height: '1000px',
+    height: 'auto',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center'
 }))
-
 
 const ContentSectionTwo = () => {
 

@@ -119,8 +119,7 @@ function DarkVariantExample() {
                     alignItems: 'center',
                     position: 'absolute',
                     top: '10px',
-                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
-                    color: '#ffffff',
+                    color: '#093170',
                 }}>
                     <h1 style={{
                         fontSize: '80px',
