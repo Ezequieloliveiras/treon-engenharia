@@ -34,7 +34,7 @@ const Text = () => {
                     <p>
                         A ausência do PMOC pode levar a falhas nos equipamentos, resultando em desperdício de energia. Com um plano adequado, é possível otimizar o desempenho dos sistemas, reduzindo custos operacionais e promovendo a sustentabilidade.
                     </p>
-                    <h5 style={{ fontWeight: 'bold' }}>
+                    <h5 style={{ fontWeight: 'bold', wordSpacing: '-0.7px' }}>
                         4. Por que devo solicitar o PMOC imediatamente após a instalação do sistema de climatização?
                     </h5>
                     <p>
