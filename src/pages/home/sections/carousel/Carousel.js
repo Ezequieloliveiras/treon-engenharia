@@ -7,11 +7,11 @@ import imagem3 from './imageCarousel/3.jpg'
 
 function DarkVariantExample() {
     return (
-        <Carousel>
+        <Carousel style={{ height: '100vh'}}>
             <Carousel.Item style={{
                 position: 'relative',
                 width: '100%',
-                height: '800px'
+               
             }}>
                 <div style={{
                     position: 'relative',
@@ -37,15 +37,15 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '10px',
+                    top: '-40px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                   
                 }}>
                     <h1 style={{
-                        fontSize: '80px',
+                       fontSize:'60px',
                         fontWeight: 'bold',
-                    }}>Projetos Fotovoltaicos</h1>
+                    }}>PROJETOS FOTOVOLTAICOS</h1>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
@@ -77,17 +77,17 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '10px',
+                    top: '-180px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
 
                 }}>
                     <h1 style={{
-                        fontSize: '80px',
+                        fontSize: '60px',
                         fontWeight: 'bold',
                         letterSpacing: '2px'
                     }}>SPDA</h1>
-                    <p style={{ letterSpacing: '2px' }}>Sistema de proteção contra descarga atmosférica.</p>
+                    <p style={{ letterSpacing: '2px' }}>SISTEMA DE PREVEÇÃO CONTRA DESCARGA ATMOSFÉRICA.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
@@ -108,7 +108,6 @@ function DarkVariantExample() {
                             objectFit: 'cover',
                             width: '100%',
                             height: '100%',
-
                         }}
                     />
                 </div>
@@ -118,14 +117,14 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '10px',
+                    top: '-100px',
                     color: '#093170',
                 }}>
                     <h1 style={{
-                        fontSize: '80px',
+                        fontSize: '60px',
                         fontWeight: 'bold',
                         letterSpacing: '2px'
-                    }}>Sistema de detecção de incêndio</h1>
+                    }}>SISTEMA DE DETCÇÃO DE INCÊNDIO</h1>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
