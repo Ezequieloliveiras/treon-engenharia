@@ -3,10 +3,8 @@ import React from "react"
 import Background from "./components/imageBackground/ImageBackground"
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
-import PrimaryBox from "./components/boxes/PrimaryBox"
-import SecondaryBox from "./components/boxes/SecondaryBox"
 import Text from "./components/text/Text"
-import ImageSobre from "./components/imageAbout/ImageAbout"
+
 
 function Sobre() {
     return (
@@ -14,12 +12,14 @@ function Sobre() {
             <Background />
             <Container >
                 <Content >
-                    <SecondaryBox>
-                        <ImageSobre />
-                    </SecondaryBox>
-                    <PrimaryBox>
-                        <Text />
-                    </PrimaryBox>
+                    <div style={{
+                        backgroundImage: 'url(https://www.wallacearcondicionado.com.br/photos/slider/3.png)'
+                        , backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '400px', width: '100%', top:'0px'
+                    }}>
+                        teste
+                    </div>
+
+                    <Text />
                 </Content>
             </Container>
         </>

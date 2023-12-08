@@ -2,11 +2,10 @@ import styled from "@emotion/styled"
 
 const Content = styled('div')(() => ({
     display: 'flex',
-    justifyContent: 'center',
     alignItems: 'center',
     flexDirection:'column',
     height: 'auto',
-    position:'absolute',
+    width:'100%',
     top:'100px',
 }))
 
