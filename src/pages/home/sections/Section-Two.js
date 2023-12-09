@@ -75,7 +75,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">SAIBA MAIS</Button>
+                        <Button size="small" href="/prevencao_a_incendio">SAIBA MAIS</Button>
                     </CardActions>
                 </Card>
 

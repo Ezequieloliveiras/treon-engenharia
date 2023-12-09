@@ -15,7 +15,7 @@ function PrevencaoIncendio() {
                 <Content >
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
                         <div style={{
-                            backgroundImage: 'url(https://www.wallacearcondicionado.com.br/photos/slider/3.png)'
+                            backgroundImage: 'url(https://inovaauditoria.com.br/wp-content/uploads/2019/10/alarme-incendio.jpg)'
                             , backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '400px', width: '100%', top: '0px'
                         }}>
                         </div>
