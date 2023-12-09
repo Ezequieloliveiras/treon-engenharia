@@ -1,7 +1,6 @@
 import React from "react"
 
-import { BackgroundImage, Container } from "./components/containers/Container";
-
+import Container  from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
 import YourComponent from "./button/Button"
@@ -10,7 +9,6 @@ import YourComponent from "./button/Button"
 function PrevencaoIncendio() {
     return (
         <>
-            <BackgroundImage />
             <Container >
                 <Content >
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>

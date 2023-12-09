@@ -8,7 +8,7 @@ const YourComponent = () => {
 
     return (
         <div className="wrap">
-            <button className="button" onClick={handleClick} style={{ position: 'absolute', bottom: '150px' }}>
+            <button className="button" onClick={handleClick} style={{ position: 'absolute', bottom: '120px' }}>
                 Converse com um engenheiro
             </button>
         </div>
