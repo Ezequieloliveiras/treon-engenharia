@@ -16,6 +16,7 @@ const Default = ({ children }) => {
             <StyledContainer style={{padding: '0px 0px'}}>
                 {children}
             </StyledContainer>
+            
         </>
     )
 }

@@ -51,7 +51,7 @@ const ContentSectionTwo = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">Saiba Mais</Button>
+                        <Button size="small" href="/pmoc">Saiba Mais</Button>
                     </CardActions>
                 </Card>
 

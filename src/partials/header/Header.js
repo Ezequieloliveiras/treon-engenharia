@@ -15,7 +15,8 @@ function Header() {
     return (
         <AppBar position="static" sx={{
             backgroundColor: '#093170',
-            boxShadow: '2px 1px 10px #000000'
+            boxShadow: '2px 1px 10px #000000',
+
         }}>
             <Container maxWidth="xl" sx={{
                 display: 'flex',
