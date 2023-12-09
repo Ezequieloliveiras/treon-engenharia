@@ -7,7 +7,7 @@ import Text from "./components/text/Text"
 import YourComponent from "./button/Button"
 
 
-function Pmoc() {
+function PrevencaoIncendio() {
     return (
         <>
             <BackgroundImage />
@@ -28,4 +28,4 @@ function Pmoc() {
     )
 }
 
-export default Pmoc
+export default PrevencaoIncendio
