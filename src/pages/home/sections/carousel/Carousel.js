@@ -51,7 +51,7 @@ function DarkVariantExample() {
             <Carousel.Item style={{
                 position: 'relative',
                 width: '100%',
-                height: '800px'
+               
             }}>
                 <div style={{
                     position: 'relative',
@@ -77,22 +77,22 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '-180px',
+                    top: '-40px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
-
+                  
                 }}>
-                    <h1 style={{
-                        fontSize: '60px',
+                    <h1 style={{fontSize: '60px', fontWeight: 'bold'}}>SPDA</h1>
+                    <h4 style={{
+                       fontSize:'60px',
                         fontWeight: 'bold',
-                        letterSpacing: '2px'
-                    }}>SPDA</h1>
-                    <p style={{ letterSpacing: '2px' }}>SISTEMA DE PREVEÇÃO CONTRA DESCARGA ATMOSFÉRICA.</p>
+                    }}>SISTEMA DE PREVEÇÃO CONTRA DESCARGA ATMOSFÉRICA</h4>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
                 position: 'relative',
-                height: '800px'
+                width: '100%',
+               
             }}>
                 <div style={{
                     position: 'relative',
@@ -108,6 +108,7 @@ function DarkVariantExample() {
                             objectFit: 'cover',
                             width: '100%',
                             height: '100%',
+                            filter: 'blur(1px)'
                         }}
                     />
                 </div>
@@ -117,8 +118,10 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '-100px',
-                    color: '#093170',
+                    top: '-40px',
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+                    color: '#ffffff',
+                  
                 }}>
                     <h1 style={{
                         fontSize: '60px',
