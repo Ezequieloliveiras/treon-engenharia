@@ -1,6 +1,7 @@
 import { styled } from "@mui/material"
 
 import image from './carousel/image/laudo_técnico_ar_condicionado.jpg'
+import imagePPCI from './carousel/image/laudo_técnico_ar_ppci.jpg'
 import imageSpda from './carousel/image/spda.jpg'
 
 import {
@@ -50,9 +51,13 @@ const ContentSectionFour = () => {
                             Laudo Técnico de Ar-condicionado
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Realizamos o seu projeto conforme sua necessidade (residencial, comercial e industrias).
-                            <br /> <br />
-                            Contamos com profissionais experientes para entregar o melhor custo beneficio, e também homologamos o seu projeto junto a EDP seguindo todos os procedimentos legais.                        </Typography>
+                            <p>Realizamos laudos técnicos para sistema de ar condicionado conforme necessidade do cliente.</p>
+                            <ul>
+                                <li>Laudo de integridade física</li>
+                                <li>Laudo de instalações e conformidade</li>
+                                <li>Laudo de manutenção em geral</li>
+                            </ul>
+                        </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
                         <Button size="small">Saiba Mais</Button>
@@ -61,26 +66,26 @@ const ContentSectionFour = () => {
 
                 <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
                     <CardMedia
-                        sx={{ height: 300 }}
-                        image="https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg"
+                        sx={{ height: 300, display: 'flex', justifyContent: 'center' }}
                         title="PMOC"
-                    />
+                    >
+                        <img src={imagePPCI} alt="Descrição da Imagem"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover',
+                            }} />
+                    </CardMedia>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Energia Solar
+                            Laudo Técnico de PPCI
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Projetamos o seu sistema fotovoltaico conforme a sua demanda energética.
-                            <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
-                                <li>
-                                    Acompanhamento de execução
-                                </li>
-                                <li>
-                                    Testes + laudos técnicos
-                                </li>
-                                <li>
-                                    Projetos residenciais, comerciais e industriais
-                                </li>
+                            <p>Elaboramos laudos técnicos para sistema de prevenção e combate a incêndio e pânico conforme demanda do cliente.</p>
+                            <ul>
+                                <li>Inspeção e laudo técnico para renovação de alvará</li>
+                                <li>Laudo de integridade física</li>
+                                <li>Laudo de conformidade e regularização no CBMES</li>
                             </ul>
                         </Typography>
                     </CardContent>
