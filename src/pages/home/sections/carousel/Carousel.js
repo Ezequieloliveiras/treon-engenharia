@@ -37,7 +37,7 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '-40px',
+                    top: '-20px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                   
@@ -77,7 +77,7 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '-40px',
+                    top: '-100px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                   
@@ -118,7 +118,7 @@ function DarkVariantExample() {
                     flexDirection: 'column',
                     alignItems: 'center',
                     position: 'absolute',
-                    top: '-40px',
+                    top: '-120px',
                     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                     color: '#ffffff',
                   
