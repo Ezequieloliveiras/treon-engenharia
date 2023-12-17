@@ -2,6 +2,7 @@ import { styled } from "@mui/material"
 
 import image from './carousel/image/laudo_técnico_ar_condicionado.jpg'
 import imagePPCI from './carousel/image/laudo_técnico_ar_ppci.jpg'
+import imageEngenheiros from './carousel/image/engenheiros.jpg'
 import imageSpda from './carousel/image/spda.jpg'
 
 import {
@@ -99,7 +100,7 @@ const ContentSectionFour = () => {
                         sx={{ height: 300 }}
                         title="PMOC"
                     >
-                        <img src={imageSpda} alt="Descrição da Imagem"
+                        <img src={imageEngenheiros} alt="Descrição da Imagem"
                             style={{
                                 width: '100%',
                                 height: '100%',
@@ -108,19 +109,20 @@ const ContentSectionFour = () => {
                     </CardMedia>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Projetos de SPDA
+                            Nossos Engenheiros
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Projetamos o seu sistema de proteção contra descarga atmosférica de acordo com a sua edificação.
+                            Contamos com engenheiros especializados na área de laudos técnicos para máquinas e equipamentos.
+
                             <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
                                 <li>
-                                    Laudo de integridade fisíca
+                                    inspeção e laudo técnico de máquinas e equipamentos (funcionalidades)
                                 </li>
                                 <li>
-                                    Testes de funcionamento
+                                    Laudo de integridade física
                                 </li>
                                 <li>
-                                    Laudo de conformidade
+                                    Laudo de regularização para NR11 e NR 12
                                 </li>
                             </ul>
                         </Typography>
