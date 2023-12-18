@@ -3,7 +3,7 @@ import React from "react"
 import Container  from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
-import YourComponent from "./button/Button"
+import YourComponent from "./components/button/Button"
 
 
 function PrevencaoIncendio() {
