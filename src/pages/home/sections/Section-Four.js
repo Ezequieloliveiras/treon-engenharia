@@ -1,8 +1,8 @@
 import { styled } from "@mui/material"
 
-import image from './image/laudo_técnico_ar_condicionado.jpg'
-import imagePPCI from './image/laudo_técnico_ppci.jpg'
-import imageEngenheiros from './image/maquinas_pesadas.avif'
+import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
+import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
+import imageEngenheiros from '../imageCards/maquinas_pesadas.avif'
 
 
 import {

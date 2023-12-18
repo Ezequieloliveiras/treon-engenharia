@@ -1,5 +1,5 @@
 import { styled } from "@mui/material"
-import Carousel from './carousel/Carousel'
+import Carousel from '../carousel/Carousel'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
