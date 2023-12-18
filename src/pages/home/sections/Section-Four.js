@@ -61,7 +61,7 @@ const ContentSectionFour = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">Saiba Mais</Button>
+                        <Button size="small" href="./laudo_tecnico_ar_condicionado">Saiba Mais</Button>
                     </CardActions>
                 </Card>
 
@@ -91,7 +91,7 @@ const ContentSectionFour = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">Saiba Mais</Button>
+                        <Button size="small" href="./laudo_tecnico_ppci">Saiba Mais</Button>
                     </CardActions>
                 </Card>
 
