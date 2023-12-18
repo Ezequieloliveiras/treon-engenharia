@@ -9,7 +9,7 @@ import {
     Typography,
 } from '@mui/material'
 
-import image from './carousel/image/alvara_de_licenca.png'
+import image from './carousel/imageCarousel/alvara_de_licenca.png'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',

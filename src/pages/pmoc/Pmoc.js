@@ -6,7 +6,6 @@ import Content from "./components/content/Content"
 import Text from "./components/text/Text"
 import YourComponent from "./button/Button"
 
-
 function Pmoc() {
     return (
         <>

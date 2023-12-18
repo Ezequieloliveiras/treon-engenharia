@@ -1,9 +1,9 @@
 import { styled } from "@mui/material"
 
-import image from './carousel/image/laudo_técnico_ar_condicionado.jpg'
-import imagePPCI from './carousel/image/laudo_técnico_ar_ppci.jpg'
-import imageEngenheiros from './carousel/image/engenheiros.jpg'
-import imageSpda from './carousel/image/spda.jpg'
+import image from './image/laudo_técnico_ar_condicionado.jpg'
+import imagePPCI from './image/laudo_técnico_ppci.jpg'
+import imageEngenheiros from './image/maquinas_pesadas.avif'
+
 
 import {
     Card,
@@ -109,7 +109,7 @@ const ContentSectionFour = () => {
                     </CardMedia>
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Nossos Engenheiros
+                            Laudo Técnico de Máquinas Pesadas
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Contamos com engenheiros especializados na área de laudos técnicos para máquinas e equipamentos.

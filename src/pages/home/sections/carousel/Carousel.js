@@ -26,7 +26,7 @@ function DarkVariantExample() {
                         style={{
                             objectFit: 'cover',
                             width: '100%',
-                            height: '100%',
+                            height: '100vh',
                             filter: 'blur(1px)'
                         }}
                     />

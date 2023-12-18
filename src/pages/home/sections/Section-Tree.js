@@ -1,7 +1,7 @@
 import { styled } from "@mui/material"
 
-import image from './carousel/image/projeto_eletrico.jpg'
-import imageSpda from './carousel/image/spda.jpg'
+import image from './carousel/imageCarousel/projeto_eletrico.jpg'
+import imageSpda from './carousel/imageCarousel/spda.jpg'
 
 import {
     Card,
