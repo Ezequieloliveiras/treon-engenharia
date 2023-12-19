@@ -4,6 +4,8 @@ import YourComponent from "./components/button/Button"
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
+import BannerPrevencaoIncendio from './components/banner/prevencao_incendio.jpg'
+
 
 function PrevencaoIncendio() {
     return (
@@ -18,12 +20,16 @@ function PrevencaoIncendio() {
                         alignItems: 'center'
                     }}>
                         <div style={{
-                            backgroundImage: 'url(https://inovaauditoria.com.br/wp-content/uploads/2019/10/alarme-incendio.jpg)', backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'cover',
                             height: '500px',
                             width: '100%',
-                            top: '0px'
+                            overflow: 'hidden'
                         }}>
+                            <img src={BannerPrevencaoIncendio}
+                                style={{
+                                    width: '100%',
+                                    height: 'auto',
+                                    objectFit: 'cover'
+                                }} />
                         </div>
                         <Text />
                     </div>
