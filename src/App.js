@@ -14,12 +14,18 @@ import LaudoArcondicionado from "./pages/services/laudo_ar_condicionado/Laudo_ar
 import LaudoPpci from './pages/services/laudo_ppci/Laudo_ppci'
 import LaudoMaquinas from "./pages/services/laudo_maquinas/Laudo_maquinas"
 import Alvara from './pages/services/alvara_de_funcionamento/Alvara'
+import ProjetoEletrico from "./pages/services/projetos_eletricos/Projetos_eletricos"
+import ProjetoEnergiaSolar from "./pages/services/energia_solar/Projetos_energia_solar"
+import ProjetoSpda from "./pages/services/projeto_spda/Projeto_spda"
 
 function App() {
     return (
         <TemplateDefault>
             <Router>
                 <Routes>
+                    <Route path="/projeto_spda" element={<ProjetoSpda />} />
+                    <Route path="/projeto_energia_solar" element={<ProjetoEnergiaSolar />} />
+                    <Route path="/projetos_eletricos" element={<ProjetoEletrico />} />
                     <Route path="/alvara_de_funcionamento" element={<Alvara />} />
                     <Route path="/laudo_tecnico_maquinas_pesadas" element={<LaudoMaquinas />} />
                     <Route path="/laudo_tecnico_ppci" element={<LaudoPpci />} />

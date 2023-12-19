@@ -97,7 +97,7 @@ const ContentSectionTree = () => {
                         justifyContent: 'center',
                         width: '100%'
                     }}>
-                        <Button variant="contained" href="/energia_solar" sx={{ width: '100%' }}>
+                        <Button variant="contained" href="/projeto_energia_solar" sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
@@ -140,7 +140,7 @@ const ContentSectionTree = () => {
                         justifyContent: 'center',
                         width: '100%'
                     }}>
-                        <Button variant="contained" href="/projetos_spda" sx={{ width: '100%' }}>
+                        <Button variant="contained" href="/projeto_spda" sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
