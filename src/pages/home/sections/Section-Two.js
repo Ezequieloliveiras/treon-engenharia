@@ -30,7 +30,7 @@ const ContentSectionTwo = () => {
                     position: 'absolute',
                     top: '70px',
                     color: '#093170',
-                    fontWeight:'700'
+                    fontWeight: '700'
                 }}>Engenharia Mecânica</h1>
                 <Card sx={{
                     maxWidth: 400, height: 580,
@@ -50,11 +50,17 @@ const ContentSectionTwo = () => {
                             A Treon Engenharia é referência no setor de refrigeração e climatização, onde nossos engenheiros possuem expertise na elaboração do plano de manutenção, operação e controle (PMOC). Também realizamos a manutenção preventiva e corretiva de ar condicionados de todos modelos.
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small" href="/pmoc">Saiba Mais</Button>
+                    <CardActions sx={{
+                        position: 'absolute',
+                        bottom: '1px', display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%'
+                    }}>
+                        <Button variant="contained" href="/pmoc" sx={{ width: '100%' }}>
+                            Saiba Mais
+                        </Button>
                     </CardActions>
                 </Card>
-
                 <Card sx={{
                     maxWidth: 400,
                     height: 580,
@@ -74,8 +80,15 @@ const ContentSectionTwo = () => {
                             Contamos com um time de projetistas experientes para regularizar sua empresa junto ao corpo de bombeiro. Elaboramos o projeto de prevenção e combate a incêndio (PPCI) conforme sua necessidade. Também te ajudamos na liberação do alvará de funcionamento.
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small" href="/prevencao_a_incendio">SAIBA MAIS</Button>
+                    <CardActions sx={{
+                        position: 'absolute',
+                        bottom: '1px', display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%'
+                    }}>
+                        <Button variant="contained" href="/prevencao_a_incendio" sx={{ width: '100%' }}>
+                            Saiba Mais
+                        </Button>
                     </CardActions>
                 </Card>
 
@@ -114,8 +127,15 @@ const ContentSectionTwo = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">SAIBA MAIS</Button>
+                    <CardActions sx={{
+                        position: 'absolute',
+                        bottom: '1px', display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%'
+                    }}>
+                        <Button variant="contained" href="/alvara_de_funcionamento" sx={{ width: '100%' }}>
+                            Saiba Mais
+                        </Button>
                     </CardActions>
                 </Card>
             </StyledSection>

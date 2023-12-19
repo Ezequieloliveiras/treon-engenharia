@@ -60,8 +60,15 @@ const ContentSectionFour = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small" href="./laudo_tecnico_ar_condicionado">Saiba Mais</Button>
+                    <CardActions sx={{
+                        position: 'absolute',
+                        bottom: '1px', display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%'
+                    }}>
+                        <Button variant="contained" href="/laudo_tecnico_ar_condicionado" sx={{ width: '100%' }}>
+                            Saiba Mais
+                        </Button>
                     </CardActions>
                 </Card>
 
@@ -90,11 +97,17 @@ const ContentSectionFour = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small" href="./laudo_tecnico_ppci">Saiba Mais</Button>
+                    <CardActions sx={{
+                        position: 'absolute',
+                        bottom: '1px', display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%'
+                    }}>
+                        <Button variant="contained" href="/laudo_tecnico_ppci" sx={{ width: '100%' }}>
+                            Saiba Mais
+                        </Button>
                     </CardActions>
                 </Card>
-
                 <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
                     <CardMedia
                         sx={{ height: 300 }}
@@ -127,8 +140,15 @@ const ContentSectionFour = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small" href="/laudo_tecnico_maquinas_pesadas">Saiba Mais</Button>
+                    <CardActions sx={{
+                        position: 'absolute',
+                        bottom: '1px', display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%'
+                    }}>
+                        <Button variant="contained" href="/laudo_tecnico_maquinas_pesadas" sx={{ width: '100%' }}>
+                            Saiba Mais
+                        </Button>
                     </CardActions>
                 </Card>
 
