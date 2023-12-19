@@ -5,23 +5,29 @@ import LinkedInicon from "../icons/Linkedin_Icon"
 import EmailIcon from "../icons/Email_Icon"
 
 const Socials = styled('div')(() => ({
-    height: '400px',
-    width: 'auto',
-    left: '50px',
-    borderRadius: '10px',
+    position: 'absolute',
     display: 'block',
     alignItems: 'center',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    width: 'auto',
+    top: '100px',
+    borderRadius: '10px',
 }))
 
 const Text = () => {
 
     return (
         <>
-            <h1 style={{ color: '#093170', marginBottom: '50px', textAlign: 'center' }}>
-                Contato
-            </h1>
             <Socials>
+                <h1
+                    style={{
+                        color: '#093170',
+                        marginBottom: '100px',
+                        textAlign: 'center',
+                        fontWeight: 'bold'
+                    }}>
+                    Contato
+                </h1>
                 <WhatsAppIcon />
                 <LinkedInicon />
                 <EmailIcon />

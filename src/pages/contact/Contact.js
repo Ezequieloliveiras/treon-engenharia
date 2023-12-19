@@ -1,22 +1,15 @@
-import React from "react"
-
-import Background from "./components/imageBackground/ImageBackground"
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
-import PrimaryBox from "./components/boxes/PrimaryBox"
 import Social from "./components/socials/Social"
-
+import Background from '../../partials/background_services/BackgroundServices'
 
 function Sobre() {
     return (
         <>
-            <Background />
             <Container >
-                <Content >
-                    <PrimaryBox>
-                        <Social />
-                    </PrimaryBox>
-                </Content>
+                <Content />
+                <Background />
+                <Social />
             </Container>
         </>
     )
