@@ -1,11 +1,11 @@
 import React from "react"
 
-import YourComponent from "./components/button/Button"
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
+import YourComponent from "./components/button/Button"
 
-function PrevencaoIncendio() {
+function Alvara() {
     return (
         <>
             <Container >
@@ -18,10 +18,11 @@ function PrevencaoIncendio() {
                         alignItems: 'center'
                     }}>
                         <div style={{
-                            backgroundImage: 'url(https://inovaauditoria.com.br/wp-content/uploads/2019/10/alarme-incendio.jpg)', backgroundRepeat: 'no-repeat',
+                            backgroundImage: 'url(https://assets-global.website-files.com/62d6ff493de2c880da3bfdeb/63e2b771d9aba1129836d3de_CAPA%20AVCB.png)',
+                            backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
                             height: '500px',
-                            width: '100%',
+                            width: '100% ' ,
                             top: '0px'
                         }}>
                         </div>
@@ -34,4 +35,4 @@ function PrevencaoIncendio() {
     )
 }
 
-export default PrevencaoIncendio
+export default Alvara

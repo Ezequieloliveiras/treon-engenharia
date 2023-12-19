@@ -16,11 +16,9 @@ const ContentSectionOne = () => {
 
     return (
         <>
-        
             <StyledSection >
                 <Carousel />
             </StyledSection>
-            
         </>
     )
 }

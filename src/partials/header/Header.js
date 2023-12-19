@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../logo/logo_treon_2.png'
+import LogoTreon from '../logo/logo_treon_3.png'
 
 import {
     AppBar,
@@ -35,10 +35,8 @@ function Header() {
                             textDecoration: 'none',
                         }}
                     >
-                        <img style={{ width: '28%' }} src={image} alt="logo-treon" />
-
+                        <img style={{ width: '35%' }} src={LogoTreon} alt="logo-treon" />
                     </Typography>
-
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Button
                             sx={{
@@ -46,19 +44,18 @@ function Header() {
                                 display: 'block',
                                 fontFamily: 'Manrope',
                                 textTransform: 'none',
-                                fontSize:'15px'
+                                fontSize: '15px'
                             }}
                             href="/">
                             Início
                         </Button>
-
                         <Button
                             sx={{
                                 my: 2, color: '#ffffff',
                                 display: 'block',
                                 fontFamily: 'Manrope',
                                 textTransform: 'none',
-                                fontSize:'15px'
+                                fontSize: '15px'
                             }}
                             href="/contact">
                             Contato
@@ -68,12 +65,11 @@ function Header() {
                                 my: 2, color: '#ffffff',
                                 display: 'block', fontFamily: 'Manrope',
                                 textTransform: 'none',
-                                fontSize:'15px'
+                                fontSize: '15px'
                             }}
                             href="/sobre">
                             Sobre
                         </Button>
-
                     </Box>
                 </Toolbar>
             </Container>
