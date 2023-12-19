@@ -8,11 +8,11 @@ import About from "./pages/about/About"
 import Home from "./pages/home/Home"
 import TemplateDefault from './templates/Default'
 import Contact from './pages/contact/Contact'
-import Pmoc from './pages/pmoc/Pmoc'
-import PrevencaoIncendio from './pages/prevencao_incendio/Prevencao_incendio'
-import LaudoArcondicionado from "./pages/laudo_ar_condicionado/Laudo_ar_condicionado"
-import LaudoPpci from './pages/laudo_ppci/Laudo_ppci'
-import LaudoMaquinas from "./pages/laudo_ppci copy/Laudo_maquinas"
+import Pmoc from './pages//services/pmoc/Pmoc'
+import PrevencaoIncendio from './pages/services/prevencao_incendio/Prevencao_incendio'
+import LaudoArcondicionado from "./pages/services/laudo_ar_condicionado/Laudo_ar_condicionado"
+import LaudoPpci from './pages/services/laudo_ppci/Laudo_ppci'
+import LaudoMaquinas from "./pages/services/laudo_maquinas/Laudo_maquinas"
 
 function App() {
     return (
