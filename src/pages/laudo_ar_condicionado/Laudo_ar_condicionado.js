@@ -14,7 +14,7 @@ function LaudoArcondicionado() {
                     <div style={{ width: '100%', display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
                         <div style={{
                             backgroundImage: 'url(https://www.climatrix.com.br/images/manutencao-de-ar-condicionado-no-rio-de-janeiro-01.jpg)'
-                            , backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '400px', width: '100%', top: '0px'
+                            , backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '500px', width: '100%', top: '0px'
                         }}>
                         </div>
                         <Text />

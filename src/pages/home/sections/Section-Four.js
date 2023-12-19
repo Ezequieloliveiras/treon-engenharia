@@ -128,7 +128,7 @@ const ContentSectionFour = () => {
                         </Typography>
                     </CardContent>
                     <CardActions sx={{ position: 'absolute', bottom: '0' }}>
-                        <Button size="small">Saiba Mais</Button>
+                        <Button size="small" href="/laudo_tecnico_maquinas_pesadas">Saiba Mais</Button>
                     </CardActions>
                 </Card>
 
