@@ -4,13 +4,15 @@ import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
 import YourComponent from "./components/button/Button"
-import BannerLaudoMaquinas from './components/banner/laudo_maquinas.jpg'
+import BannerLaudoMaquinas from './components/banner/maquinas_pesadas.jpg'
+import Background from '../../../partials/background_services/BackgroundServices'
 
 function LaudoMaquinas() {
     return (
         <>
             <Container >
                 <Content >
+                    <Background />
                     <div
                         style={{
                             width: '100%',
@@ -28,7 +30,8 @@ function LaudoMaquinas() {
                             <img src={BannerLaudoMaquinas}
                                 style={{
                                     width: '100%',
-                                    height: 'auto',
+                                    height: '100%',
+                                    objectFit:'cover'
                                 }} />
                         </div>
 

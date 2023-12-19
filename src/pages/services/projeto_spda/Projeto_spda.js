@@ -5,13 +5,14 @@ import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
 import BannerProjetoSpda from './components/banner/projeto_spda.jpg'
-
+import Background from '../../../partials/background_services/BackgroundServices'
 
 function ProjetoSpda() {
     return (
         <>
             <Container >
                 <Content >
+                    <Background />
                     <div
                         style={{
                             width: '100%',
@@ -29,7 +30,7 @@ function ProjetoSpda() {
                             <img src={BannerProjetoSpda}
                                 style={{
                                     width: '100%',
-                                    height: 'auto',
+                                    height: '100%',
                                     objectFit: 'cover'
                                 }} />
                         </div>

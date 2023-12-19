@@ -5,12 +5,14 @@ import Content from "./components/content/Content"
 import Text from "./components/text/Text"
 import YourComponent from "./components/button/Button"
 import BannerAlvara from "./components/banner/image_alvara.png"
+import BackgroundServices from "../../../partials/background_services/BackgroundServices"
 
 function Alvara() {
     return (
         <>
             <Container >
                 <Content >
+                    <BackgroundServices />
                     <div
                         style={{
                             width: '100%',

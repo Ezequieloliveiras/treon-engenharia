@@ -5,12 +5,15 @@ import Content from "./components/content/Content"
 import Text from "./components/text/Text"
 import YourComponent from "./components/button/Button"
 import BannerLaudoPpci from './components/banner/laudo_ppci.jpg'
+import Background from '../../../partials/background_services/BackgroundServices'
+
 
 function LaudoTecnicoPPCI() {
     return (
         <>
             <Container >
                 <Content >
+                    <Background />
                     <div
                         style={{
                             width: '100%',
