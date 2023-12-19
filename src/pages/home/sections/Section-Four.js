@@ -111,7 +111,6 @@ const ContentSectionFour = () => {
                 <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
                     <CardMedia
                         sx={{ height: 300 }}
-                        title="PMOC"
                     >
                         <img src={imageEngenheiros} alt="Descrição da Imagem"
                             style={{
@@ -126,7 +125,6 @@ const ContentSectionFour = () => {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Contamos com engenheiros especializados na área de laudos técnicos para máquinas e equipamentos.
-
                             <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
                                 <li>
                                     inspeção e laudo técnico de máquinas e equipamentos (funcionalidades)
