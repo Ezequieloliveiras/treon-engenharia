@@ -1,8 +1,12 @@
 import React from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import './index2.css';
+
 import LogoTreon from '../logo/logo_treon_3.png';
 import CreaLogo from '../logo/crea_logo.png';
+import logoWhatsapp from '../logo/logo_whatsapp.png';
+import logoInstagram from '../logo/logo_instagram.png';
+import LogoLinkedin from '../logo/logo_linkedin.png';
 
 function BasicExample() {
   return (
@@ -27,7 +31,7 @@ function BasicExample() {
             alt="CreaLogo" />
           <p
             style={{
-              fontWeight:'bold',
+              fontWeight: 'bold',
               fontSize: '10px',
               color: 'white',
               margin: '1px 0px 0px 0px'
@@ -50,7 +54,31 @@ function BasicExample() {
             </NavDropdown>
           </Nav>
 
+          <img src={logoWhatsapp}
+            style={{
+              width: '30px',
+              height: '30px',
+              marginRight: '10px'
+            }}
+            alt="creaLogo" />
+
+          <img src={LogoLinkedin}
+            style={{
+              width: '30px',
+              height: '30px',
+              marginRight: '10px'
+            }}
+            alt="linkedinLogo" />
+          <img src={logoInstagram}
+            style={{
+              width: '30px',
+              height: '30px'
+            }}
+            alt="instaLogo" />
+
+
         </Navbar.Collapse>
+
       </Container>
     </Navbar>
   );
