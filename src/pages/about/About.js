@@ -1,6 +1,6 @@
 import React from "react"
 
-import Background from "./components/imageBackground/ImageBackground"
+import Background from '../../partials/background_services/BackgroundServices'
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
