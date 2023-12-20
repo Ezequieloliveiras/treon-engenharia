@@ -6,7 +6,6 @@ const Content = styled('div')(() => ({
     alignItems: 'center',
     height: 'auto',
     position:'absolute',
-    top:'100px',
 }))
 
 export default Content

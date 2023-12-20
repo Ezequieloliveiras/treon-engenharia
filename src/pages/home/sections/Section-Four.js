@@ -17,9 +17,9 @@ import {
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
-    padding: '200px 0px 100px 0px',
+    padding: '0px 0px 100px 0px',
     background: '#f5f5f5',
-    height: 'auto',
+    height: '1100px',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',

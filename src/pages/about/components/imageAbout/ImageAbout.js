@@ -1,6 +1,7 @@
 import styled from "@emotion/styled"
 
 const ImageAbout = styled('div')(() => ({
+    marginTop:'120px',
     height: '340px',
     width: '600px',
     borderRadius: '10px',

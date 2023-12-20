@@ -2,6 +2,7 @@ import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Social from "./components/socials/Social"
 import Background from '../../partials/background_services/BackgroundServices'
+import ButtonDialogo from "../../partials/buttonDialogo/Button"
 
 function Sobre() {
     return (
@@ -10,6 +11,7 @@ function Sobre() {
                 <Content />
                 <Background />
                 <Social />
+                <ButtonDialogo />
             </Container>
         </>
     )
