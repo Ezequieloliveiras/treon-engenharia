@@ -2,14 +2,8 @@
   color: white
 }
 
-
 #basic-nav-dropdown {
   color: white
-}
-
-.navbar-custom {
-  display: flex;
-
 }
 
 #contend {
@@ -18,16 +12,7 @@
   align-items: center;
 }
 
-#teste {
-  margin: auto;
-  width: 120px;
-  display: flex;
-}
-
-
-#links {
-  width: 400px;
-justify-content: center;
-align-items: center;
-margin: none;
+a {
+  text-align: justify;
+  background: white;
 }
