@@ -7,7 +7,7 @@ import CreaLogo from '../logo/crea_logo.png';
 function BasicExample() {
   return (
     <Navbar expand="lg" variant="dark" style={{ backgroundColor: '#093170' }}>
-      <Container id='contend' className="d-flex align-items-center">
+      <Container id='contend' className="d-flex justify-content-center align-items-center">
         <img src={LogoTreon} style={{ width: '10%', marginRight: '50px' }} alt="LogoTreon" />
         <img src={CreaLogo} style={{ width: '3%', marginRight: '50px' }} alt="CreaLogo" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
