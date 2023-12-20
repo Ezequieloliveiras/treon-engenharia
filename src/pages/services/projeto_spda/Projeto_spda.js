@@ -1,6 +1,6 @@
 import React from "react"
 
-import YourComponent from "./components/button/Button"
+import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
@@ -36,7 +36,7 @@ function ProjetoSpda() {
                         </div>
                         <Text />
                     </div>
-                    <YourComponent />
+                    <ButtonDialogo />
                 </Content>
             </Container>
         </>

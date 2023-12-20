@@ -3,7 +3,7 @@ import React from "react"
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
-import YourComponent from "./components/button/Button"
+import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
 import BannerProjetosEletricos from './components/banner/projetos_eletricos.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
@@ -36,7 +36,7 @@ function ProjetoEletrico() {
                         </div>
                         <Text />
                     </div>
-                    <YourComponent />
+                    <ButtonDialogo />
                 </Content>
             </Container>
         </>
