@@ -3,9 +3,8 @@ import './index.css'
 function ButtonDialogo() {
     const handleWhatsAppClick = () => {
         const phoneNumber = '+5527996213588'
-        const message = encodeURIComponent('Olá, estou entrando em contato pelo site.')
+        const message = encodeURIComponent('Olá, estou entrando em contato através do site.')
 
-        // Gere o link do WhatsApp com o número de telefone e mensagem pré-definida
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`
         window.open(whatsappURL)
     }

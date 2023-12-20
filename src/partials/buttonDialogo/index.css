@@ -15,12 +15,6 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*
- * Animated CSS button
- * Copyright Alexander Bodin 2019-09-07
- *
- * Useage: .class {@import button($button-size, $hue, $sat);}
- */
 .animated-button {
   background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%);
   padding: 20px 40px;
@@ -1771,5 +1765,3 @@ body {
     transform: translateY(100%);
   }
 }
-
-/*# sourceMappingURL=button.css.map */
