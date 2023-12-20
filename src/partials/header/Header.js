@@ -1,11 +1,13 @@
-import React from 'react'
+
 import LogoTreon from '../logo/logo_treon_3.png'
 import CreaLogo from '../logo/crea_logo.png'
+import Submenu from './submenu/Submenu';
+
+
 import {
     AppBar,
     Box,
     Toolbar,
-    Typography,
     Container,
     Button,
 } from '@mui/material'
@@ -13,15 +15,17 @@ import {
 function Header() {
 
     return (
-        <AppBar position="static" sx={{
-            backgroundColor: '#093170',
-            boxShadow: '2px 1px 10px #000000',
+        <AppBar position="static"
+            sx={{
+                backgroundColor: '#093170',
+                boxShadow: '2px 1px 10px #000000',
 
-        }}>
-            <Container maxWidth="xl" sx={{
-                display: 'flex',
-                justifyContent: 'center'
             }}>
+            <Container maxWidth="xl"
+                sx={{
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
                 <Toolbar disableGutters>
                     <div
                         style={{
@@ -31,7 +35,10 @@ function Header() {
                             alignItems: 'center',
                             justifyContent: 'center',
                         }}>
-                        <div style={{ marginRight: '100px' }}>
+                        <div
+                            style={{
+                                marginRight: '100px'
+                            }}>
                             <img
                                 style={{
                                     width: '163%',
@@ -66,7 +73,11 @@ function Header() {
                             </p>
                         </div>
                     </div>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    <Box
+                        sx={{
+                            flexGrow: 1,
+                            display: { xs: 'none', md: 'flex' }
+                        }}>
                         <Button
                             sx={{
                                 my: 2, color: '#ffffff',
@@ -92,7 +103,8 @@ function Header() {
                         <Button
                             sx={{
                                 my: 2, color: '#ffffff',
-                                display: 'block', fontFamily: 'Manrope',
+                                display: 'block',
+                                fontFamily: 'Manrope',
                                 textTransform: 'none',
                                 fontSize: '15px'
                             }}
@@ -100,6 +112,17 @@ function Header() {
                             Sobre
                         </Button>
                     </Box>
+                    <Button
+                        sx={{
+                            my: 2, color: '#ffffff',
+                            display: 'block',
+                            fontFamily: 'Manrope',
+                            textTransform: 'none',
+                            fontSize: '15px'
+                        }}
+                    >
+                        <Submenu />
+                    </Button>
                 </Toolbar>
             </Container>
         </AppBar>
