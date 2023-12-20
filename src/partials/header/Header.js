@@ -1,131 +1,33 @@
+import React from 'react';
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import './index2.css';
+import LogoTreon from '../logo/logo_treon_3.png';
+import CreaLogo from '../logo/crea_logo.png';
 
-import LogoTreon from '../logo/logo_treon_3.png'
-import CreaLogo from '../logo/crea_logo.png'
-import Submenu from './submenu/Submenu';
-
-
-import {
-    AppBar,
-    Box,
-    Toolbar,
-    Container,
-    Button,
-} from '@mui/material'
-
-function Header() {
-
-    return (
-        <AppBar position="static"
-            sx={{
-                backgroundColor: '#093170',
-                boxShadow: '2px 1px 10px #000000',
-
-            }}>
-            <Container maxWidth="xl"
-                sx={{
-                    display: 'flex',
-                    justifyContent: 'center'
-                }}>
-                <Toolbar disableGutters>
-                    <div
-                        style={{
-                            width: '300px',
-                            height: 'auto',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                        }}>
-                        <div
-                            style={{
-                                marginRight: '100px'
-                            }}>
-                            <img
-                                style={{
-                                    width: '163%',
-                                    height: '50%',
-                                }}
-                                src={LogoTreon} alt="logo-treon" />
-                        </div>
-                        <div
-                            style={{
-                                display: 'flex',
-                                flexDirection: 'column',
-                                alignItems: 'center',
-                                justifyItems: 'center',
-                                marginRight: '40px'
-                            }}>
-                            <img
-                                style={{
-                                    width: '45%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyItems: 'center'
-                                }}
-                                src={CreaLogo} alt="logo-crea" />
-                            <p
-                                style={{
-                                    width: '60px',
-                                    textAlign: 'center',
-                                    fontSize: '10px',
-                                    margin: '5px 0px 0px 0px'
-                                }}>
-                                CREA-ES
-                            </p>
-                        </div>
-                    </div>
-                    <Box
-                        sx={{
-                            flexGrow: 1,
-                            display: { xs: 'none', md: 'flex' }
-                        }}>
-                        <Button
-                            sx={{
-                                my: 2, color: '#ffffff',
-                                display: 'block',
-                                fontFamily: 'Manrope',
-                                textTransform: 'none',
-                                fontSize: '15px'
-                            }}
-                            href="/">
-                            Início
-                        </Button>
-                        <Button
-                            sx={{
-                                my: 2, color: '#ffffff',
-                                display: 'block',
-                                fontFamily: 'Manrope',
-                                textTransform: 'none',
-                                fontSize: '15px'
-                            }}
-                            href="/contact">
-                            Contato
-                        </Button>
-                        <Button
-                            sx={{
-                                my: 2, color: '#ffffff',
-                                display: 'block',
-                                fontFamily: 'Manrope',
-                                textTransform: 'none',
-                                fontSize: '15px'
-                            }}
-                            href="/sobre">
-                            Sobre
-                        </Button>
-                    </Box>
-                    <Button
-                        sx={{
-                            my: 2, color: '#ffffff',
-                            display: 'block',
-                            fontFamily: 'Manrope',
-                            textTransform: 'none',
-                            fontSize: '15px'
-                        }}
-                    >
-                        <Submenu />
-                    </Button>
-                </Toolbar>
-            </Container>
-        </AppBar>
-    )
+function BasicExample() {
+  return (
+    <Navbar expand="lg" variant="dark" style={{ backgroundColor: '#093170' }}>
+      <Container id='contend' className="d-flex align-items-center">
+        <img src={LogoTreon} style={{ width: '10%', marginRight: '50px' }} alt="LogoTreon" />
+        <img src={CreaLogo} style={{ width: '3%', marginRight: '50px' }} alt="CreaLogo" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/" id="custom-nav-link">Inicio</Nav.Link>
+            <Nav.Link href="/contact" id="custom-nav-link">Contato</Nav.Link>
+            <Nav.Link href="/sobre" id="custom-nav-link">Sobre</Nav.Link>
+            <NavDropdown title="Serviços" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Engenharia Mecânica</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Engenharia Elétrica</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Laudos Técnicos</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
-export default Header
+
+export default BasicExample;

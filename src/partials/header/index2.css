@@ -1,0 +1,14 @@
+#custom-nav-link{
+  color: white 
+}
+
+#basic-nav-dropdown{
+  color: white 
+}
+
+
+#contend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
