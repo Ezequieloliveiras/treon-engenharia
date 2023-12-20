@@ -1,6 +1,6 @@
 import React from 'react'
 import LogoTreon from '../logo/logo_treon_3.png'
-
+import CreaLogo from '../logo/crea_logo.png'
 import {
     AppBar,
     Box,
@@ -23,20 +23,49 @@ function Header() {
                 justifyContent: 'center'
             }}>
                 <Toolbar disableGutters>
-                    <Typography
-                        variant="h6"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        <img style={{ width: '35%' }} src={LogoTreon} alt="logo-treon" />
-                    </Typography>
+                    <div
+                        style={{
+                            width: '300px',
+                            height: 'auto',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                        }}>
+                        <div style={{ marginRight: '100px' }}>
+                            <img
+                                style={{
+                                    width: '163%',
+                                    height: '50%',
+                                }}
+                                src={LogoTreon} alt="logo-treon" />
+                        </div>
+                        <div
+                            style={{
+                                display: 'flex',
+                                flexDirection: 'column',
+                                alignItems: 'center',
+                                justifyItems: 'center',
+                                marginRight: '40px'
+                            }}>
+                            <img
+                                style={{
+                                    width: '45%',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyItems: 'center'
+                                }}
+                                src={CreaLogo} alt="logo-crea" />
+                            <p
+                                style={{
+                                    width: '60px',
+                                    textAlign: 'center',
+                                    fontSize: '10px',
+                                    margin: '5px 0px 0px 0px'
+                                }}>
+                                CREA-ES
+                            </p>
+                        </div>
+                    </div>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Button
                             sx={{

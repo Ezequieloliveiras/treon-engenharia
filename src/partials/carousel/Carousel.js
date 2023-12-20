@@ -82,7 +82,7 @@ function DarkVariantExample() {
                     <h6 style={{
                         letterSpacing: '2px',
                         fontWeight: 'bold',
-                    }}>SISTEMA DE PREVENÇÃO CONTRA DESCARGA ATMOSFÉRICA</h6>
+                    }}>SISTEMA DE PROTEÇÃO CONTRA DESCARGA ATMOSFÉRICA</h6>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item style={{
@@ -121,7 +121,7 @@ function DarkVariantExample() {
                         fontWeight: 'bold',
                         letterSpacing: '2px',
                         textShadow: '1px 1px 1px rgba(0, 0, 0, 0.7)',
-                    }}>SISTEMA DE DETCÇÃO DE INCÊNDIO</h1>
+                    }}>SISTEMA DE DETECÇÃO DE INCÊNDIO</h1>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
