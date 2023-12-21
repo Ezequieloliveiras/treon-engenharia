@@ -1,14 +1,12 @@
 import Container from "@mui/material/Container"
 import Typography from "@mui/material/Typography"
-import Link from "@mui/material/Link"
 import Grid from "@mui/material/Grid"
-import {
-  Facebook,
-  Instagram,
-  Twitter
-} from "@mui/icons-material"
-
 import { Box } from "@mui/material"
+
+import logoWhatsapp from '../logo/logo_whatsapp.png'
+import logoInstagram from '../logo/logo_instagram.png'
+import LogoLinkedin from '../logo/logo_linkedin.png'
+
 
 export default function Footer() {
   return (
@@ -48,19 +46,49 @@ export default function Footer() {
             <Typography variant="h6" color="white" gutterBottom >
               Siga-nos
             </Typography>
-            <Link
-              href="https://www.instagram.com/p/CWnauUFLLgr/"
-              color="inherit"
-              sx={{ pl: 1, pr: 1 }}
-            >
-              <Instagram />
-            </Link>
-            <Link href="##" color="inherit">
-              <Facebook />
-            </Link>
-            <Link href="##" color="inherit">
-              <Twitter />
-            </Link>
+            <a href="https://wa.me/+5527996213588" target="_blank" rel="noopener noreferrer"
+            style={{
+              background: 'none',
+              display: 'inline-block'
+            }}>
+            <img src={logoWhatsapp}
+              style={{
+                width: '30px',
+                height: '30px',
+                marginRight: '10px',
+              }}
+              alt="logoLinkedin" />
+          </a>
+
+          <a href="https://www.linkedin.com/company/treon-engenharia-ltda/about/" target="_blank" rel="noopener noreferrer"
+            style={{
+              background: 'none',
+              display: 'inline-block'
+            }}>
+            <img src={LogoLinkedin}
+              style={{
+                width: '30px',
+                height: '30px',
+                marginRight: '10px',
+              }}
+              alt="linkedinLogo" />
+          </a>
+
+          <a href="https://www.instagram.com/treonengenharia/" target="_blank" rel="noopener noreferrer"
+            style={{
+              background: 'none',
+              display: 'inline-block'
+            }}>
+            <img
+              src={logoInstagram}
+              style={{
+                width: '30px',
+                height: '30px',
+                display: 'block',
+              }}
+              alt="instaLogo"
+            />
+          </a>
           </Grid>
         </Grid>
         <Box mt={5}>
