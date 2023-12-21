@@ -21,7 +21,7 @@ function BasicExample() {
         position: 'relative',
         minHeight: '80px'
       }}>
-      <Container id='contend' className="d-flex justify-content-center align-items-center" >
+      <Container id='contend' className="d-flex justify-content-center align-items-center" style={{width:'750px'}} >
 
         <img src={LogoTreon}
           style={{
@@ -46,6 +46,7 @@ function BasicExample() {
           <p
             style={{
               fontWeight: 'bold',
+              width:'45px',
               fontSize: '10px',
               color: 'white',
               margin: '1px 0px 0px 0px'

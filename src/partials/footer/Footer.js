@@ -44,8 +44,8 @@ export default function Footer() {
               Phone: +55 27 99621-3588
             </Typography>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="white" gutterBottom>
+          <Grid item xs={12} sm={4} >
+            <Typography variant="h6" color="white" gutterBottom >
               Siga-nos
             </Typography>
             <Link
