@@ -1,10 +1,14 @@
-import * as React from "react";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
-import Grid from "@mui/material/Grid";
-import { Facebook, Instagram, Twitter } from "@mui/icons-material";
-import { Box } from "@mui/material";
+import Container from "@mui/material/Container"
+import Typography from "@mui/material/Typography"
+import Link from "@mui/material/Link"
+import Grid from "@mui/material/Grid"
+import {
+  Facebook,
+  Instagram,
+  Twitter
+} from "@mui/icons-material"
+
+import { Box } from "@mui/material"
 
 export default function Footer() {
   return (
@@ -60,7 +64,10 @@ export default function Footer() {
           </Grid>
         </Grid>
         <Box mt={5}>
-          <Typography variant="body2" color="text.secondary" align="center" sx={{ color: 'white' }}>
+          <Typography variant="body2" color="text.secondary" align="center"
+            sx={{
+              color: 'white'
+            }}>
             {"Copyright © "}
             {new Date().getFullYear()}
             {"."}
@@ -68,5 +75,5 @@ export default function Footer() {
         </Box>
       </Container>
     </Box>
-  );
+  )
 }

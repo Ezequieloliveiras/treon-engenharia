@@ -1,10 +1,5 @@
 import { styled } from "@mui/material"
 
-import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
-import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
-import imageEngenheiros from '../imageCards/maquinas_pesadas.avif'
-
-
 import {
     Card,
     CardActions,
@@ -14,6 +9,9 @@ import {
     Typography,
 } from '@mui/material'
 
+import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
+import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
+import imageEngenheiros from '../imageCards/maquinas_pesadas.avif'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
@@ -29,15 +27,28 @@ const ContentSectionFour = () => {
 
     return (
         <>
-            <StyledSection >
-                <h1 style={{
-                    position: 'absolute',
-                    top: '70px', color: '#093170',
-                    fontWeight: '700'
-                }}>Laudos Técnicos</h1>
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
+            <StyledSection id="section-four" >
+                <h1
+                    style={{
+                        position: 'absolute',
+                        top: '70px', color: '#093170',
+                        fontWeight: '700'
+                    }}>
+                    Laudos Técnicos
+                </h1>
+                <Card
+                    sx={{
+                        maxWidth: 400,
+                        height: 580,
+                        boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                        position: 'relative'
+                    }}>
                     <CardMedia
-                        sx={{ height: 300, display: 'flex', justifyContent: 'center' }}
+                        sx={{
+                            height: 300,
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }}
                         title="PMOC"
                     >
                         <img src={image} alt="Descrição da Imagem"
@@ -60,21 +71,36 @@ const ContentSectionFour = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{
-                        position: 'absolute',
-                        bottom: '1px', display: 'flex',
-                        justifyContent: 'center',
-                        width: '100%'
-                    }}>
-                        <Button variant="contained" href="/laudo_tecnico_ar_condicionado" sx={{ width: '100%' }}>
+                    <CardActions
+                        sx={{
+                            position: 'absolute',
+                            bottom: '1px', display: 'flex',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}>
+                        <Button variant="contained" href="/laudo_tecnico_ar_condicionado"
+                            sx={{
+                                width: '100%'
+                            }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
+                <Card
+                    sx={{
+                        maxWidth: 400,
+                        height: 580,
+                        boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                        position: 'relative'
+                    }}>
                     <CardMedia
-                        sx={{ height: 300, display: 'flex', justifyContent: 'center' }}
+                        sx={{
+                            height: 300,
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }
+                        }
                         title="PMOC"
                     >
                         <img src={imagePPCI} alt="Descrição da Imagem"
@@ -97,20 +123,32 @@ const ContentSectionFour = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{
-                        position: 'absolute',
-                        bottom: '1px', display: 'flex',
-                        justifyContent: 'center',
-                        width: '100%'
-                    }}>
-                        <Button variant="contained" href="/laudo_tecnico_ppci" sx={{ width: '100%' }}>
+                    <CardActions
+                        sx={{
+                            position: 'absolute',
+                            bottom: '1px', display: 'flex',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}>
+                        <Button variant="contained" href="/laudo_tecnico_ppci"
+                            sx={{
+                                width: '100%'
+                            }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
                 </Card>
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
+                <Card
+                    sx={{
+                        maxWidth: 400,
+                        height: 580,
+                        boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                        position: 'relative'
+                    }}>
                     <CardMedia
-                        sx={{ height: 300 }}
+                        sx={{
+                            height: 300
+                        }}
                     >
                         <img src={imageEngenheiros} alt="Descrição da Imagem"
                             style={{
@@ -125,7 +163,11 @@ const ContentSectionFour = () => {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Contamos com engenheiros especializados na área de laudos técnicos para máquinas e equipamentos.
-                            <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
+                            <ul
+                                style={{
+                                    paddingLeft: '25px',
+                                    paddingTop: '15px'
+                                }}>
                                 <li>
                                     inspeção e laudo técnico de máquinas e equipamentos (funcionalidades)
                                 </li>
@@ -138,20 +180,22 @@ const ContentSectionFour = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{
-                        position: 'absolute',
-                        bottom: '1px', display: 'flex',
-                        justifyContent: 'center',
-                        width: '100%'
-                    }}>
-                        <Button variant="contained" href="/laudo_tecnico_maquinas_pesadas" sx={{ width: '100%' }}>
+                    <CardActions
+                        sx={{
+                            position: 'absolute',
+                            bottom: '1px', display: 'flex',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}>
+                        <Button variant="contained" href="/laudo_tecnico_maquinas_pesadas"
+                            sx={{
+                                width: '100%'
+                            }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
                 </Card>
-
             </StyledSection>
-
         </>
     )
 }

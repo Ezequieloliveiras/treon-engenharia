@@ -1,5 +1,4 @@
 import styled from "@emotion/styled"
-
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 
 const SocialsLinkedin = styled('div')(() => ({
@@ -18,7 +17,11 @@ const LinkedIn_icon = () => {
     return (
         <>
             <SocialsLinkedin>
-                <LinkedInIcon style={{ color: '#0e76a8', fontSize: '50px' }} />
+                <LinkedInIcon
+                    style={{
+                        color: '#0e76a8',
+                        fontSize: '50px'
+                    }} />
                 <H1>
                     Treon Engenharia
                 </H1>

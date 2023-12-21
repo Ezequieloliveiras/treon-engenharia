@@ -1,8 +1,5 @@
 import { styled } from "@mui/material"
 
-import image from '../imageCards/projeto_eletrico.jpg'
-import imageSpda from '../imageCards/spda.jpg'
-
 import {
     Card,
     CardActions,
@@ -12,6 +9,8 @@ import {
     Typography,
 } from '@mui/material'
 
+import image from '../imageCards/projeto_eletrico.jpg'
+import imageSpda from '../imageCards/spda.jpg'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
@@ -27,15 +26,26 @@ const ContentSectionTree = () => {
 
     return (
         <>
-            <StyledSection >
-                <h1 style={{
-                    position: 'absolute',
-                    top: '70px', color: '#093170',
-                    fontWeight: '700'
-                }}>Engenharia Elétrica</h1>
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
+            <StyledSection id="section-tree">
+                <h1
+                    style={{
+                        position: 'absolute',
+                        top: '70px', color: '#093170',
+                        fontWeight: '700'
+                    }}>Engenharia Elétrica</h1>
+                <Card
+                    sx={{
+                        maxWidth: 400,
+                        height: 580,
+                        boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                        position: 'relative'
+                    }}>
                     <CardMedia
-                        sx={{ height: 300, display: 'flex', justifyContent: 'center' }}
+                        sx={{
+                            height: 300,
+                            display: 'flex',
+                            justifyContent: 'center'
+                        }}
                         title="PMOC"
                     >
                         <img src={image} alt="Descrição da Imagem"
@@ -55,18 +65,28 @@ const ContentSectionTree = () => {
                             <br /> <br />
                             Contamos com profissionais experientes para entregar o melhor custo beneficio, e também homologamos o seu projeto junto a EDP seguindo todos os procedimentos legais.                        </Typography>
                     </CardContent>
-                    <CardActions sx={{
-                        position: 'absolute',
-                        bottom: '1px', display: 'flex',
-                        justifyContent: 'center',
-                        width: '100%'
-                    }}>
-                        <Button variant="contained" href="/projetos_eletricos" sx={{ width: '100%' }}>
+                    <CardActions
+                        sx={{
+                            position: 'absolute',
+                            bottom: '1px', display: 'flex',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}>
+                        <Button variant="contained" href="/projetos_eletricos"
+                            sx={{
+                                width: '100%'
+                            }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
                 </Card>
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
+                <Card
+                    sx={{
+                        maxWidth: 400,
+                        height: 580,
+                        boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                        position: 'relative'
+                    }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg"
@@ -78,7 +98,11 @@ const ContentSectionTree = () => {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Projetamos o seu sistema fotovoltaico conforme a sua demanda energética.
-                            <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
+                            <ul
+                                style={{
+                                    paddingLeft: '25px',
+                                    paddingTop: '15px'
+                                }}>
                                 <li>
                                     Acompanhamento de execução
                                 </li>
@@ -91,19 +115,29 @@ const ContentSectionTree = () => {
                             </ul>
                         </Typography>
                     </CardContent>
-                    <CardActions sx={{
-                        position: 'absolute',
-                        bottom: '1px', display: 'flex',
-                        justifyContent: 'center',
-                        width: '100%'
-                    }}>
-                        <Button variant="contained" href="/projeto_energia_solar" sx={{ width: '100%' }}>
+                    <CardActions
+                        sx={{
+                            position: 'absolute',
+                            bottom: '1px', display: 'flex',
+                            justifyContent: 'center',
+                            width: '100%'
+                        }}>
+                        <Button variant="contained" href="/projeto_energia_solar"
+                            sx={{
+                                width: '100%'
+                            }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
                 </Card>
 
-                <Card sx={{ maxWidth: 400, height: 580, boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)', position: 'relative' }}>
+                <Card
+                    sx={{
+                        maxWidth: 400,
+                        height: 580,
+                        boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
+                        position: 'relative'
+                    }}>
                     <CardMedia
                         sx={{ height: 300 }}
                         title="PMOC"
@@ -121,7 +155,11 @@ const ContentSectionTree = () => {
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Projetamos o seu sistema de proteção contra descarga atmosférica de acordo com a sua edificação.
-                            <ul style={{ paddingLeft: '25px', paddingTop: '15px' }}>
+                            <ul
+                                style={{
+                                    paddingLeft: '25px',
+                                    paddingTop: '15px'
+                                }}>
                                 <li>
                                     Laudo de integridade fisíca
                                 </li>
@@ -140,7 +178,10 @@ const ContentSectionTree = () => {
                         justifyContent: 'center',
                         width: '100%'
                     }}>
-                        <Button variant="contained" href="/projeto_spda" sx={{ width: '100%' }}>
+                        <Button variant="contained" href="/projeto_spda"
+                            sx={{
+                                width: '100%'
+                            }}>
                             Saiba Mais
                         </Button>
                     </CardActions>

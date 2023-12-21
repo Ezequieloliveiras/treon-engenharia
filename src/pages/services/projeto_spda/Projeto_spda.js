@@ -1,5 +1,3 @@
-import React from "react"
-
 import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"

@@ -1,12 +1,12 @@
 import styled from "@emotion/styled"
 
 const Content = styled('div')(() => ({
-    display: 'flex',
-    alignItems: 'center',
-    flexDirection:'column',
     height: 'auto',
     width:'100%',
+    display: 'flex',
     top:'100px',
+    alignItems: 'center',
+    flexDirection:'column',
 }))
 
 export default Content

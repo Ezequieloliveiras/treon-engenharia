@@ -1,9 +1,7 @@
-import React from "react"
-
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
-import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
+import ButtonDialogo from '../../../partials/buttonDialogo/Button'
 import BannerLaudoPpci from './components/banner/laudo_ppci.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
@@ -22,11 +20,12 @@ function LaudoTecnicoPPCI() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div style={{
-                            height: '500px',
-                            width: '100%',
-                            overflow: 'hidden'
-                        }}>
+                        <div
+                            style={{
+                                height: '500px',
+                                width: '100%',
+                                overflow: 'hidden'
+                            }}>
                             <img src={BannerLaudoPpci}
                                 style={{
                                     width: '100%',

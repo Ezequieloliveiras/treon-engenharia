@@ -12,5 +12,4 @@ const BackgroundImage = styled('div')(() => ({
     zIndex: -1
 }))
 
-
 export default BackgroundImage

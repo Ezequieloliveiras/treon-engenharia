@@ -1,5 +1,4 @@
 import styled from "@emotion/styled"
-
 import EmailIcon from '@mui/icons-material/Email'
 
 const Email = styled('div')(() => ({
@@ -18,7 +17,11 @@ const Email_icon = () => {
     return (
         <>
             <Email>
-                <EmailIcon style={{ color: '#093170', fontSize: '50px' }} />
+                <EmailIcon
+                    style={{
+                        color: '#093170',
+                        fontSize: '50px'
+                    }} />
                 <H1>
                     contato@treonengenharia.com.br
                 </H1>

@@ -1,6 +1,4 @@
-import React from "react"
-
-import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
+import ButtonDialogo from '../../../partials/buttonDialogo/Button'
 import Container from "./components/containers/Container"
 import Content from "./components/content/Content"
 import Text from "./components/text/Text"
@@ -14,18 +12,20 @@ function PrevencaoIncendio() {
             <Container >
                 <Content >
                     <Background />
-                    <div style={{
-                        width: '100%',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        flexDirection: 'column',
-                        alignItems: 'center'
-                    }}>
-                        <div style={{
-                            height: '500px',
+                    <div
+                        style={{
                             width: '100%',
-                            overflow: 'hidden'
+                            display: 'flex',
+                            justifyContent: 'center',
+                            flexDirection: 'column',
+                            alignItems: 'center'
                         }}>
+                        <div
+                            style={{
+                                height: '500px',
+                                width: '100%',
+                                overflow: 'hidden'
+                            }}>
                             <img src={BannerPrevencaoIncendio}
                                 style={{
                                     width: '100%',

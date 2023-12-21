@@ -1,9 +1,9 @@
 import styled from "@emotion/styled"
 
 const TextStyle = styled('div')(() => ({
-    marginTop: '50px',
     height: '400px',
     left: '50px',
+    marginTop: '50px',
     borderRadius: '10px',
 }))
 
@@ -12,18 +12,34 @@ const Text = () => {
     return (
         <>
             <TextStyle>
-                <h1 style={{ color: '#093170', marginBottom: '50px', textAlign: 'center', fontWeight: 'bold' }}>
+                <h1
+                    style={{
+                        color: '#093170',
+                        marginBottom: '50px',
+                        textAlign: 'center',
+                        fontWeight: 'bold'
+                    }}>
                     Projeto de Prevenção e Combate a Incêndio
                 </h1>
-                <div style={{ color: '#093170', textAlign: 'justify', width: '900px' }}>
-                    <h5 style={{ fontWeight: 'bold' }}>
+                <div
+                    style={{
+                        color: '#093170',
+                        textAlign: 'justify',
+                        width: '900px'
+                    }}>
+                    <h5
+                        style={{
+                            fontWeight: 'bold'
+                        }}>
                         1. Elaboração do Projeto de Prevenção e Combate a Incêndio
                     </h5>
                     <p>
                         A Treon Engenharia, uma empresa dedicada à segurança, conta com profissionais especializados, experientes e credenciados no Corpo de Bombeiros no estado do Espírito Santo para a elaboração de projetos de prevenção e combate a incêndio. Eles são especialistas em desenvolver estratégias de detecção, prevenção, sistemas de combate, sinalização de emergência e saídas de evacuação. A conformidade com normas técnicas e regulamentos é essencial para a aprovação do projeto pelos órgãos fiscalizadores.
                     </p>
-
-                    <h5 style={{ fontWeight: 'bold' }}>
+                    <h5
+                        style={{
+                            fontWeight: 'bold'
+                        }}>
                         2. Avaliação e Ajustes do Projeto pelos Órgãos Competentes
                     </h5>
                     <p>
@@ -32,8 +48,10 @@ const Text = () => {
                     <p>
                         Quais são os passos após a elaboração do projeto de prevenção e combate a incêndio? O projeto é submetido aos órgãos fiscalizadores, como o Corpo de Bombeiros, para avaliação. Ajustes e revisões podem ser realizados para garantir a conformidade com as normas de segurança.
                     </p>
-
-                    <h5 style={{ fontWeight: 'bold' }}>
+                    <h5
+                        style={{
+                            fontWeight: 'bold'
+                        }}>
                         3. Liberação do Alvará de Funcionamento
                     </h5>
                     <p>
@@ -42,8 +60,10 @@ const Text = () => {
                     <p>
                         O que significa a liberação do Alvará de Funcionamento após a aprovação do projeto? A liberação do Alvará indica que a edificação está autorizada a operar, confirmando que atende às normas de segurança contra incêndios estabelecidas pelos órgãos competentes.
                     </p>
-
-                    <h5 style={{ fontWeight: 'bold' }}>
+                    <h5
+                        style={{
+                            fontWeight: 'bold'
+                        }}>
                         4. Renovação Periódica do Alvará de Funcionamento
                     </h5>
                     <p>
