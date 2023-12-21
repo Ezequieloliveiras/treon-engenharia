@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .carousel {
+        height: 400px !important;
+    }
+
+    .carousel_caption_First {
+        top: -9px !important;
+    }
+
+    .carousel_caption_second {
+        top: -20px !important;
+    }
+
+    .carousel_caption_third {
+        top: -20px !important;
+    }
+
+    .h1First_slide {
+        font-size: 40px !important;
+    }
+    
+    .h1Second_slide {
+        font-size: 40px !important;
+    }
+
+    .h1Third_slide {
+        font-size: 40px !important;
+    }
+}

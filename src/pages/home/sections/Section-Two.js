@@ -9,6 +9,8 @@ import {
     Typography,
 } from '@mui/material'
 
+import './section_two.css'
+
 import image from '../imageCards/alvara_de_licenca.png'
 
 const StyledSection = styled('section')(() => ({

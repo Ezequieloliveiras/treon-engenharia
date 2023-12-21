@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+    #section-tree {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-around !important;
+        height: 2200px !important;
+    }
+}

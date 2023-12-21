@@ -1,13 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Carousel from 'react-bootstrap/Carousel'
 
+import './carousel.css'
+
 import Spda from './imageCarousel/spda.png'
 import PainelSolar from './imageCarousel/painel_solar.jpg'
 import DeteccaoIncendio from './imageCarousel/deteccao_incendio.jpg'
 
 function DarkVariantExample() {
     return (
-        <Carousel
+        <Carousel className='carousel'
             style={{
                 height: '100vh'
             }}>
@@ -27,7 +29,7 @@ function DarkVariantExample() {
                         }}
                     />
                 </div>
-                <Carousel.Caption
+                <Carousel.Caption className='carousel_caption_First'
                     style={{
                         display: 'flex',
                         justifyContent: 'center',
@@ -38,7 +40,7 @@ function DarkVariantExample() {
                         textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                         color: '#ffffff',
                     }}>
-                    <h1
+                    <h1 className='h1First_slide'
                         style={{
                             fontSize: '60px',
                             fontWeight: 'bold',
@@ -68,7 +70,7 @@ function DarkVariantExample() {
                         }}
                     />
                 </div>
-                <Carousel.Caption
+                <Carousel.Caption className='carousel_caption_second'
                     style={{
                         display: 'flex',
                         justifyContent: 'center',
@@ -79,7 +81,7 @@ function DarkVariantExample() {
                         textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
                         color: '#ffffff',
                     }}>
-                    <h1
+                    <h1 className='h1Second_slide'
                         style={{
                             fontSize: '60px',
                             fontWeight: 'bold'
@@ -114,7 +116,7 @@ function DarkVariantExample() {
                         }}
                     />
                 </div>
-                <Carousel.Caption
+                <Carousel.Caption className='carousel_caption_third'
                     style={{
                         display: 'flex',
                         justifyContent: 'center',
@@ -124,7 +126,7 @@ function DarkVariantExample() {
                         top: '-30px',
                         color: '#093170',
                     }}>
-                    <h1
+                    <h1 className='h1Third_slide'
                         style={{
                             fontSize: '60px',
                             fontWeight: 'bold',

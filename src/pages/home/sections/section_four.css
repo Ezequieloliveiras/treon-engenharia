@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    #section-four {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        height: 2400px !important;
+    }
+}

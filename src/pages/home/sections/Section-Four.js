@@ -9,18 +9,19 @@ import {
     Typography,
 } from '@mui/material'
 
+import './section_four.css'
+
 import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
 import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
 import imageEngenheiros from '../imageCards/maquinas_pesadas.avif'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
-    padding: '0px 0px 100px 0px',
+    padding: '200px 0px 100px 0px',
     background: '#f5f5f5',
     height: '1100px',
     display: 'flex',
     justifyContent: 'space-around',
-    alignItems: 'center',
 }))
 
 const ContentSectionFour = () => {

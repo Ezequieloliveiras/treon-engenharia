@@ -1,5 +1,6 @@
 import { styled } from "@mui/material"
 
+
 import {
     Card,
     CardActions,
@@ -8,6 +9,8 @@ import {
     Button,
     Typography,
 } from '@mui/material'
+
+import './section_tree.css'
 
 import image from '../imageCards/projeto_eletrico.jpg'
 import imageSpda from '../imageCards/spda.jpg'
