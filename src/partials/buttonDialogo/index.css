@@ -1767,3 +1767,13 @@ body {
     transform: translateY(100%);
   }
 }
+
+@media (max-width: 768px) {
+  .animated-button1 {
+      width: 400px !important;
+      font-size: 15px !important;
+      bottom: 4px !important;
+      justify-content: center;
+      left: 372px !important;
+  }
+}
