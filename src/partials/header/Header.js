@@ -10,7 +10,12 @@ import LogoLinkedin from '../logo/logo_linkedin.png';
 
 function BasicExample() {
   return (
-    <Navbar expand="lg" variant="dark" style={{ backgroundColor: '#093170', position: 'relative', minHeight: '80px' }}>
+    <Navbar expand="lg" variant="dark"
+      style={{
+        backgroundColor: '#093170',
+        position: 'relative',
+        minHeight: '80px'
+      }}>
       <Container id='contend' className="d-flex justify-content-center align-items-center" >
 
         <img src={LogoTreon} style={{ width: '140px', marginRight: '40px' }} alt="LogoTreon" />
@@ -38,49 +43,76 @@ function BasicExample() {
             }}>CREA-ES</p>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" >
+        <Navbar.Collapse id="basic-navbar-nav">
 
-          <Nav className="me-auto" style={{ margin: '0 auto' }}>
+          <Nav className="me-auto" style={{ margin: '0 auto', paddingRight: '60px' }}>
 
             <Nav.Link href="/" id="custom-nav-link">Inicio</Nav.Link>
             <Nav.Link href="/contact" id="custom-nav-link">Contato</Nav.Link>
             <Nav.Link href="/sobre" id="custom-nav-link">Sobre</Nav.Link>
-            <NavDropdown title="Serviços" id="basic-nav-dropdown">
+            <NavDropdown title="Serviços" id="basic-nav-dropdown" >
               <NavDropdown.Item href="#action/3.1">Engenharia Mecânica</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Engenharia Elétrica</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Laudos Técnicos</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.4" >Separated link</NavDropdown.Item>
             </NavDropdown>
-          </Nav>
+          </Nav >
 
-          <img src={logoWhatsapp}
+          <a href="https://wa.me/+5527996213588" target="_blank" rel="noopener noreferrer"
             style={{
-              width: '30px',
-              height: '30px',
-              marginRight: '10px'
-            }}
-            alt="creaLogo" />
+              background: 'none',
+              display: 'inline-block'
+            }}>
+            <img src={logoWhatsapp}
+              style={{
+                width: '30px',
+                height: '30px',
+                marginRight: '10px'
+              }}
+              alt="logoLinkedin" />
+          </a>
 
-          <img src={LogoLinkedin}
+
+          <a href="https://www.linkedin.com/company/treon-engenharia-ltda/about/" target="_blank" rel="noopener noreferrer"
             style={{
-              width: '30px',
-              height: '30px',
-              marginRight: '10px'
-            }}
-            alt="linkedinLogo" />
-          <img src={logoInstagram}
+              background: 'none',
+              display: 'inline-block'
+            }}>
+            <img src={LogoLinkedin}
+              style={{
+                width: '30px',
+                height: '30px',
+                marginRight: '10px',
+              }}
+              alt="linkedinLogo" />
+          </a>
+
+
+          <a href="https://www.instagram.com/treonengenharia/" target="_blank" rel="noopener noreferrer"
             style={{
-              width: '30px',
-              height: '30px'
-            }}
-            alt="instaLogo" />
+              background: 'none',
+              display: 'inline-block'
+            }}>
+            <img
+              src={logoInstagram}
+              style={{
+                width: '30px',
+                height: '30px',
+                display: 'block',
+              }}
+              alt="instaLogo"
+            />
+          </a>
+
+
+
 
 
         </Navbar.Collapse>
 
       </Container>
-    </Navbar>
+    </Navbar >
   );
 }
 

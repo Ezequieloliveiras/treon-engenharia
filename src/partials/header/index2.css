@@ -1,9 +1,22 @@
 #custom-nav-link {
-  color: white
+  color: white;
+  margin-right: 40px;
+  text-decoration: none; 
+  position: relative;
+}
+
+#custom-nav-link:hover {
+  color: #ffffff; 
+  border-bottom: 1px solid #ffffff; 
 }
 
 #basic-nav-dropdown {
-  color: white
+  color: white;
+}
+
+#basic-nav-dropdown:hover {
+  border-bottom: 1px solid #ffffff; 
+
 }
 
 #contend {
@@ -15,4 +28,10 @@
 a {
   text-align: justify;
   background: white;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
 }
