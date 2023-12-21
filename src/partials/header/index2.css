@@ -1,13 +1,12 @@
 #custom-nav-link {
   color: white;
   margin-right: 10px;
-  text-decoration: none; 
+  text-decoration: none;
   position: relative;
 }
 
 #custom-nav-link:hover {
-  color: #ffffff; 
-  border-bottom: 1px solid #ffffff; 
+  color: rgb(214, 193, 193);
 }
 
 #basic-nav-dropdown {
@@ -15,8 +14,7 @@
 }
 
 #basic-nav-dropdown:hover {
-  border-bottom: 1px solid #ffffff; 
-
+  color: rgb(214, 193, 193);
 }
 
 #contend {
