@@ -3,8 +3,9 @@ import {
     Route,
     Routes,
 } from "react-router-dom"
+
 import TemplateDefault from './templates/Default'
-import Pmoc from './pages//services/pmoc/Pmoc'
+import Pmoc from './pages/pmoc/Pmoc'
 import PrevencaoIncendio from './pages/services/prevencao_incendio/Prevencao_incendio'
 import LaudoArcondicionado from "./pages/services/laudo_ar_condicionado/Laudo_ar_condicionado"
 import LaudoPpci from './pages/services/laudo_ppci/Laudo_ppci'

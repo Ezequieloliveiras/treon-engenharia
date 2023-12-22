@@ -10,7 +10,7 @@ function ButtonDialogo() {
     }
     return (
         <>
-            <a href="#" class="animated-button1"
+            <a class="animated-button1"
                 style={{
                     bottom: '70px',
                     position: 'absolute',

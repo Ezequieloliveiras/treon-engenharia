@@ -1,4 +1,5 @@
 import { styled } from "@mui/material"
+import { Link } from "react-router-dom"
 
 import {
     Card,
@@ -85,10 +86,9 @@ const ContentSectionFour = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/laudo_tecnico_ar_condicionado"
-                            sx={{
-                                width: '100%'
-                            }}>
+                        <Button variant="contained" component={Link}
+                            to="/laudo_tecnico_ar_condicionado"
+                            sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
@@ -137,10 +137,9 @@ const ContentSectionFour = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/laudo_tecnico_ppci"
-                            sx={{
-                                width: '100%'
-                            }}>
+                        <Button variant="contained" component={Link}
+                            to="/laudo_tecnico_ppci"
+                            sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
@@ -194,10 +193,9 @@ const ContentSectionFour = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/laudo_tecnico_maquinas_pesadas"
-                            sx={{
-                                width: '100%'
-                            }}>
+                        <Button variant="contained" component={Link}
+                            to="/laudo_tecnico_maquinas_pesadas"
+                            sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>

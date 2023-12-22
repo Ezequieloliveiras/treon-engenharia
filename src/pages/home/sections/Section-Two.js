@@ -1,4 +1,5 @@
 import { styled } from "@mui/material"
+import { Link } from "react-router-dom"
 
 import {
     Card,
@@ -9,15 +10,16 @@ import {
     Typography,
 } from '@mui/material'
 
-import './section_two.css'
 
 import image from '../imageCards/alvara_de_licenca.png'
+import './section_two.css'
+
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
     background: '#f5f5f5',
     padding: '200px 0px 100px 0px',
-    height: 'auto',
+    height: '100%',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center'
@@ -68,10 +70,9 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/pmoc"
-                            sx={{
-                                width: '100%'
-                            }}>
+                        <Button variant="contained" component={Link}
+                            to="/pmoc"
+                            sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
@@ -105,10 +106,9 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/prevencao_a_incendio"
-                            sx={{
-                                width: '100%'
-                            }}>
+                        <Button variant="contained" component={Link}
+                            to="/prevencao_a_incendio"
+                            sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
@@ -164,10 +164,9 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/alvara_de_funcionamento"
-                            sx={{
-                                width: '100%'
-                            }}>
+                        <Button variant="contained" component={Link}
+                            to="/alvara_de_funcionamento"
+                            sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
                     </CardActions>
@@ -176,7 +175,6 @@ const ContentSectionTwo = () => {
         </>
     )
 }
-
 
 export default ContentSectionTwo
 

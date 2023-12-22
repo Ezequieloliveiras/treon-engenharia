@@ -11,12 +11,12 @@ function DarkVariantExample() {
     return (
         <Carousel className='carousel'
             style={{
-                height: '100vh'
+                height: '100%'
             }}>
             <Carousel.Item>
                 <div
                     style={{
-                        backgroundColor: 'rgba(0, 0, 0, 0.8)'
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
                     }}>
                     <img
                         src={PainelSolar}
