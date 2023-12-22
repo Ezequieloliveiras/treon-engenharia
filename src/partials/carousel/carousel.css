@@ -63,3 +63,9 @@
         font-size: 12px !important;
     }
 }
+
+@media (max-width: 375px) {
+    .carousel {
+        height: 210px !important;
+    }
+}
