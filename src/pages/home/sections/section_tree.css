@@ -1,5 +1,16 @@
+@media (max-width: 1024px) {
+    #section-tree {
+        height: 2000px !important;
+        padding: 60px 0px 0px 0px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        justify-content: space-around !important;
+    }
+}
+
 @media (max-width: 768px) {
-    #section-tree{
+    #section-tree {
         display: flex !important;
         height: 2000px !important;
         padding: 60px 0px 0px 0px !important;
@@ -10,12 +21,27 @@
     .divtitle {
         top: 50px !important;
     }
+
     .title {
-        padding: -10px  !important;
+        padding: -10px !important;
         position: absolute;
         width: 500px;
         top: -30px;
         text-align: center;
+    }
+}
+
+@media (max-width: 430px) {
+    #section-tree {
+        height: 2100px !important;
+    }
+    .title {
+        width: 300px !important;
+    }
+
+    .cards {
+        width: 350px !important;
+        height: 640px !important;
     }
 }
 
@@ -45,7 +71,6 @@
 
     .title {
         width: 300px !important;
-        
+
     }
 }
-
