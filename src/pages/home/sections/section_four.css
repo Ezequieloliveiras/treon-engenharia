@@ -1,9 +1,18 @@
 @media (max-width: 768px) {
     #section-four {
         display: flex !important;
+        height: 2200px !important;
+        padding: 100px 0px 100px 0px !important;
         flex-direction: column !important;
         justify-content: space-around !important;
         align-items: center !important;
-        height: 2400px !important;
+    }
+
+    .divtitle {
+        top: 50px !important;
+    }
+
+    .title {
+        padding: 0px  !important;
     }
 }

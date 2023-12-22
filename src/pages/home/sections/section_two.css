@@ -1,8 +1,17 @@
 @media (max-width: 768px) {
     #section-two {
+        height: 2200px !important;
+        padding: 100px 0px 0px 0px !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-around !important;
-        height: 2200px !important;
+    }
+
+    .divtitle {
+        top: 50px !important;
+    }
+
+    .title {
+        padding: 0px  !important;
     }
 }

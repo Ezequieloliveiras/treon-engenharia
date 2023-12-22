@@ -29,14 +29,13 @@ const ContentSectionFour = () => {
     return (
         <>
             <StyledSection id="section-four" >
-                <h1
-                    style={{
-                        position: 'absolute',
-                        top: '70px', color: '#093170',
-                        fontWeight: '700'
-                    }}>
-                    Laudos Técnicos
-                </h1>
+                <div className="divtitle" style={{ display: 'flex', justifyContent: 'center', position: 'absolute', top: '70px' }}>
+                    <h1 className="title"
+                        style={{
+                            color: '#093170',
+                            fontWeight: '700'
+                        }}>Laudos Técnicos</h1>
+                </div>
                 <Card
                     sx={{
                         maxWidth: 400,
