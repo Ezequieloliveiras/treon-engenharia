@@ -37,7 +37,7 @@ const ContentSectionTree = () => {
                             fontWeight: '700'
                         }}>Engenharia Elétrica</h1>
                 </div>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -69,7 +69,7 @@ const ContentSectionTree = () => {
                             <br /> <br />
                             Contamos com profissionais experientes para entregar o melhor custo beneficio, e também homologamos o seu projeto junto a EDP seguindo todos os procedimentos legais.                        </Typography>
                     </CardContent>
-                    <CardActions
+                    <CardActions 
                         sx={{
                             position: 'absolute',
                             bottom: '1px', display: 'flex',
@@ -84,7 +84,7 @@ const ContentSectionTree = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -135,7 +135,7 @@ const ContentSectionTree = () => {
                     </CardActions>
                 </Card>
 
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,

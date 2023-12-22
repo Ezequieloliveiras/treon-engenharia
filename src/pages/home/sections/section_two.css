@@ -1,17 +1,32 @@
 @media (max-width: 768px) {
     #section-two {
-        height: 2200px !important;
-        padding: 100px 0px 0px 0px !important;
+        height: 2000px !important;
+        padding: 60px 0px 0px 0px !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: space-around !important;
     }
 
+    .title {
+        padding: -10px  !important;
+        position: absolute;
+        width: 500px;
+        top: -30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .cards {
+        width: 360px !important;
+        height: 600px !important;
+    }
     .divtitle {
-        top: 50px !important;
+        width: 50px !important;
     }
 
     .title {
-        padding: 0px  !important;
+        width: 300px !important;
     }
+
 }

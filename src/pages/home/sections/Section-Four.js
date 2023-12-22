@@ -24,6 +24,7 @@ const StyledSection = styled('section')(() => ({
     justifyContent: 'space-around',
 }))
 
+
 const ContentSectionFour = () => {
 
     return (
@@ -36,7 +37,7 @@ const ContentSectionFour = () => {
                             fontWeight: '700'
                         }}>Laudos Técnicos</h1>
                 </div>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -87,7 +88,7 @@ const ContentSectionFour = () => {
                     </CardActions>
                 </Card>
 
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -138,7 +139,7 @@ const ContentSectionFour = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,

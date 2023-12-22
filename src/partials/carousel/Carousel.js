@@ -85,14 +85,16 @@ function DarkVariantExample() {
                         style={{
                             fontSize: '60px',
                             fontWeight: 'bold'
-                        }}>SPDA</h1>
-                    <h6
+                        }}>
+                        SPDA
+                    </h1>
+                    <p className='pSecond_slide'
                         style={{
                             letterSpacing: '2px',
                             fontWeight: 'bold',
                         }}>
                         SISTEMA DE PROTEÇÃO CONTRA DESCARGA ATMOSFÉRICA
-                    </h6>
+                    </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item

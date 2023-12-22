@@ -35,7 +35,7 @@ const ContentSectionTwo = () => {
                             fontWeight: '700'
                         }}>Engenharia Mecânica</h1>
                 </div>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400, height: 580,
                         boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
@@ -69,7 +69,7 @@ const ContentSectionTwo = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -106,7 +106,7 @@ const ContentSectionTwo = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card
+                <Card className="cards"
                     sx={{
                         maxWidth: 400, height: 580,
                         boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',

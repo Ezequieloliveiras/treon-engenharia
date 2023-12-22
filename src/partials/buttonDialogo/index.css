@@ -1772,8 +1772,18 @@ body {
   .animated-button1 {
       width: 400px !important;
       font-size: 15px !important;
-      bottom: -5px !important;
+      bottom: -13px !important;
       justify-content: center;
       left: 372px !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .animated-button1 {
+      width: 350px !important;
+      font-size: 13px !important;
+      bottom: -13px !important;
+      justify-content: center;
+      left: 180px !important;
   }
 }
