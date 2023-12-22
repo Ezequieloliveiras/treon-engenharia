@@ -9,7 +9,7 @@
     }
 
     .title {
-        padding: -10px  !important;
+        padding: -10px !important;
         position: absolute;
         width: 500px;
         top: -30px;
@@ -17,18 +17,39 @@
     }
 }
 
+@media (max-width: 414px) {
+    #section-two {
+        height: 2100px !important;
+    }
+
+    .title {
+        width: 300px !important;
+    }
+
+    .cards {
+        width: 320px !important;
+        height: 640px !important;
+    }
+}
+
+
 @media (max-width: 390px) {
+    #section-two {
+        height: 2100px !important;
+    }
+
     .cards {
         width: 320px !important;
         height: 600px !important;
     }
+
     .divtitle {
         width: 50px !important;
     }
 
     .title {
         width: 300px !important;
-        
+
     }
 
 }

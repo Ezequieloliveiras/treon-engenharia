@@ -28,6 +28,41 @@
     }
 }
 
+@media (max-width: 414px) {
+    .carousel {
+        height: 230px !important;
+    }
+
+    .carousel_caption_First {
+        top: 25px !important;
+    }
+
+    .carousel_caption_second {
+        top: 25px !important;
+    }
+
+    .carousel_caption_third {
+        top: 25px !important;
+    }
+
+    .h1First_slide {
+        font-size: 12px !important;
+    }
+    
+    .h1Second_slide {
+        font-size: 12px !important;
+    }
+
+    .pSecond_slide {
+        font-weight:normal;
+        font-size: 9px;
+    }
+
+    .h1Third_slide {
+        font-size: 12px !important;
+    }
+}
+
 
 @media (max-width: 390px) {
     .carousel {

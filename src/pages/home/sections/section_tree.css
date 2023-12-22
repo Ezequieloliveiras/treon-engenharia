@@ -19,7 +19,26 @@
     }
 }
 
+@media (max-width: 414px) {
+    #section-tree {
+        height: 2100px !important;
+    }
+
+    .title {
+        width: 300px !important;
+    }
+
+    .cards {
+        width: 320px !important;
+        height: 640px !important;
+    }
+}
+
 @media (max-width: 390px) {
+    #section-tree {
+        height: 2100px !important;
+    }
+
     .cards {
         width: 320px !important;
     }
