@@ -30,7 +30,13 @@ const ContentSectionFour = () => {
     return (
         <>
             <StyledSection id="section-four" >
-                <div className="divtitle" style={{ display: 'flex', justifyContent: 'center', position: 'absolute', top: '70px' }}>
+                <div className="divtitle"
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        position: 'absolute',
+                        top: '70px'
+                    }}>
                     <h1 className="title"
                         style={{
                             color: '#093170',

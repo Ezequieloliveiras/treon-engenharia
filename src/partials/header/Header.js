@@ -19,9 +19,10 @@ function BasicExample() {
       style={{
         backgroundColor: '#093170',
         position: 'relative',
-        minHeight: '80px'
+        minHeight: '80px',
+        padding:'0px'
       }}>
-      <Container id='contend' className="d-flex justify-content-center align-items-center" style={{ width: '750px' }} >
+      <Container id='contend' className="d-flex justify-content-center align-items-center" style={{ width: '750px', padding:'0' }} >
 
         <img src={LogoTreon}
           style={{

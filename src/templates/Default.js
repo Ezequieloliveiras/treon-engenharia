@@ -4,17 +4,21 @@ import { styled } from '@mui/system'
 import Footer from '../partials/footer/Footer'
 import ButtonDialogo from "../partials/buttonDialogo/Button"
 
-const StyledContainer = styled(Container)(() => ({
-  minWidth: '100%',
-  minHeight: '100%',
-  position: 'relative', 
+const StyledContainer = styled('div')(() => ({
+  width: 'auto',
+  height: '100%',
+  position: 'relative',
+  display: 'flex',
+  justifyContent: 'center',
+  flexDirection: 'column',
+
 }))
 
 const Default = ({ children }) => {
   return (
     <>
       <Header />
-      <StyledContainer style={{ padding: '0px 0px' }}>
+      <StyledContainer>
         {children}
         <ButtonDialogo />
       </StyledContainer>

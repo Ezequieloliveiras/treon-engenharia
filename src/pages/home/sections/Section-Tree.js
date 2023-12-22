@@ -30,7 +30,13 @@ const ContentSectionTree = () => {
     return (
         <>
             <StyledSection id="section-tree">
-                <div className="divtitle" style={{ display: 'flex', justifyContent: 'center', position: 'absolute', top: '70px' }}>
+                <div className="divtitle"
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        position: 'absolute',
+                        top: '70px'
+                    }}>
                     <h1 className="title"
                         style={{
                             color: '#093170',
@@ -69,7 +75,7 @@ const ContentSectionTree = () => {
                             <br /> <br />
                             Contamos com profissionais experientes para entregar o melhor custo beneficio, e também homologamos o seu projeto junto a EDP seguindo todos os procedimentos legais.                        </Typography>
                     </CardContent>
-                    <CardActions 
+                    <CardActions
                         sx={{
                             position: 'absolute',
                             bottom: '1px', display: 'flex',

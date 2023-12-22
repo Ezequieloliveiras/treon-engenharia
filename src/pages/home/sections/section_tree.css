@@ -21,7 +21,7 @@
 
 @media (max-width: 390px) {
     .cards {
-        width: 360px !important;
+        width: 320px !important;
     }
 
     .title {
