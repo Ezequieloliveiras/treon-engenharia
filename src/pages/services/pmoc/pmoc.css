@@ -1,4 +1,8 @@
 @media (max-width: 414px) {
+    #container {
+        height: 1300px !important;
+    }
+    
     #text_style {
         display: flex;
         flex-direction: column;

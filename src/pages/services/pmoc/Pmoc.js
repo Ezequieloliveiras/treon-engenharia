@@ -9,7 +9,7 @@ import './pmoc.css'
 function Pmoc() {
     return (
         <>
-            <Container>
+            <Container id="container">
                 <Content >
                     <Background />
                     <div 
