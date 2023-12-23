@@ -7,11 +7,13 @@ const TextStyle = styled('div')(() => ({
     borderRadius: '10px',
 }))
 
+import '../pmoc.css'
+
 const Text = () => {
 
     return (
         <>
-            <TextStyle >
+            <TextStyle className="text_style">
                 <h1
                     style={{
                         color: '#093170',
@@ -21,7 +23,7 @@ const Text = () => {
                     }}>
                     Por que preciso do PMOC?
                 </h1>
-                <div
+                <div className="container_text"
                     style={{
                         color: '#093170',
                         textAlign: 'justify',

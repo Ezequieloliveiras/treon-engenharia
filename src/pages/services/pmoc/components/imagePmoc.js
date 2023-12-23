@@ -1,6 +1,6 @@
 import styled from "@emotion/styled"
 
-const ImageSobre = styled('div')(() => ({
+const ImagePmoc = styled('div')(() => ({
     height: '340px',
     width: '1000px',
     marginTop:'40px',
@@ -10,4 +10,4 @@ const ImageSobre = styled('div')(() => ({
     backgroundSize:'cover'
 }))
 
-export default ImageSobre
+export default ImagePmoc

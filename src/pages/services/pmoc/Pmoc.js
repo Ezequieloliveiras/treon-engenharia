@@ -1,19 +1,18 @@
-import React, { useEffect } from 'react'
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Text from "./components/text/Text"
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Text from "./components/Text"
 import ButtonDialogo from '../../../partials/buttonDialogo/Button'
 import BannerPmoc from './components/banner/pmoc.png'
 import Background from '../../../partials/background_services/BackgroundServices'
-
+import './pmoc.css'
 
 function Pmoc() {
     return (
         <>
             <Container>
-                <Content>
+                <Content >
                     <Background />
-                    <div
+                    <div className="div_content"
                         style={{
                             width: '100%',
                             display: 'flex',
@@ -21,7 +20,7 @@ function Pmoc() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div
+                        <div className="div_banner"
                             style={{
                                 height: '500px',
                                 width: '100%',
@@ -34,9 +33,9 @@ function Pmoc() {
                                     objectFit: 'cover'
                                 }} />
                         </div>
-                        <Text />
+                        <Text className="text" />
                     </div>
-                    <ButtonDialogo />
+                 <ButtonDialogo />
                 </Content>
             </Container>
         </>
