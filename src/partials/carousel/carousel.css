@@ -1,6 +1,3 @@
-
-
-
 @media (max-width: 1280px) {
     .carousel {
         height: 720px !important;
@@ -82,7 +79,7 @@
 
 @media (max-width: 430px) {
     .carousel {
-        height: 230px !important;
+        height: auto !important;
     }
 
     .carousel_caption_First {

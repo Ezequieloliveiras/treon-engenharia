@@ -3,7 +3,7 @@ import Carousel from '../../../partials/carousel/Carousel'
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
-    height: '685px',
+    height: 'auto',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

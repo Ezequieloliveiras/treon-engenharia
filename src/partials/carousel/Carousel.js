@@ -11,7 +11,7 @@ function DarkVariantExample() {
     return (
         <Carousel className='carousel'
             style={{
-                height: '100%'
+                height: '100vh',
             }}>
             <Carousel.Item>
                 <div
