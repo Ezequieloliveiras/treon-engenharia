@@ -11,7 +11,7 @@ const Text = () => {
 
     return (
         <>
-            <TextStyle>
+            <TextStyle id="text_style">
                 <h1
                     style={{
                         color: '#093170',
@@ -21,7 +21,7 @@ const Text = () => {
                     }}>
                     Projeto de Prevenção e Combate a Incêndio
                 </h1>
-                <div
+                <div className="container_text"
                     style={{
                         color: '#093170',
                         textAlign: 'justify',

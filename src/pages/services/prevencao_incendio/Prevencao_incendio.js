@@ -1,18 +1,19 @@
 import ButtonDialogo from '../../../partials/buttonDialogo/Button'
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Text from "./components/text/Text"
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Text from "./components/Text"
 import BannerPrevencaoIncendio from './components/banner/prevencao_incendio.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
+import './prevencao_incendio.css'
 
 function PrevencaoIncendio() {
     return (
         <>
-            <Container >
+            <Container id='container'>
                 <Content >
                     <Background />
-                    <div
+                    <div 
                         style={{
                             width: '100%',
                             display: 'flex',
@@ -20,7 +21,7 @@ function PrevencaoIncendio() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div
+                        <div className="div_banner"
                             style={{
                                 height: '500px',
                                 width: '100%',
