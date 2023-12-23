@@ -7,11 +7,13 @@ const TextStyle = styled('div')(() => ({
     borderRadius: '10px',
 }))
 
+import '../spda.css'
+
 const Text = () => {
 
     return (
         <>
-            <TextStyle>
+            <TextStyle id="text_style">
                 <h1
                     style={{
                         color: '#093170',
@@ -21,11 +23,12 @@ const Text = () => {
                     }}>
                     Projetos de SPDA
                 </h1>
-                <div style={{
-                    color: '#093170',
-                    textAlign: 'justify',
-                    width: '900px'
-                }}>
+                <div className="container_text"
+                    style={{
+                        color: '#093170',
+                        textAlign: 'justify',
+                        width: '900px'
+                    }}>
                     <h5
                         style={{
                             fontWeight: 'bold'

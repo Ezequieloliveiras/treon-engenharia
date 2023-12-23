@@ -1,14 +1,15 @@
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Text from "./components/text/Text"
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Text from "./components/Text"
 import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
 import BannerProjetosEletricos from './components/banner/projetos_eletricos.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
+import './projetos_eletricos.css'
 
 function ProjetoEletrico() {
     return (
         <>
-            <Container >
+            <Container id="containerProjetoEletrico">
                 <Content >
                     <Background />
                     <div

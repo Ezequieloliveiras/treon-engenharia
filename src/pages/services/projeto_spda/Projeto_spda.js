@@ -1,17 +1,18 @@
-import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Text from "./components/text/Text"
-import BannerProjetoSpda from './components/banner/projeto_spda.jpg'
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Text from "./components/Text"
+import ButtonDialogo from '../../../partials/buttonDialogo/Button'
+import BannerSpda from './components/banner/projeto_spda.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
+import './spda.css'
 
-function ProjetoSpda() {
+function Pmoc() {
     return (
         <>
-            <Container >
+            <Container id="containerSpda">
                 <Content >
                     <Background />
-                    <div
+                    <div 
                         style={{
                             width: '100%',
                             display: 'flex',
@@ -19,26 +20,26 @@ function ProjetoSpda() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div
+                        <div className="div_banner"
                             style={{
                                 height: '500px',
                                 width: '100%',
                                 overflow: 'hidden'
                             }}>
-                            <img src={BannerProjetoSpda}
+                            <img src={BannerSpda}
                                 style={{
                                     width: '100%',
-                                    height: '100%',
+                                    height: 'auto',
                                     objectFit: 'cover'
                                 }} />
                         </div>
                         <Text />
                     </div>
-                    <ButtonDialogo />
+                 <ButtonDialogo />
                 </Content>
             </Container>
         </>
     )
 }
 
-export default ProjetoSpda
+export default Pmoc

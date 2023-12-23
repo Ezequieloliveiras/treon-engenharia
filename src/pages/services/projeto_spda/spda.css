@@ -1,6 +1,6 @@
 @media (max-width: 414px) {
-    #containerPrevencao {
-        height: 1500px !important;
+    #containerSpda{
+        height: 1300px !important;
     }
     
     #text_style {
@@ -22,7 +22,7 @@
     }
 
     h1 {
-        width: 314px !important;
+        width: 200px !important;
         font-size: 15px !important;
         height: 0px;
     }
@@ -37,15 +37,3 @@
         font-size: 12px !important;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
