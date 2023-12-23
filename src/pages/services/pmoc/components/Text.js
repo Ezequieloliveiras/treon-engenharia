@@ -13,7 +13,7 @@ const Text = () => {
 
     return (
         <>
-            <TextStyle className="text_style">
+            <TextStyle id="text_style">
                 <h1
                     style={{
                         color: '#093170',

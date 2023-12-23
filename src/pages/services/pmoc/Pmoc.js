@@ -12,7 +12,7 @@ function Pmoc() {
             <Container>
                 <Content >
                     <Background />
-                    <div className="div_content"
+                    <div 
                         style={{
                             width: '100%',
                             display: 'flex',
@@ -33,7 +33,7 @@ function Pmoc() {
                                     objectFit: 'cover'
                                 }} />
                         </div>
-                        <Text className="text" />
+                        <Text />
                     </div>
                  <ButtonDialogo />
                 </Content>

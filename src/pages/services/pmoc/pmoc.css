@@ -1,5 +1,9 @@
 @media (max-width: 414px) {
- 
+    #text_style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
     .container_text{
         display: flex !important;
@@ -8,29 +12,19 @@
         width: 300px !important;
         height: 400px !important;
     }
-
-    .text {
-        text-align: center !important;
-        width: 100px !important;
-    }
-
-    .div_content {
-        width:auto !important;
-        text-align: center !important;
-    }
     
     .div_banner {
         height: auto !important;
-        width: 100% !important;
     }
 
     h1 {
         width: 200px !important;
         font-size: 15px !important;
+        height: 0px;
     }
     
     h5 {
-        width: 280px !important;
+        width: auto !important;
         font-size: 12px !important;
     }
 

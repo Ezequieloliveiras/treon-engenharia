@@ -38,3 +38,9 @@ img {
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 414px) {
+  .paragraph{
+  font-size: 8px !important ;
+ }
+}

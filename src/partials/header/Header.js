@@ -44,7 +44,7 @@ function BasicExample() {
               height: '30px'
             }}
             alt="CreaLogo" />
-          <p
+          <p className='paragraph'
             style={{
               fontWeight: 'bold',
               width: '45px',
