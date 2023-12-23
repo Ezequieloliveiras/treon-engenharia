@@ -7,8 +7,6 @@ const TextStyle = styled('div')(() => ({
     borderRadius: '10px',
 }))
 
-import '../pmoc.css'
-
 const Text = () => {
 
     return (

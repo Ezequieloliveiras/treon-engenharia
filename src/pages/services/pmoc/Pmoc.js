@@ -4,12 +4,12 @@ import Text from "./components/Text"
 import ButtonDialogo from '../../../partials/buttonDialogo/Button'
 import BannerPmoc from './components/banner/pmoc.png'
 import Background from '../../../partials/background_services/BackgroundServices'
-import './pmoc.css'
+import '../general.css'
 
 function Pmoc() {
     return (
         <>
-            <Container id="containerPmoc">
+            <Container className="containerPmoc">
                 <Content >
                     <Background />
                     <div 

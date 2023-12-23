@@ -4,12 +4,13 @@ import Text from "./components/Text"
 import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
 import BannerProjetosEletricos from './components/banner/projetos_eletricos.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
-import './projetos_eletricos.css'
+
+import '../general.css'
 
 function ProjetoEletrico() {
     return (
         <>
-            <Container id="containerProjetoEletrico">
+            <Container className="containerProjetoEletrico">
                 <Content >
                     <Background />
                     <div
@@ -20,7 +21,7 @@ function ProjetoEletrico() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div
+                        <div className="div_banner "
                             style={{
                                 height: '500px',
                                 width: '100%',

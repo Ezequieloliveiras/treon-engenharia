@@ -6,12 +6,11 @@ import Text from "./components/Text"
 import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
 import BannerAlvara from "./components/banner/image_alvara.png"
 import BackgroundServices from "../../../partials/background_services/BackgroundServices"
-import './alvara.css'
 
 function Alvara() {
     return (
         <>
-            <Container id="containerAlvara">
+            <Container className="containerAlvara">
                 <Content >
                     <BackgroundServices />
                     <div

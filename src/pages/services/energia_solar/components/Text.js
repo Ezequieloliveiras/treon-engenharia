@@ -10,8 +10,6 @@ const TextStyle = styled('div')(() => ({
     flexDirection: 'column'
 }))
 
-import '../energia_solar.css'
-
 const Text = () => {
 
     return (

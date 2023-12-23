@@ -14,8 +14,8 @@ const Text = () => {
 
     return (
         <>
-            <TextStyle>
-                <h1
+            <TextStyle id="text_style">
+                <h1 id="title"
                     style={{
                         color: '#093170',
                         marginBottom: '50px',
@@ -24,7 +24,7 @@ const Text = () => {
                     }}>
                     Importância do laudo técnico para ar-condicionado
                 </h1>
-                <div
+                <div className="container_text"
                     style={{
                         color: '#093170',
                         textAlign: 'justify',

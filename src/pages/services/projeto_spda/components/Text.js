@@ -7,7 +7,6 @@ const TextStyle = styled('div')(() => ({
     borderRadius: '10px',
 }))
 
-import '../spda.css'
 
 const Text = () => {
 

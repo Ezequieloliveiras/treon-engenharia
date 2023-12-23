@@ -4,12 +4,12 @@ import Text from "./components/Text"
 import ButtonDialogo from '../../../partials/buttonDialogo/Button'
 import BannerSpda from './components/banner/projeto_spda.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
-import './spda.css'
+import '../general.css'
 
 function Pmoc() {
     return (
         <>
-            <Container id="containerSpda">
+            <Container className="containerSpda">
                 <Content >
                     <Background />
                     <div 

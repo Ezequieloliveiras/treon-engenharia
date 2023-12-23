@@ -1,22 +1,59 @@
 @media (max-width: 414px) {
-    #containerPrevencao {
+    
+    .containerLaudoPpci  {
+        height: 1370px !important;
+    }
+
+    .containerAr{
+        height: 1170px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerEnergiaSolar {
+        height: 1230px !important;
+    }
+
+    .containerAlvara {
+        height: 1200px !important;
+    }
+
+    .containerPrevencao {
         height: 1500px !important;
     }
-    
+
+    .containerPmoc{
+        height: 1320px !important;
+    }
+
+    .containerProjetoEletrico {
+        height: 1130px !important;
+    }
+
+    .containerLaudoMaquinas {
+        height: 1460px !important;
+    }
+
     #text_style {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .container_text{
+
+    .container_text {
         display: flex !important;
         align-items: center !important;
         flex-direction: column;
         width: 300px !important;
         height: 400px !important;
     }
-    
+
     .div_banner {
         height: auto !important;
     }
@@ -26,7 +63,7 @@
         font-size: 15px !important;
         height: 0px;
     }
-    
+
     h5 {
         width: auto !important;
         font-size: 12px !important;
@@ -37,15 +74,3 @@
         font-size: 12px !important;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

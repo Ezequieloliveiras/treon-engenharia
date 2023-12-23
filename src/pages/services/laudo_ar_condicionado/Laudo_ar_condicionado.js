@@ -1,45 +1,45 @@
-import React from "react"
-
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Text from "./components/text/Text"
-import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
-import BannerArCondiconado from './components/banner/Laudo_ar_condicionado.jpg'
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Text from "./components/Text"
+import ButtonDialogo from '../../../partials/buttonDialogo/Button'
+import BannerAr from './components/banner/Laudo_ar_condicionado.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
+import '../general.css'
 
-function LaudoArcondicionado() {
+function Pmoc() {
     return (
         <>
-            <Container >
+            <Container className="containerAr">
                 <Content >
                     <Background />
-                    <div
+                    <div 
                         style={{
-                            width: '100%', display: 'flex',
+                            width: '100%',
+                            display: 'flex',
                             justifyContent: 'center',
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div
+                        <div className="div_banner"
                             style={{
                                 height: '500px',
                                 width: '100%',
                                 overflow: 'hidden'
                             }}>
-                            <img src={BannerArCondiconado}
+                            <img src={BannerAr}
                                 style={{
                                     width: '100%',
-                                    height: '100%',
+                                    height: 'auto',
                                     objectFit: 'cover'
                                 }} />
                         </div>
                         <Text />
                     </div>
-                    <ButtonDialogo />
+                 <ButtonDialogo />
                 </Content>
-            </Container >
+            </Container>
         </>
     )
 }
 
-export default LaudoArcondicionado
+export default Pmoc

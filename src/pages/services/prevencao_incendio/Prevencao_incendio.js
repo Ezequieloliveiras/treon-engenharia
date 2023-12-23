@@ -5,12 +5,12 @@ import Text from "./components/Text"
 import BannerPrevencaoIncendio from './components/banner/prevencao_incendio.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
-import './prevencao_incendio.css'
+import '../general.css'
 
 function PrevencaoIncendio() {
     return (
         <>
-            <Container id='containerPrevencao'>
+            <Container className='containerPrevencao'>
                 <Content >
                     <Background />
                     <div 

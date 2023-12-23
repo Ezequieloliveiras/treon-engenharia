@@ -10,8 +10,6 @@ const TextStyle = styled('div')(() => ({
     flexDirection: 'column'
 }))
 
-import '../alvara.css'
-
 const Text = () => {
 
     return (

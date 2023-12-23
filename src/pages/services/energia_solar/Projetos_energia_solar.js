@@ -7,12 +7,12 @@ import ButtonDialogo from '../../../partials/buttonDialogo/Button'
 import BannerPainelSolar from './components/banner/painel_solar.webp'
 import Background from '../../../partials/background_services/BackgroundServices'
 
-import './energia_solar.css'
+import '../general.css'
 
 function EnergiaSolar() {
     return (
         <>
-            <Container id="containerEnergiaSolar">
+            <Container className="containerEnergiaSolar">
                 <Content >
                     <Background />
                     <div

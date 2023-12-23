@@ -10,7 +10,6 @@ const TextStyle = styled('div')(() => ({
     flexDirection: 'column'
 }))
 
-import '../projetos_eletricos.css'
 
 const Text = () => {
 
