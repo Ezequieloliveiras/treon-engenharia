@@ -70,8 +70,7 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" component={Link}
-                            to="/pmoc"
+                        <Button variant="contained" href="/pmoc"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
