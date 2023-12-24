@@ -1,5 +1,4 @@
 import { styled } from "@mui/material"
-import { Link } from "react-router-dom"
 
 import {
     Card,
@@ -11,10 +10,10 @@ import {
 } from '@mui/material'
 
 import './section_four.css'
-
 import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
 import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
 import imageEngenheiros from '../imageCards/maquinas_pesadas.avif'
+
 
 const StyledSection = styled('section')(() => ({
     position: 'relative',
@@ -24,7 +23,6 @@ const StyledSection = styled('section')(() => ({
     display: 'flex',
     justifyContent: 'space-around',
 }))
-
 
 const ContentSectionFour = () => {
 
@@ -86,8 +84,8 @@ const ContentSectionFour = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" component={Link}
-                            to="/laudo_tecnico_ar_condicionado"
+                        <Button variant="contained"
+                            href="/laudo_tecnico_ar_condicionado"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
@@ -137,8 +135,8 @@ const ContentSectionFour = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" component={Link}
-                            to="/laudo_tecnico_ppci"
+                        <Button variant="contained"
+                            href="/laudo_tecnico_ppci"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
@@ -193,8 +191,8 @@ const ContentSectionFour = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" component={Link}
-                            to="/laudo_tecnico_maquinas_pesadas"
+                        <Button variant="contained"
+                            href="/laudo_tecnico_maquinas_pesadas"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
@@ -204,7 +202,5 @@ const ContentSectionFour = () => {
         </>
     )
 }
-
-
 
 export default ContentSectionFour

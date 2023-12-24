@@ -1,5 +1,4 @@
 import { styled } from "@mui/material"
-import { Link } from "react-router-dom"
 
 import {
     Card,
@@ -70,7 +69,8 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" href="/pmoc"
+                        <Button variant="contained"
+                            href="/pmoc"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
@@ -105,8 +105,8 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" component={Link}
-                            to="/prevencao_a_incendio"
+                        <Button variant="contained"
+                            href="/prevencao_a_incendio"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
@@ -163,8 +163,8 @@ const ContentSectionTwo = () => {
                             justifyContent: 'center',
                             width: '100%'
                         }}>
-                        <Button variant="contained" component={Link}
-                            to="/alvara_de_funcionamento"
+                        <Button variant="contained"
+                            href="/alvara_de_funcionamento"
                             sx={{ width: '100%' }}>
                             Saiba Mais
                         </Button>
