@@ -6,7 +6,7 @@ const Container = styled('div')(() => ({
     flexDirection:'column',
     justifyContent: 'center',
     alignItems:'center',
-    height:'100vh'
+    height:'750px'
 }))
 
 export default Container
