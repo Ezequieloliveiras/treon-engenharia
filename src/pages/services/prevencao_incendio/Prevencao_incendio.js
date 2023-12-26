@@ -13,29 +13,23 @@ function PrevencaoIncendio() {
             <Container className='containerPrevencao'>
                 <Content >
                     <Background />
-                    <div 
+                    <div
                         style={{
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
                             flexDirection: 'column',
-                            alignItems: 'center'
+                            alignItems: 'center',
+                            height:'auto'
                         }}>
-                        <div className="div_banner"
+                        <img src={BannerPrevencaoIncendio}
                             style={{
-                                height: '500px',
                                 width: '100%',
-                                overflow: 'hidden'
-                            }}>
-                            <img src={BannerPrevencaoIncendio}
-                                style={{
-                                    width: '100%',
-                                    maxHeight: '400px',
-                                    objectFit: 'cover'
-                                }} />
-                        </div>
-                        <Text />
+                                maxHeight: '400px',
+                                objectFit: 'cover'
+                            }} />
                     </div>
+                    <Text />
                     <ButtonDialogo />
                 </Content>
             </Container>

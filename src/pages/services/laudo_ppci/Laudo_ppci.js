@@ -21,21 +21,14 @@ function LaudoTecnicoPPCI() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <div className="div_banner"
+                        <img src={BannerLaudoPpci}
                             style={{
-                                height: '500px',
                                 width: '100%',
-                                overflow: 'hidden'
-                            }}>
-                            <img src={BannerLaudoPpci}
-                                style={{
-                                    width: '100%',
-                                    maxHeight: '400px',
-                                    objectFit: 'cover'
-                                }} />
-                        </div>
-                        <Text />
+                                maxHeight: '400px',
+                                objectFit: 'cover'
+                            }} />
                     </div>
+                    <Text />
                     <ButtonDialogo />
                 </Content>
             </Container>
