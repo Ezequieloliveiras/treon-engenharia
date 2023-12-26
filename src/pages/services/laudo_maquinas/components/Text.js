@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 
 const TextStyle = styled('div')(() => ({
     height: '400px',
-    marginTop: '50px',
+    marginTop: '30px',
     left: '50px',
     borderRadius: '10px',
     display: 'flex',
