@@ -10,7 +10,6 @@ const TextStyle = styled('div')(() => ({
     flexDirection: 'column'
 }))
 
-import '../laudo_ppci.css'
 
 const Text = () => {
 

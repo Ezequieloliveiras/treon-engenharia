@@ -30,7 +30,7 @@ function PrevencaoIncendio() {
                             <img src={BannerPrevencaoIncendio}
                                 style={{
                                     width: '100%',
-                                    height: 'auto',
+                                    maxHeight: '400px',
                                     objectFit: 'cover'
                                 }} />
                         </div>

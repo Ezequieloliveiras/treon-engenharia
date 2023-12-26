@@ -28,8 +28,8 @@ function Pmoc() {
                             }}>
                             <img src={BannerSpda}
                                 style={{
-                                    width: '100%',
-                                    height: '100%',
+                                    width:'100%',
+                                    maxHeight: '400px',
                                     objectFit: 'cover'
                                 }} />
                         </div>

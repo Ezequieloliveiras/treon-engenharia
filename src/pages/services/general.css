@@ -1,4 +1,240 @@
-@media (max-width: 414px) {
+@media (max-width: 1024px) {
+    
+    .containerLaudoPpci  {
+        height: 1370px !important;
+    }
+
+    .containerAr{
+        height: 1170px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerEnergiaSolar {
+        height: 1230px !important;
+    }
+
+    .containerAlvara {
+        height: 1200px !important;
+    }
+
+    .containerPrevencao {
+        height: 1500px !important;
+    }
+
+    .containerPmoc{
+        height: 1220px !important;
+    }
+
+    .containerProjetoEletrico {
+        height: 1130px !important;
+    }
+
+    .containerLaudoMaquinas {
+        height: 1460px !important;
+    }
+
+    #text_style {
+        flex-direction: column;
+    }
+
+    .container_text {
+        display: flex !important;
+        flex-direction: column;
+        width: 600px !important;
+        height: 400px !important;
+    }
+
+    .div_banner {
+        height: auto !important;
+    }
+
+    h1 {
+        width: 600px !important;
+        font-size: 15px !important;
+        height: 0px;
+    }
+
+    h5 {
+        width: auto !important;
+        font-size: 12px !important;
+    }
+
+    p {
+        width: auto !important;
+        font-size: 12px !important;
+    }
+    
+    .paragraph {
+        font-size: 8px !important;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    
+    .containerLaudoPpci  {
+        height: 1370px !important;
+    }
+
+    .containerAr{
+        height: 1170px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerEnergiaSolar {
+        height: 1230px !important;
+    }
+
+    .containerAlvara {
+        height: 1200px !important;
+    }
+
+    .containerPrevencao {
+        height: 1500px !important;
+    }
+
+    .containerPmoc{
+        height: 1120px !important;
+    }
+
+    .containerProjetoEletrico {
+        height: 1130px !important;
+    }
+
+    .containerLaudoMaquinas {
+        height: 1460px !important;
+    }
+
+    #text_style {
+        flex-direction: column;
+    }
+
+    .container_text {
+        display: flex !important;
+        flex-direction: column;
+        width: 600px !important;
+        height: 400px !important;
+    }
+
+    .div_banner {
+        height: auto !important;
+    }
+
+    h1 {
+        width: 600px !important;
+        font-size: 15px !important;
+        height: 0px;
+    }
+
+    h5 {
+        width: auto !important;
+        font-size: 12px !important;
+    }
+
+    p {
+        width: auto !important;
+        font-size: 12px !important;
+    }
+
+    
+    .paragraph {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 540px) {
+    
+    .containerLaudoPpci  {
+        height: 1370px !important;
+    }
+
+    .containerAr{
+        height: 1170px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerSpda{
+        height: 1160px !important;
+    }
+
+    .containerEnergiaSolar {
+        height: 1230px !important;
+    }
+
+    .containerAlvara {
+        height: 1200px !important;
+    }
+
+    .containerPrevencao {
+        height: 1500px !important;
+    }
+
+    .containerPmoc{
+        height: 1180px !important;
+    }
+
+    .containerProjetoEletrico {
+        height: 1130px !important;
+    }
+
+    .containerLaudoMaquinas {
+        height: 1460px !important;
+    }
+
+    #text_style {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_text {
+        display: flex !important;
+        flex-direction: column;
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    .div_banner {
+        height: auto !important;
+    }
+
+    h1 {
+        width: 314px !important;
+        font-size: 15px !important;
+        height: 0px;
+    }
+
+    h5 {
+        width: auto !important;
+        font-size: 12px !important;
+    }
+
+    p {
+        width: auto !important;
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 430px) {
     
     .containerLaudoPpci  {
         height: 1370px !important;
@@ -48,7 +284,6 @@
 
     .container_text {
         display: flex !important;
-        align-items: center !important;
         flex-direction: column;
         width: 300px !important;
         height: 400px !important;
@@ -67,10 +302,16 @@
     h5 {
         width: auto !important;
         font-size: 12px !important;
+        text-align: justify;
     }
 
     p {
         width: auto !important;
         font-size: 12px !important;
+        text-align: justify;
+    }
+
+    .paragraph {
+        font-size: 10px !important;
     }
 }

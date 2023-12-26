@@ -32,7 +32,7 @@ function EnergiaSolar() {
                             <img src={BannerPainelSolar}
                                 style={{
                                     width: '100%',
-                                    height: 'auto',
+                                    maxHeight: '400px',
                                     objectFit: 'cover'
                                 }} />
                         </div>

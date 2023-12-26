@@ -12,30 +12,26 @@ function Pmoc() {
             <Container className="containerPmoc">
                 <Content >
                     <Background />
-                    <div 
+                    <div
                         style={{
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
                             flexDirection: 'column',
-                            alignItems: 'center'
+                            alignItems: 'center',
+                            backgroundColor: 'red',
+                            maxHeight: '500px'
                         }}>
-                        <div className="div_banner"
+
+                        <img src={BannerPmoc}
                             style={{
-                                height: '500px',
                                 width: '100%',
-                                overflow: 'hidden'
-                            }}>
-                            <img src={BannerPmoc}
-                                style={{
-                                    width: '100%',
-                                    height: 'auto',
-                                    objectFit: 'cover'
-                                }} />
-                        </div>
-                        <Text />
+                                height: 'auto',
+                                objectFit: 'cover'
+                            }} />
                     </div>
-                 <ButtonDialogo />
+                    <Text />
+                    <ButtonDialogo />
                 </Content>
             </Container>
         </>

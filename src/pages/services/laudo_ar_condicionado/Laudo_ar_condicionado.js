@@ -29,7 +29,7 @@ function Pmoc() {
                             <img src={BannerAr}
                                 style={{
                                     width: '100%',
-                                    height: 'auto',
+                                    maxHeight: '400px',
                                     objectFit: 'cover'
                                 }} />
                         </div>
