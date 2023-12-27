@@ -20,9 +20,9 @@ function BasicExample() {
         backgroundColor: '#093170',
         position: 'relative',
         minHeight: '80px',
-        padding:'0px'
+        padding: '0px'
       }}>
-      <Container id='contend' className="d-flex justify-content-center align-items-center" style={{ width: '750px', padding:'0' }} >
+      <Container id='contend' className="d-flex justify-content-center align-items-center" style={{ width: '750px', padding: '0' }} >
 
         <img src={LogoTreon}
           style={{
@@ -65,58 +65,59 @@ function BasicExample() {
             <Nav.Link href="/" id="custom-nav-link" >Inicio</Nav.Link>
             <Nav.Link href="/contact" id="custom-nav-link">Contato</Nav.Link>
             <Nav.Link href="/sobre" id="custom-nav-link">Sobre</Nav.Link>
-              <NavDropdown title="Serviços" id="basic-nav-dropdown" >
-                <NavDropdown.Item href="#section-two">Engenharia Mecânica</NavDropdown.Item>
-                <NavDropdown.Item href="#section-tree">Engenharia Elétrica</NavDropdown.Item>
-                <NavDropdown.Item href="#section-four">Laudos Técnicos</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4" >Separated link</NavDropdown.Item>
-              </NavDropdown>
+            <NavDropdown title="Serviços" id="basic-nav-dropdown" >
+              <NavDropdown.Item href="#section-two">Engenharia Mecânica</NavDropdown.Item>
+              <NavDropdown.Item href="#section-tree">Engenharia Elétrica</NavDropdown.Item>
+              <NavDropdown.Item href="#section-four">Laudos Técnicos</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4" ></NavDropdown.Item>
+            </NavDropdown>
           </Nav >
-
-          <a href="https://wa.me/+5527996213588" target="_blank" rel="noopener noreferrer"
-            style={{
-              background: 'none',
-              display: 'inline-block'
-            }}>
-            <img src={logoWhatsapp}
+          <div className='socials'>
+            <a href="https://wa.me/+5527996213588" target="_blank" rel="noopener noreferrer"
               style={{
-                width: '30px',
-                height: '30px',
-                marginRight: '10px'
-              }}
-              alt="logoLinkedin" />
-          </a>
+                background: 'none',
+                display: 'inline-block'
+              }}>
+              <img src={logoWhatsapp}
+                style={{
+                  width: '30px',
+                  height: '30px',
+                  marginRight: '10px'
+                }}
+                alt="logoLinkedin" />
+            </a>
 
-          <a href="https://www.linkedin.com/company/treon-engenharia-ltda/about/" target="_blank" rel="noopener noreferrer"
-            style={{
-              background: 'none',
-              display: 'inline-block'
-            }}>
-            <img src={LogoLinkedin}
+            <a href="https://www.linkedin.com/company/treon-engenharia-ltda/about/" target="_blank" rel="noopener noreferrer"
               style={{
-                width: '30px',
-                height: '30px',
-                marginRight: '10px',
-              }}
-              alt="linkedinLogo" />
-          </a>
+                background: 'none',
+                display: 'inline-block'
+              }}>
+              <img src={LogoLinkedin}
+                style={{
+                  width: '30px',
+                  height: '30px',
+                  marginRight: '10px',
+                }}
+                alt="linkedinLogo" />
+            </a>
 
-          <a href="https://www.instagram.com/treonengenharia/" target="_blank" rel="noopener noreferrer"
-            style={{
-              background: 'none',
-              display: 'inline-block'
-            }}>
-            <img
-              src={logoInstagram}
+            <a href="https://www.instagram.com/treonengenharia/" target="_blank" rel="noopener noreferrer"
               style={{
-                width: '30px',
-                height: '30px',
-                display: 'block',
-              }}
-              alt="instaLogo"
-            />
-          </a>
+                background: 'none',
+                display: 'inline-block'
+              }}>
+              <img
+                src={logoInstagram}
+                style={{
+                  width: '30px',
+                  height: '30px',
+                  display: 'block',
+                }}
+                alt="instaLogo"
+              />
+            </a>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar >
