@@ -1859,11 +1859,3 @@ body {
   }
 }
 
-@media (max-width: 280px) {
-  .animated-button1 {
-      width: 250px !important;
-      font-size: 13px !important;
-      bottom: -13px !important;
-      left: 128px !important;
-  }
-}

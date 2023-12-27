@@ -78,3 +78,18 @@
         height: 640px !important;
     }
 }
+
+@media (max-width: 280px) {
+    #section-four {
+        height: 2200px !important;
+    }
+
+    .title {
+        width: 300px !important;
+    }
+
+    .cards {
+        width: 250px !important;
+        height: 640px !important;
+    }
+}
