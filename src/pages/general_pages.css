@@ -1,4 +1,7 @@
 @media (max-width: 390px) {
+    .contactContainer {
+        height: 600px !important;
+    }
     .contact {
         font-size: 20px !important;
     }
@@ -18,8 +21,6 @@
         padding-bottom: 140px !important;
         padding-right: 15px;
         padding-left: 15px;
-
-        height: 900px !important;
     }
 
     .about {
@@ -34,6 +35,10 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0px !important;
+    }
+
+    .css-eo2tbg {
         margin-bottom: 0px !important;
     }
     

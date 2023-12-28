@@ -7,7 +7,7 @@ import ButtonDialogo from "../../partials/buttonDialogo/Button"
 function Sobre() {
     return (
         <>
-            <Container >
+            <Container  className="contactContainer">
                 <Content />
                 <Background />
                 <Social />
