@@ -1,10 +1,12 @@
 @media (max-width: 390px) {
     .contactContainer {
-        height: 600px !important;
+        height: 460px !important;
 
     }
     .contact {
+        position: absolute !important;
         font-size: 20px !important;
+        top: 55px !important;
     }
     
     .email,
@@ -25,12 +27,13 @@
         display: flex;
         align-items: center;
         padding-top: 30px !important;
-        padding-bottom: 140px !important;
+        padding-bottom: 150px !important;
        
     }
 
     .about {
-        margin-bottom: 50px !important;
+        margin-top: 20px !important;
+        margin-bottom: 60px !important;
         font-size: 20px !important;
     }
 
