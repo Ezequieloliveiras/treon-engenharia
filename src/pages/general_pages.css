@@ -1,6 +1,7 @@
 @media (max-width: 390px) {
     .contactContainer {
         height: 600px !important;
+
     }
     .contact {
         font-size: 20px !important;
@@ -13,14 +14,19 @@
         font-weight: bold;
     }
 
+    .css-eo2tbg {
+        margin-bottom: 0px !important;
+    }
+    
+    /*-----*/
+
     .containerAbout {
         flex-direction: column;
         display: flex;
         align-items: center;
         padding-top: 30px !important;
         padding-bottom: 140px !important;
-        padding-right: 15px;
-        padding-left: 15px;
+       
     }
 
     .about {
@@ -29,26 +35,23 @@
     }
 
     .textStyle {
-        width: auto;
+        width: 340px;
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0px !important;
+        margin-bottom: 20px !important;
     }
 
-    .css-eo2tbg {
-        margin-bottom: 0px !important;
-    }
-    
+ 
     .css-1vrhb60 {
         margin-bottom: 0px;
     }
     
     .imageAbout {
         margin-top: 0px !important;
-        max-width: 100%; /* Ajuste conforme necessário */
+        max-width: 90%; 
         display: block;
         margin-left: auto;
         margin-right: auto;
