@@ -42,7 +42,7 @@ const ContentSectionTree = () => {
                             fontWeight: '700'
                         }}>Engenharia Elétrica</h1>
                 </div>
-                <Card className="cards"
+                <Card className="cardsTree"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -61,11 +61,10 @@ const ContentSectionTree = () => {
                             style={{
                                 width: '100%',
                                 height: '100%',
-                                padding: '0px 5px',
                                 objectFit: 'cover',
                             }} />
                     </CardMedia>
-                    <CardContent>
+                    <CardContent className="cardEletrico">
                         <Typography gutterBottom variant="h5" component="div">
                             Projetos Elétricos
                         </Typography>
@@ -88,7 +87,7 @@ const ContentSectionTree = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card className="cards"
+                <Card className="cardsTree"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -100,7 +99,7 @@ const ContentSectionTree = () => {
                         image="https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg"
                         title="PMOC"
                     />
-                    <CardContent>
+                    <CardContent className="cardSolar">
                         <Typography gutterBottom variant="h5" component="div">
                             Energia Solar
                         </Typography>
@@ -138,7 +137,7 @@ const ContentSectionTree = () => {
                     </CardActions>
                 </Card>
 
-                <Card className="cards"
+                <Card className="cardsTree"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -156,7 +155,7 @@ const ContentSectionTree = () => {
                                 objectFit: 'cover',
                             }} />
                     </CardMedia>
-                    <CardContent>
+                    <CardContent className="cardSpda">
                         <Typography gutterBottom variant="h5" component="div">
                             Projetos de SPDA
                         </Typography>

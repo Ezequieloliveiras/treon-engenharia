@@ -43,7 +43,7 @@ const ContentSectionTwo = () => {
                             fontWeight: '700'
                         }}>Engenharia Mecânica</h1>
                 </div>
-                <Card className="cards"
+                <Card className="cardsTwo"
                     sx={{
                         maxWidth: 400, height: 580,
                         boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
@@ -54,7 +54,7 @@ const ContentSectionTwo = () => {
                         image="https://img.freepik.com/fotos-premium/servico-tecnico-remover-o-filtro-de-ar-do-ar-condicionado-para-limpeza_35076-3617.jpg"
                         title="PMOC"
                     />
-                    <CardContent>
+                    <CardContent className="cardPmoc">
                         <Typography gutterBottom variant="h5" component="div">
                             PMOC
                         </Typography>
@@ -76,7 +76,7 @@ const ContentSectionTwo = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card className="cards"
+                <Card className="cardsTwo"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -90,7 +90,7 @@ const ContentSectionTwo = () => {
                         image="https://www.comefogo.com.br/uploads/pagina/elemento/campo/2020/06/NLeHvUYQwRdigdwP/projeto-de-prevencao-e-combate-a-incendio-qual-a-importancia-e-quem-deve-fazer_875x540.jpg"
                         title="PMOC"
                     />
-                    <CardContent>
+                    <CardContent className="cardPrevencao">
                         <Typography gutterBottom variant="h5" component="div">
                             Projetos de preveção a incêndio
                         </Typography>
@@ -112,7 +112,7 @@ const ContentSectionTwo = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card className="cards"
+                <Card className="cardsTwo"
                     sx={{
                         maxWidth: 400, height: 580,
                         boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
@@ -133,7 +133,7 @@ const ContentSectionTwo = () => {
                                 height: '290px'
                             }} />
                     </CardMedia>
-                    <CardContent>
+                    <CardContent className="cardAlvara">
                         <Typography gutterBottom variant="h5" component="div">
                             Alvará de funcionamento CBMES
                         </Typography>

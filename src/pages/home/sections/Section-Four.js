@@ -42,7 +42,7 @@ const ContentSectionFour = () => {
                             fontWeight: '700'
                         }}>Laudos Técnicos</h1>
                 </div>
-                <Card className="cards"
+                <Card className="cardsFour"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -64,7 +64,7 @@ const ContentSectionFour = () => {
                                 objectFit: 'cover',
                             }} />
                     </CardMedia>
-                    <CardContent>
+                    <CardContent className="cardAr">
                         <Typography gutterBottom variant="h5" component="div">
                             Laudo Técnico de Ar-condicionado
                         </Typography>
@@ -92,7 +92,7 @@ const ContentSectionFour = () => {
                     </CardActions>
                 </Card>
 
-                <Card className="cards"
+                <Card className="cardsFour"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -115,7 +115,7 @@ const ContentSectionFour = () => {
                                 objectFit: 'cover',
                             }} />
                     </CardMedia>
-                    <CardContent>
+                    <CardContent className="cardPpci">
                         <Typography gutterBottom variant="h5" component="div">
                             Laudo Técnico de PPCI
                         </Typography>
@@ -142,7 +142,7 @@ const ContentSectionFour = () => {
                         </Button>
                     </CardActions>
                 </Card>
-                <Card className="cards"
+                <Card className="cardsFour"
                     sx={{
                         maxWidth: 400,
                         height: 580,
@@ -161,7 +161,7 @@ const ContentSectionFour = () => {
                                 objectFit: 'cover',
                             }} />
                     </CardMedia>
-                    <CardContent>
+                    <CardContent className="cardMaquinas">
                         <Typography gutterBottom variant="h5" component="div">
                             Laudo Técnico de Máquinas Pesadas
                         </Typography>

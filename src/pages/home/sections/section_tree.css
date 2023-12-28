@@ -33,44 +33,108 @@
 
 @media (max-width: 430px) {
     #section-tree {
-        height: 2100px !important;
+        height: 1760px !important;
     }
+
     .title {
         width: 300px !important;
     }
 
-    .cards {
-        width: 350px !important;
-        height: 640px !important;
+    .cardsTree {
+        width: 320px !important;
+        height: auto !important;
+    }
+
+    .cardEletrico {
+        margin-bottom: 50px;
+    }
+
+    .cardSolar {
+        margin-bottom: 40px;
+    }
+
+    .cardSpda {
+        margin-bottom: 40px;
     }
 }
 
 @media (max-width: 414px) {
     #section-tree {
-        height: 2100px !important;
+        height: 1760px !important;
     }
 
     .title {
         width: 300px !important;
     }
 
-    .cards {
+    .cardsTree {
         width: 320px !important;
-        height: 640px !important;
+        height: auto !important;
+    }
+
+    .cardEletrico {
+        margin-bottom: 50px;
+    }
+
+    .cardSolar {
+        margin-bottom: 40px;
+    }
+
+    .cardSpda {
+        margin-bottom: 40px;
     }
 }
 
 @media (max-width: 390px) {
     #section-tree {
-        height: 2100px !important;
-    }
-
-    .cards {
-        width: 320px !important;
+        height: 1760px !important;
     }
 
     .title {
         width: 300px !important;
+    }
 
+    .cardsTree {
+        width: 320px !important;
+        height: auto !important;
+    }
+
+    .cardEletrico {
+        margin-bottom: 50px;
+    }
+
+    .cardSolar {
+        margin-bottom: 40px;
+    }
+
+    .cardSpda {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 280px) {
+    #section-tree {
+        height: 1890px !important;
+    }
+
+    .title {
+        width: 300px !important;
+    }
+
+    .cardsTree {
+        width: 250px !important;
+        height: auto !important;
+    }
+
+    .cardEletrico {
+        margin-bottom: 50px;
+    }
+
+    .cardSolar {
+        margin-bottom: 40px;
+    }
+
+    .cardSpda {
+        margin-bottom: 40px;
     }
 }

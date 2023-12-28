@@ -1773,7 +1773,16 @@ body {
       width: 400px !important;
       font-size: 15px !important;
       bottom: -13px !important;
-      left: 450px !important;
+      left: 500px !important;
+  }
+}
+
+@media (max-width: 912px) {
+  .animated-button1 {
+      width: 300px !important;
+      font-size: 15px !important;
+      bottom: -13px !important;
+      left: 442px !important;
   }
 }
 
@@ -1782,7 +1791,7 @@ body {
       width: 300px !important;
       font-size: 15px !important;
       bottom: -13px !important;
-      left: 1000px !important;
+      left: 390px !important;
   }
 }
 
@@ -1856,6 +1865,15 @@ body {
       font-size: 13px !important;
       bottom: -13px !important;
       left: 168px !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .animated-button1 {
+      width: 250px !important;
+      font-size: 13px !important;
+      bottom: -13px !important;
+      left: 128px !important;
   }
 }
 
