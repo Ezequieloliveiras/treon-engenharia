@@ -1,5 +1,7 @@
 import styled from "@emotion/styled"
 import EmailIcon from '@mui/icons-material/Email'
+import '../../contact.css'
+
 
 const Email = styled('div')(() => ({
     display: 'flex',
@@ -22,7 +24,7 @@ const Email_icon = () => {
                         color: '#093170',
                         fontSize: '50px'
                     }} />
-                <H1>
+                <H1 className="email">
                     contato@treonengenharia.com.br
                 </H1>
             </Email>

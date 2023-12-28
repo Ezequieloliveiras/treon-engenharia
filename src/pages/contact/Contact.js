@@ -1,6 +1,6 @@
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Social from "./components/socials/Social"
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Social from "./components/Social"
 import Background from '../../partials/background_services/BackgroundServices'
 import ButtonDialogo from "../../partials/buttonDialogo/Button"
 

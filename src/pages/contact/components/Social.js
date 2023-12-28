@@ -1,8 +1,10 @@
 import styled from "@emotion/styled"
 
-import WhatsAppIcon from "../icons/Whatsapp_Icon"
-import LinkedInicon from "../icons/Linkedin_Icon"
-import EmailIcon from "../icons/Email_Icon"
+import WhatsAppIcon from "./icons/Whatsapp_Icon"
+import LinkedInicon from "./icons/Linkedin_Icon"
+import EmailIcon from "./icons/Email_Icon"
+import '../contact.css'
+
 
 const Socials = styled('div')(() => ({
 
@@ -19,7 +21,7 @@ const Text = () => {
 
     return (
         <>
-            <h1
+            <h1 className="contact"
                 style={{
                     color: '#093170',
                     top: '80px',

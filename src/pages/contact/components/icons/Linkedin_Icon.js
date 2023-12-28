@@ -22,7 +22,7 @@ const LinkedIn_icon = () => {
                         color: '#0e76a8',
                         fontSize: '50px'
                     }} />
-                <H1>
+                <H1 className="linkedin">
                     Treon Engenharia
                 </H1>
             </SocialsLinkedin>

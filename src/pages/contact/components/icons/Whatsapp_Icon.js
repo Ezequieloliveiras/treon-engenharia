@@ -22,7 +22,7 @@ const WhatsApp_Icon = () => {
                         color: '#2BB741',
                         fontSize: '50px'
                     }} />
-                <H1>
+                <H1 className="whatsapp">
                     (27) 99733-7338
                 </H1>
             </SocialsWhatsapp>
