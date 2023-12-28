@@ -12,7 +12,7 @@ import {
 import './section_four.css'
 import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
 import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
-import imageEngenheiros from '../imageCards/maquinas_pesadas.avif'
+import imageEngenheiros from '../imageCards/maquinas_pesadas.png'
 
 
 const StyledSection = styled('section')(() => ({
