@@ -1,19 +1,19 @@
 import React from "react"
 
 import Background from '../../partials/background_services/BackgroundServices'
-import Container from "./components/containers/Container"
-import Content from "./components/content/Content"
-import Text from "./components/text/Text"
-import ImageAbout from "./components/imageAbout/ImageAbout"
+import Container from "./components/Container"
+import Content from "./components/Content"
+import Text from "./components/Text"
+import ImageAbout from "./components/ImageAbout"
 
 function Sobre() {
     return (
         <>
             <Background />
-            <Container >
+            <Container className="containerAbout" >
                 <Content />
                 <Text />
-                <ImageAbout />
+                <ImageAbout  className="imageAbout"/>
             </Container>
         </>
     )

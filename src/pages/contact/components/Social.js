@@ -3,7 +3,7 @@ import styled from "@emotion/styled"
 import WhatsAppIcon from "./icons/Whatsapp_Icon"
 import LinkedInicon from "./icons/Linkedin_Icon"
 import EmailIcon from "./icons/Email_Icon"
-import '../contact.css'
+import '../../general_pages.css'
 
 
 const Socials = styled('div')(() => ({

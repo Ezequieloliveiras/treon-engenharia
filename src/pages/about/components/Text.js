@@ -1,4 +1,6 @@
 import styled from "@emotion/styled"
+import '../../general_pages.css'
+
 
 const TextStyle = styled('div')(() => ({
     left: '50px',
@@ -10,8 +12,8 @@ const Text = () => {
 
     return (
         <>
-            <TextStyle >
-                <h1
+            <TextStyle  className="textStyle">
+                <h1 className="about"
                     style={{
                         marginBottom: '80px',
                         fontWeight: 'bold',

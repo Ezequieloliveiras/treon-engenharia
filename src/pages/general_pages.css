@@ -1,0 +1,55 @@
+@media (max-width: 390px) {
+    .contact {
+        font-size: 20px !important;
+    }
+    
+    .email,
+    .linkedin,
+    .whatsapp {
+        font-size: 15px !important;
+        font-weight: bold;
+    }
+
+    .containerAbout {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding-top: 30px !important;
+        padding-bottom: 140px !important;
+        padding-right: 15px;
+        padding-left: 15px;
+
+        height: 900px !important;
+    }
+
+    .about {
+        margin-bottom: 70px !important;
+        font-size: 20px !important;
+    }
+
+    .textStyle {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px !important;
+    }
+    
+    .css-1vrhb60 {
+        margin-bottom: 0px;
+    }
+    
+    .imageAbout {
+        margin-top: 0px !important;
+        max-width: 100%; /* Ajuste conforme necessário */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+
+}
+
+

@@ -1,6 +1,6 @@
 import styled from "@emotion/styled"
 import EmailIcon from '@mui/icons-material/Email'
-import '../../contact.css'
+import '../../../general_pages.css'
 
 
 const Email = styled('div')(() => ({
