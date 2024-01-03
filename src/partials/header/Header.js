@@ -14,8 +14,6 @@ import logoWhatsapp from '../logo/logo_whatsapp.png'
 import logoInstagram from '../logo/logo_instagram.png'
 import LogoLinkedin from '../logo/logo_linkedin.png'
 
-
-
 function BasicExample() {
   const location = useLocation()
   const isPaginaInicial = location.pathname === '/'

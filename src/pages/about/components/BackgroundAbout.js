@@ -1,10 +1,10 @@
 import styled from "@emotion/styled"
 
-const BackgroundImage = styled('div')(() => ({
+const BackgroundAbout = styled('div')(() => ({
     position:'absolute',
-    backgroundImage:'url(https://www.10wallpaper.com/wallpaper/1366x768/1609/Gear_art_mechanism-3D_Artwork_Vector_Wallpaper_1366x768.jpg)',
     width: '100%',
     height:'100%',
+    backgroundImage:'url(https://www.10wallpaper.com/wallpaper/1366x768/1609/Gear_art_mechanism-3D_Artwork_Vector_Wallpaper_1366x768.jpg)',
     backgroundRepeat:'no-reapeat',
     backgroundSize:'cover',
     backgroundPosition:'center',
@@ -12,4 +12,4 @@ const BackgroundImage = styled('div')(() => ({
     zIndex: -1
 }))
 
-export default BackgroundImage
+export default BackgroundAbout

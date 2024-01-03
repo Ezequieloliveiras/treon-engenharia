@@ -1,6 +1,6 @@
 import styled from "@emotion/styled"
 
-const Container = styled('div')(() => ({
+const AboutContainerStyle = styled('div')(() => ({
     width: '100%',
     height:'800px',
     display: 'flex',
@@ -10,4 +10,4 @@ const Container = styled('div')(() => ({
     borderRadius: '10px',
 }))
 
-export default Container
+export default AboutContainerStyle
