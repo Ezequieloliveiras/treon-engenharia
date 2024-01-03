@@ -10,25 +10,25 @@ import {
 } from '@mui/material'
 
 
-import image from '../imageCards/alvara_de_licenca.png'
+import ImageAlvara from '../imageCards/alvara_de_licenca.png'
 import './section_two.css'
 
 
-const StyledSection = styled('section')(() => ({
+const StyledSectionTwo = styled('section')(() => ({
     position: 'relative',
-    background: '#f5f5f5',
-    padding: '200px 0px 100px 0px',
     height: '100%',
+    padding: '200px 0px 100px 0px',
     display: 'flex',
     justifyContent: 'space-around',
-    alignItems: 'center'
+    alignItems: 'center',
+    background: '#f5f5f5',
 }))
 
 const ContentSectionTwo = () => {
 
     return (
         <>
-            <StyledSection id="section-two" >
+            <StyledSectionTwo id="section-two" >
                 <div className="divtitle"
                     style={{
                         display: 'flex',
@@ -88,7 +88,7 @@ const ContentSectionTwo = () => {
                             height: 300
                         }}
                         image="https://www.comefogo.com.br/uploads/pagina/elemento/campo/2020/06/NLeHvUYQwRdigdwP/projeto-de-prevencao-e-combate-a-incendio-qual-a-importancia-e-quem-deve-fazer_875x540.jpg"
-                        title="PMOC"
+                        title="Projetos de preveção a incêndio"
                     />
                     <CardContent className="cardPrevencao">
                         <Typography gutterBottom variant="h5" component="div">
@@ -125,9 +125,9 @@ const ContentSectionTwo = () => {
                             backgroundColor: '#e0e0e0',
                             padding: '5px 0px 30px'
                         }}
-                        title="PMOC"
+                        title="Alvará"
                     >
-                        <img src={image} alt="Descrição da Imagem"
+                        <img src={ImageAlvara} alt="Descrição da Imagem"
                             style={{
                                 width: '250px',
                                 height: '290px'
@@ -170,7 +170,7 @@ const ContentSectionTwo = () => {
                         </Button>
                     </CardActions>
                 </Card>
-            </StyledSection>
+            </StyledSectionTwo>
         </>
     )
 }

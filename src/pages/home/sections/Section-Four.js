@@ -10,25 +10,24 @@ import {
 } from '@mui/material'
 
 import './section_four.css'
-import image from '../imageCards/laudo_técnico_ar_condicionado.jpg'
-import imagePPCI from '../imageCards/laudo_técnico_ppci.jpg'
-import imageEngenheiros from '../imageCards/maquinas_pesadas.png'
+import ImageLaudoAr from '../imageCards/laudo_técnico_ar_condicionado.jpg'
+import ImageLaudoPpci from '../imageCards/laudo_técnico_ppci.jpg'
+import ImageLaudoMaquinas from '../imageCards/maquinas_pesadas.png'
 
-
-const StyledSection = styled('section')(() => ({
+const StyledSectionFour = styled('section')(() => ({
     position: 'relative',
-    padding: '200px 0px 100px 0px',
-    background: '#f5f5f5',
     height: '1100px',
+    padding: '200px 0px 100px 0px',
     display: 'flex',
     justifyContent: 'space-around',
+    background: '#f5f5f5',
 }))
 
 const ContentSectionFour = () => {
 
     return (
         <>
-            <StyledSection id="section-four" >
+            <StyledSectionFour id="section-four" >
                 <div className="divtitle"
                     style={{
                         display: 'flex',
@@ -57,7 +56,7 @@ const ContentSectionFour = () => {
                         }}
                         title="PMOC"
                     >
-                        <img src={image} alt="Descrição da Imagem"
+                        <img src={ImageLaudoAr} alt="Descrição da Imagem"
                             style={{
                                 width: '100%',
                                 height: '100%',
@@ -108,7 +107,7 @@ const ContentSectionFour = () => {
                         }
                         title="PMOC"
                     >
-                        <img src={imagePPCI} alt="Descrição da Imagem"
+                        <img src={ImageLaudoPpci} alt="Descrição da Imagem"
                             style={{
                                 width: '100%',
                                 height: '100%',
@@ -154,7 +153,7 @@ const ContentSectionFour = () => {
                             height: 300
                         }}
                     >
-                        <img src={imageEngenheiros} alt="Descrição da Imagem"
+                        <img src={ImageLaudoMaquinas} alt="Descrição da Imagem"
                             style={{
                                 width: '100%',
                                 height: '100%',
@@ -198,7 +197,7 @@ const ContentSectionFour = () => {
                         </Button>
                     </CardActions>
                 </Card>
-            </StyledSection>
+            </StyledSectionFour>
         </>
     )
 }

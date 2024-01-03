@@ -1,12 +1,12 @@
 import styled from "@emotion/styled"
 
-const Container = styled('div')(() => ({
+const ContainerContact = styled('div')(() => ({
     position: 'relative',
+    height:'750px',
     display: 'flex',
     flexDirection:'column',
     justifyContent: 'center',
     alignItems:'center',
-    height:'750px'
 }))
 
-export default Container
+export default ContainerContact

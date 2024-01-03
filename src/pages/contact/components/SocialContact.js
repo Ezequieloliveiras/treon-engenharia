@@ -7,7 +7,6 @@ import '../../general_pages.css'
 
 
 const Socials = styled('div')(() => ({
-
     display: 'block',
     marginBottom: '80px',
     justifyContent: 'center',
@@ -17,7 +16,7 @@ const Socials = styled('div')(() => ({
     borderRadius: '10px',
 }))
 
-const Text = () => {
+const SocialContact = () => {
 
     return (
         <>
@@ -42,4 +41,4 @@ const Text = () => {
 }
 
 
-export default Text
+export default SocialContact

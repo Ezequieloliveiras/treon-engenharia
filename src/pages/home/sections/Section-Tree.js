@@ -11,24 +11,24 @@ import {
 
 import './section_tree.css'
 
-import image from '../imageCards/projeto_eletrico.jpg'
+import ImageProjetoEletrico from '../imageCards/projeto_eletrico.jpg'
 import imageSpda from '../imageCards/spda.jpg'
 
-const StyledSection = styled('section')(() => ({
+const StyledSectionTree = styled('section')(() => ({
     position: 'relative',
-    padding: '200px 0px 100px 0px',
-    background: '#eeeeee',
     height: 'auto',
+    padding: '200px 0px 100px 0px',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    background: '#eeeeee',
 }))
 
 const ContentSectionTree = () => {
 
     return (
         <>
-            <StyledSection id="section-tree">
+            <StyledSectionTree id="section-tree">
                 <div className="divtitle"
                     style={{
                         display: 'flex',
@@ -55,9 +55,9 @@ const ContentSectionTree = () => {
                             display: 'flex',
                             justifyContent: 'center'
                         }}
-                        title="PMOC"
+                        title="Projeto Elétrico"
                     >
-                        <img src={image} alt="Descrição da Imagem"
+                        <img src={ImageProjetoEletrico} alt="Descrição da Imagem"
                             style={{
                                 width: '100%',
                                 height: '100%',
@@ -97,7 +97,7 @@ const ContentSectionTree = () => {
                     <CardMedia
                         sx={{ height: 300 }}
                         image="https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg"
-                        title="PMOC"
+                        title="Energia Solar"
                     />
                     <CardContent className="cardSolar">
                         <Typography gutterBottom variant="h5" component="div">
@@ -146,7 +146,7 @@ const ContentSectionTree = () => {
                     }}>
                     <CardMedia
                         sx={{ height: 300 }}
-                        title="PMOC"
+                        title="SPDA"
                     >
                         <img src={imageSpda} alt="Descrição da Imagem"
                             style={{
@@ -191,11 +191,9 @@ const ContentSectionTree = () => {
                         </Button>
                     </CardActions>
                 </Card>
-            </StyledSection>
+            </StyledSectionTree>
         </>
     )
 }
-
-
 
 export default ContentSectionTree

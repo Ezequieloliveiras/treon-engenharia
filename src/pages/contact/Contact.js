@@ -1,20 +1,20 @@
-import Container from "./components/Container"
-import Content from "./components/Content"
-import Social from "./components/Social"
-import Background from '../../partials/background_services/BackgroundServices'
+import ContainerContact from "./components/ContainerContact"
+import ContentContact from "./components/ContentContact"
+import SocialContact from "./components/SocialContact"
 import ButtonDialogo from "../../partials/buttonDialogo/Button"
+import BackgroundContact from '../../partials/background_services/BackgroundServices'
 
-function Sobre() {
+function PageContact() {
     return (
         <>
-            <Container  className="contactContainer">
-                <Content />
-                <Background />
-                <Social />
+            <ContainerContact className="contactContainer">
+                <ContentContact />
+                <BackgroundContact />
+                <SocialContact />
                 <ButtonDialogo />
-            </Container>
+            </ContainerContact>
         </>
     )
 }
 
-export default Sobre
+export default PageContact
