@@ -80,9 +80,11 @@ function BasicExample() {
                 <NavDropdown.Item href="#section-two">Engenharia Mecânica</NavDropdown.Item>
                 <NavDropdown.Item href="#section-tree">Engenharia Elétrica</NavDropdown.Item>
                 <NavDropdown.Item href="#section-four">Laudos Técnicos</NavDropdown.Item>
-                {/*<NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4" ></NavDropdown.Item>
-                */}
+                {
+                  /*<NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.4" ></NavDropdown.Item>
+                  */
+                }
               </NavDropdown>
             )}
           </Nav >
