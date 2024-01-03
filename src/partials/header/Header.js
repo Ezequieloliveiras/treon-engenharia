@@ -1,4 +1,4 @@
-import './index2.css'
+import { useLocation, BrowserRouter as Router } from 'react-router-dom'
 
 import {
   Navbar,
@@ -7,13 +7,20 @@ import {
   NavDropdown
 } from 'react-bootstrap'
 
+import './index2.css'
 import LogoTreon from '../logo/logo_treon_3.png'
 import CreaLogo from '../logo/crea_logo.png'
 import logoWhatsapp from '../logo/logo_whatsapp.png'
 import logoInstagram from '../logo/logo_instagram.png'
 import LogoLinkedin from '../logo/logo_linkedin.png'
 
+
+
 function BasicExample() {
+  const location = useLocation()
+  const isPaginaInicial = location.pathname === '/'
+
+
   return (
     <Navbar expand="lg" variant="dark"
       style={{
@@ -22,7 +29,12 @@ function BasicExample() {
         minHeight: '80px',
         padding: '0px'
       }}>
-      <Container id='contend' className="d-flex justify-content-center align-items-center" style={{ width: '750px', padding: '0' }} >
+      <Container id='contend'
+        className="d-flex justify-content-center align-items-center"
+        style={{
+          width: '750px'
+          , padding: '0'
+        }} >
 
         <img src={LogoTreon}
           style={{
@@ -65,13 +77,15 @@ function BasicExample() {
             <Nav.Link href="/" id="custom-nav-link" >Inicio</Nav.Link>
             <Nav.Link href="/contact" id="custom-nav-link">Contato</Nav.Link>
             <Nav.Link href="/sobre" id="custom-nav-link">Sobre</Nav.Link>
-            <NavDropdown title="Serviços" id="basic-nav-dropdown" >
-              <NavDropdown.Item href="#section-two">Engenharia Mecânica</NavDropdown.Item>
-              <NavDropdown.Item href="#section-tree">Engenharia Elétrica</NavDropdown.Item>
-              <NavDropdown.Item href="#section-four">Laudos Técnicos</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4" ></NavDropdown.Item>
-            </NavDropdown>
+            {isPaginaInicial && (
+              <NavDropdown title="Serviços" id="basic-nav-dropdown" >
+                <NavDropdown.Item href="#section-two">Engenharia Mecânica</NavDropdown.Item>
+                <NavDropdown.Item href="#section-tree">Engenharia Elétrica</NavDropdown.Item>
+                <NavDropdown.Item href="#section-four">Laudos Técnicos</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action/3.4" ></NavDropdown.Item>
+              </NavDropdown>
+            )}
           </Nav >
           <div className='socials'>
             <a href="https://wa.me/+5527996213588" target="_blank" rel="noopener noreferrer"
@@ -87,7 +101,6 @@ function BasicExample() {
                 }}
                 alt="logoLinkedin" />
             </a>
-
             <a href="https://www.linkedin.com/company/treon-engenharia-ltda/about/" target="_blank" rel="noopener noreferrer"
               style={{
                 background: 'none',
@@ -124,4 +137,14 @@ function BasicExample() {
   )
 }
 
-export default BasicExample
+function Header() {
+  return (
+    <Router>
+      <div>
+        <BasicExample />
+      </div>
+    </Router>
+  )
+}
+
+export default Header
