@@ -19,7 +19,6 @@ function Pmoc() {
                             justifyContent: 'center',
                             flexDirection: 'column',
                             alignItems: 'center',
-                            backgroundColor: 'red',
                             maxHeight: '500px'
                         }}>
 

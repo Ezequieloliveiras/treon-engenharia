@@ -2,7 +2,6 @@ import styled from "@emotion/styled"
 
 const TextStyle = styled('div')(() => ({
     height: '100%',
- 
     marginTop: '30px',
     borderRadius: '10px',
 }))
