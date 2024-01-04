@@ -1,16 +1,16 @@
-import React from 'react';
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import { useLocation, BrowserRouter as Router } from 'react-router-dom';
+import React from 'react'
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { useLocation, BrowserRouter as Router } from 'react-router-dom'
 
-import LogoTreon from '../logo/logo_treon_3.png';
-import CreaLogo from '../logo/crea_logo.png';
-import logoWhatsapp from '../logo/logo_whatsapp.png';
-import logoInstagram from '../logo/logo_instagram.png';
-import LogoLinkedin from '../logo/logo_linkedin.png';
+import LogoTreon from '../logo/logo_treon_3.png'
+import CreaLogo from '../logo/crea_logo.png'
+import logoWhatsapp from '../logo/logo_whatsapp.png'
+import logoInstagram from '../logo/logo_instagram.png'
+import LogoLinkedin from '../logo/logo_linkedin.png'
 
 function BasicExample() {
-  const location = useLocation();
-  const isPaginaInicial = location.pathname === '/';
+  const location = useLocation()
+  const isPaginaInicial = location.pathname === '/'
 
   return (
     <Navbar
@@ -121,7 +121,6 @@ function BasicExample() {
                 alt="logoLinkedin"
               />
             </a>
-
             <a
               href="https://www.linkedin.com/company/treon-engenharia-ltda/about/"
               target="_blank"
@@ -141,9 +140,6 @@ function BasicExample() {
                 alt="linkedinLogo"
               />
             </a>
-
-
-
             <a
               href="https://www.instagram.com/treonengenharia/"
               target="_blank"
@@ -167,7 +163,7 @@ function BasicExample() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  )
 }
 
 function App() {
@@ -178,7 +174,7 @@ function App() {
         <BasicExample />
       </div>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
