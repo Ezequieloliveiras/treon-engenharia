@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 
 
-import ImageAlvara from '../imageCards/alvara_de_licenca.png'
+import ImageAlvara from '../card_images/alvara_de_licenca.png'
 import './section_two.css'
 
 

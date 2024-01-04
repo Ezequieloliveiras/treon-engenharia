@@ -11,8 +11,8 @@ import {
 
 import './section_tree.css'
 
-import ImageProjetoEletrico from '../imageCards/projeto_eletrico.jpg'
-import imageSpda from '../imageCards/spda.jpg'
+import ImageProjetoEletrico from '../card_images/projeto_eletrico.jpg'
+import imageSpda from '../card_images/spda.jpg'
 
 const StyledSectionTree = styled('section')(() => ({
     position: 'relative',
