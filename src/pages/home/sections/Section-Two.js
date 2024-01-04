@@ -9,18 +9,19 @@ import {
     Typography,
 } from '@mui/material'
 
-
-import ImageAlvara from '../card_images/alvara_de_licenca.png'
 import './section_two.css'
+
+import ButtonDialog from '../../../partials/buttonDialogo/Button'
+import ImageAlvara from '../card_images/alvara_de_licenca.png'
 
 
 const StyledSectionTwo = styled('section')(() => ({
     position: 'relative',
-    height: '100%',
-    padding: '200px 0px 100px 0px',
+    height: '950px',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    textAlign:'left',
     background: '#f5f5f5',
 }))
 
@@ -35,7 +36,7 @@ const ContentSectionTwo = () => {
                         justifyContent: 'center',
                         position: 'absolute',
                         top: '70px',
-                        padding: '0'
+                        padding: '0px'
                     }}>
                     <h1 className="title"
                         style={{
@@ -170,6 +171,7 @@ const ContentSectionTwo = () => {
                         </Button>
                     </CardActions>
                 </Card>
+                <ButtonDialog />
             </StyledSectionTwo>
         </>
     )

@@ -12,9 +12,11 @@ function ButtonDialogo() {
         <>
             <a class="animated-button1"
                 style={{
-                    bottom: '70px',
+                    bottom: '0px',
                     position: 'absolute',
                     left: '50%',
+                    right: '50%',
+                    width:'500px',
                     transform: 'translate(-50%, -50%)'
                 }}
 

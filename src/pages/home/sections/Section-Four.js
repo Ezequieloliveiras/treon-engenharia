@@ -16,9 +16,10 @@ import ImageLaudoMaquinas from '../card_images/maquinas_pesadas.png'
 
 const StyledSectionFour = styled('section')(() => ({
     position: 'relative',
-    height: '1100px',
-    padding: '200px 0px 100px 0px',
-    display: 'flex',
+    height: '950px',
+    textAlign:'left',
+    alignItems: 'center',
+    textAlign:'left',
     justifyContent: 'space-around',
     background: '#f5f5f5',
 }))
@@ -33,7 +34,8 @@ const ContentSectionFour = () => {
                         display: 'flex',
                         justifyContent: 'center',
                         position: 'absolute',
-                        top: '70px'
+                        top: '70px',
+                        padding: '0px'
                     }}>
                     <h1 className="title"
                         style={{

@@ -11,16 +11,17 @@ import {
 
 import './section_tree.css'
 
+import ButtonDialog from '../../../partials/buttonDialogo/Button'
 import ImageProjetoEletrico from '../card_images/projeto_eletrico.jpg'
 import imageSpda from '../card_images/spda.jpg'
 
 const StyledSectionTree = styled('section')(() => ({
     position: 'relative',
-    height: 'auto',
-    padding: '200px 0px 100px 0px',
+    height: '950px',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
+    textAlign:'left',
     background: '#eeeeee',
 }))
 
@@ -191,6 +192,7 @@ const ContentSectionTree = () => {
                         </Button>
                     </CardActions>
                 </Card>
+                <ButtonDialog />
             </StyledSectionTree>
         </>
     )
