@@ -4,7 +4,7 @@ const Container = styled('div')(() => ({
     position: 'relative',
     display: 'flex',
     justifyContent: 'center',
-    height: '1480px',
+    height: '1450px',
     zIndex: 1,
     background: '#f5f5f5',
 }))
