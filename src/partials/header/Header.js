@@ -142,6 +142,8 @@ function BasicExample() {
               />
             </a>
 
+
+
             <a
               href="https://www.instagram.com/treonengenharia/"
               target="_blank"
@@ -156,9 +158,9 @@ function BasicExample() {
                 style={{
                   width: '30px',
                   height: '30px',
-                  display: 'block'
+                  marginRight: '10px'
                 }}
-                alt="instaLogo"
+                alt="linkedinLogo"
               />
             </a>
           </div>
