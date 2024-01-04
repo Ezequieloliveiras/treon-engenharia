@@ -15,6 +15,7 @@ function Alvara() {
                     <BackgroundServices />
                     <div
                         style={{
+                            height:'auto',
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
@@ -24,7 +25,7 @@ function Alvara() {
                         <img src={BannerAlvara}
                             style={{
                                 width: '100%',
-                                maxHeight: '400px',
+                                height: '500px',
                                 objectFit: 'cover'
                             }} />
                     </div>

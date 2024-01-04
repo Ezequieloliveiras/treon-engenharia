@@ -75,7 +75,7 @@ const Text = () => {
                         5. Qual é a importância da avaliação de desempenho em um laudo técnico de ar condicionado?
                     </h5>
                     <p>
-                        A avaliação de desempenho é crucial para determinar a eficiência energética do sistema. Isso inclui a verificação do consumo de energia, distribuição térmica e a identificação de possíveis melhorias para otimizar o desempenho do aparelho de ar condicion
+                        A avaliação de desempenho é crucial para determinar a eficiência energética do sistema. Isso inclui a verificação do consumo de energia, distribuição térmica e a identificação de possíveis melhorias para otimizar o desempenho do aparelho de ar condicionado.
                     </p>
                 </div>
             </TextStyle>

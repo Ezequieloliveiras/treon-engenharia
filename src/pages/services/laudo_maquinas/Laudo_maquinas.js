@@ -17,16 +17,17 @@ function LaudoMaquinas() {
                     <Background />
                     <div
                         style={{
+                            height:'auto',
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
                             flexDirection: 'column',
-                            alignItems: 'center'
+                            alignItems: 'center',
                         }}>
                         <img src={BannerLaudoMaquinas}
                             style={{
                                 width: '100%',
-                                height: '100%',
+                                height: '500px',
                                 objectFit: 'cover'
                             }} />
                     </div>

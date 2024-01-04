@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 
 const Container = styled('div')(() => ({
     position: 'relative',
-    height: '1290px',
+    height: '1390px',
     display: 'flex',
     justifyContent: 'center',
     zIndex: 1,

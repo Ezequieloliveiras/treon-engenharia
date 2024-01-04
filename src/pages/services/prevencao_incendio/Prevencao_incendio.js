@@ -15,17 +15,17 @@ function PrevencaoIncendio() {
                     <Background />
                     <div
                         style={{
+                            height:'auto',
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
                             flexDirection: 'column',
                             alignItems: 'center',
-                            height:'auto'
                         }}>
                         <img src={BannerPrevencaoIncendio}
                             style={{
                                 width: '100%',
-                                maxHeight: '400px',
+                                height: '500px',
                                 objectFit: 'cover'
                             }} />
                     </div>

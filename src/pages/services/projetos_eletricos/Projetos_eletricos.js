@@ -13,29 +13,20 @@ function ProjetoEletrico() {
             <Container className="containerProjetoEletrico">
                 <Content >
                     <Background />
-                    <div
-                        style={{
-                            width: '100%',
-                            display: 'flex',
-                            justifyContent: 'center',
-                            flexDirection: 'column',
-                            alignItems: 'center'
-                        }}>
                         <div className="div_banner "
                             style={{
-                                height: '500px',
+                                height: 'auto',
                                 width: '100%',
                                 overflow: 'hidden'
                             }}>
                             <img src={BannerProjetosEletricos}
                                 style={{
                                     width: '100%',
-                                    maxHeight: '400px',
+                                    height: '500px',
                                     objectFit: 'cover'
                                 }} />
                         </div>
                         <Text />
-                    </div>
                     <ButtonDialogo />
                 </Content>
             </Container>

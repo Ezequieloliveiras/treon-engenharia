@@ -14,18 +14,18 @@ function Pmoc() {
                     <Background />
                     <div
                         style={{
+                            height: 'auto',
                             width: '100%',
                             display: 'flex',
                             justifyContent: 'center',
                             flexDirection: 'column',
                             alignItems: 'center',
-                            maxHeight: '500px'
                         }}>
 
                         <img src={BannerPmoc}
                             style={{
                                 width: '100%',
-                                height: 'auto',
+                                height: '500px',
                                 objectFit: 'cover'
                             }} />
                     </div>
