@@ -2,6 +2,8 @@ import React from 'react'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import { useLocation, BrowserRouter as Router } from 'react-router-dom'
 
+import './index2.css'
+
 import LogoTreon from '../logo/logo_treon_3.png'
 import CreaLogo from '../logo/crea_logo.png'
 import logoWhatsapp from '../logo/logo_whatsapp.png'
@@ -166,15 +168,14 @@ function BasicExample() {
   )
 }
 
-function App() {
+function Header() {
   return (
     <Router>
       <div>
-        {/* Outros componentes da sua aplicação */}
         <BasicExample />
       </div>
     </Router>
   )
 }
 
-export default App
+export default Header
