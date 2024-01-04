@@ -73,21 +73,18 @@ export default function Footer() {
               }}
               alt="linkedinLogo" />
           </a>
-
           <a href="https://www.instagram.com/treonengenharia/" target="_blank" rel="noopener noreferrer"
             style={{
               background: 'none',
               display: 'inline-block'
             }}>
-            <img
-              src={logoInstagram}
+            <img src={logoInstagram}
               style={{
                 width: '30px',
                 height: '30px',
-                display: 'block',
+                marginRight: '10px',
               }}
-              alt="instaLogo"
-            />
+              alt="instalogo" />
           </a>
           </Grid>
         </Grid>
