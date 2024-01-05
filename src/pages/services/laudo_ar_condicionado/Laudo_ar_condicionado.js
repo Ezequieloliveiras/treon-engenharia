@@ -21,7 +21,7 @@ function Pmoc() {
                             flexDirection: 'column',
                             alignItems: 'center',
                         }}>
-                        <img src={BannerAr}
+                        <img src={BannerAr} className="BannerImage"
                             style={{
                                 width: '100%',
                                 height: '500px',

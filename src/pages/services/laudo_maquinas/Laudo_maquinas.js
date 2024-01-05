@@ -24,7 +24,7 @@ function LaudoMaquinas() {
                             flexDirection: 'column',
                             alignItems: 'center',
                         }}>
-                        <img src={BannerLaudoMaquinas}
+                        <img src={BannerLaudoMaquinas} className="BannerImage"
                             style={{
                                 width: '100%',
                                 height: '500px',

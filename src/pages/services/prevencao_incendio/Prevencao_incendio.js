@@ -22,7 +22,7 @@ function PrevencaoIncendio() {
                             flexDirection: 'column',
                             alignItems: 'center',
                         }}>
-                        <img src={BannerPrevencaoIncendio}
+                        <img src={BannerPrevencaoIncendio} className="BannerImage"
                             style={{
                                 width: '100%',
                                 height: '500px',

@@ -22,7 +22,7 @@ function Pmoc() {
                             alignItems: 'center',
                         }}>
 
-                        <img src={BannerPmoc}
+                        <img src={BannerPmoc} className="BannerImage"
                             style={{
                                 width: '100%',
                                 height: '500px',

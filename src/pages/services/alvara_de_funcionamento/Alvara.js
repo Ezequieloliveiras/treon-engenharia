@@ -22,7 +22,7 @@ function Alvara() {
                             flexDirection: 'column',
                             alignItems: 'center'
                         }}>
-                        <img src={BannerAlvara}
+                        <img src={BannerAlvara} className="BannerImage"
                             style={{
                                 width: '100%',
                                 height: '500px',

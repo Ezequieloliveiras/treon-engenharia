@@ -19,7 +19,7 @@ function ProjetoEletrico() {
                                 width: '100%',
                                 overflow: 'hidden'
                             }}>
-                            <img src={BannerProjetosEletricos}
+                            <img src={BannerProjetosEletricos} className="BannerImage"
                                 style={{
                                     width: '100%',
                                     height: '500px',

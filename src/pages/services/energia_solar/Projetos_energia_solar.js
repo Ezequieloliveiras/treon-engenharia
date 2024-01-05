@@ -24,7 +24,7 @@ function EnergiaSolar() {
                             flexDirection: 'column',
                             alignItems: 'center',
                         }}>
-                        <img src={BannerPainelSolar}
+                        <img src={BannerPainelSolar} className="BannerImage"
                             style={{
                                 width: '100%',
                                 height: '500px',
