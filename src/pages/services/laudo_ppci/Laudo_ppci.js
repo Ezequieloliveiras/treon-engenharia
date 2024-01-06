@@ -5,7 +5,7 @@ import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerLaudoPpci from './components/banner/laudo_ppci.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
-import '../general.css'
+import '../../general_pages.css'
 
 function LaudoTecnicoPPCI() {
     return (

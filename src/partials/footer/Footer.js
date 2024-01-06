@@ -7,8 +7,9 @@ import logoWhatsapp from '../logo/logo_whatsapp.png'
 import logoInstagram from '../logo/logo_instagram.png'
 import LogoLinkedin from '../logo/logo_linkedin.png'
 
+import './footer.css'
 
-export default function Footer() {
+function Footer() {
   return (
     <Box
       component="footer"
@@ -18,7 +19,7 @@ export default function Footer() {
         p: 6,
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="lg"  className="box">
         <Grid container spacing={5}>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" color="white" gutterBottom>
@@ -102,3 +103,5 @@ export default function Footer() {
     </Box>
   )
 }
+
+export default Footer

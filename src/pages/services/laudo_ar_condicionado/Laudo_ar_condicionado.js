@@ -4,8 +4,8 @@ import Text from "./components/Text"
 import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerAr from './components/banner/Laudo_ar_condicionado.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
-import '../general.css'
 
+import '../../general_pages.css'
 function Pmoc() {
     return (
         <>

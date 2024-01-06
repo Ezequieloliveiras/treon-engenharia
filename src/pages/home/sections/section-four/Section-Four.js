@@ -3,6 +3,7 @@ import TitleLautoTec from './components/TitleLaudo'
 import CardAr from './components/CardAr'
 import CardPpci from './components/CardPpci'
 import CardMachines from './components/CardMachines'
+import ButtonDialogue from '../../../../partials/buttonDialogue/ButtonDialogue'
 
 import './section_four.css'
 
@@ -15,6 +16,7 @@ const ContentSectionFour = () => {
                 <CardAr />
                 <CardPpci />
                 <CardMachines />
+                <ButtonDialogue />
             </ContainerFour>
         </>
     )

@@ -7,7 +7,7 @@ import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerLaudoMaquinas from './components/banner/maquinas_pesadas.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
-import '../general.css'
+import '../../general_pages.css'
 
 function LaudoMaquinas() {
     return (

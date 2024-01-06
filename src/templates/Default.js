@@ -1,7 +1,7 @@
-import Header from "../partials/header/Header"
 import { styled } from '@mui/system'
-import Footer from '../partials/footer/Footer'
 
+import Header from "../partials/header/Header"
+import Footer from '../partials/footer/Footer'
 
 const StyledContainer = styled('div')(() => ({
   width: 'auto',
@@ -10,7 +10,6 @@ const StyledContainer = styled('div')(() => ({
   display: 'flex',
   justifyContent: 'center',
   flexDirection: 'column',
-
 }))
 
 const Default = ({ children }) => {
@@ -19,7 +18,6 @@ const Default = ({ children }) => {
       <Header />
       <StyledContainer>
         {children}
-
       </StyledContainer>
       <Footer />
     </>

@@ -3,6 +3,7 @@ import ContentAbout from "./components/ContentAbout"
 import TextAbout from "./components/TextAbout"
 import ImageAbout from "./components/ImageAbout"
 import BackgroundAbout from '../../partials/background_services/BackgroundServices'
+import ButtonDialogue from '../../partials/buttonDialogue/ButtonDialogue'
 
 function PageAbout() {
     return (
@@ -12,6 +13,7 @@ function PageAbout() {
                 <ContentAbout />
                 <TextAbout />
                 <ImageAbout className="imageAbout" />
+                <ButtonDialogue />
             </ContainerAbout>
         </>
     )

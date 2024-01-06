@@ -7,7 +7,7 @@ import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerPainelSolar from './components/banner/painel_solar.webp'
 import Background from '../../../partials/background_services/BackgroundServices'
 
-import '../general.css'
+import '../../general_pages.css'
 
 function EnergiaSolar() {
     return (

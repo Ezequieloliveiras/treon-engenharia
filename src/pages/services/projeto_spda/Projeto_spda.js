@@ -4,7 +4,8 @@ import Text from "./components/Text"
 import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerSpda from './components/banner/projeto_spda.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
-import '../general.css'
+
+import '../../general_pages.css'
 
 function Pmoc() {
     return (

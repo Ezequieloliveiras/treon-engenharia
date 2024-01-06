@@ -5,7 +5,7 @@ import BannerPrevencaoIncendio from './components/banner/prevencao_incendio.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 
-import '../general.css'
+import '../../general_pages.css'
 
 function PrevencaoIncendio() {
     return (

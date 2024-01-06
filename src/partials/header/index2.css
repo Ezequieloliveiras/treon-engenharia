@@ -7,7 +7,6 @@
   color: white;
   text-decoration: none;
   position: relative;
-
 }
 
 #custom-nav-link:hover {
@@ -16,7 +15,6 @@
 
 #basic-nav-dropdown {
   color: white;
-
 }
 
 #basic-nav-dropdown:hover {
@@ -89,7 +87,6 @@ img {
   }
 }
 
-
 @media (max-width: 430px) {
   .paragraph {
     font-size: 8px !important;
@@ -106,14 +103,20 @@ img {
   }
 }
 
-
 @media (max-width: 280px) {
+  .paragraph {
+    width: 50px !important;
+  }
 
   .animated-button1 {
     width: 250px !important;
     font-size: 13px !important;
     bottom: -33px !important;
     left: 128px !important;
+  }
+
+  .textStyle {
+    width: 150px !important;
   }
 
   .navbar-toggler {

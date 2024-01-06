@@ -5,7 +5,7 @@ import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerProjetosEletricos from './components/banner/projetos_eletricos.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
-import '../general.css'
+import '../../general_pages.css'
 
 function ProjetoEletrico() {
     return (

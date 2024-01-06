@@ -1,14 +1,19 @@
-import React from 'react'
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import { useLocation, BrowserRouter as Router } from 'react-router-dom'
 
-import './index2.css'
+import {
+  Navbar,
+  Container,
+  Nav,
+  NavDropdown
+} from 'react-bootstrap'
 
 import LogoTreon from '../logo/logo_treon_3.png'
 import CreaLogo from '../logo/crea_logo.png'
 import logoWhatsapp from '../logo/logo_whatsapp.png'
 import logoInstagram from '../logo/logo_instagram.png'
 import LogoLinkedin from '../logo/logo_linkedin.png'
+
+import './index2.css'
 
 function BasicExample() {
   const location = useLocation()
