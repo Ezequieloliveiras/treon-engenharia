@@ -11,9 +11,9 @@ import {
 
 import './section_tree.css'
 
-import ButtonDialog from '../../../partials/buttonDialogo/Button'
-import ImageProjetoEletrico from '../card_images/projeto_eletrico.jpg'
-import imageSpda from '../card_images/spda.jpg'
+import ButtonDialog from '../../../../partials/buttonDialogo/Button'
+import ImageProjetoEletrico from './image_section_tree/projeto_eletrico.jpg'
+import imageSpda from './image_section_tree/spda.jpg'
 
 const StyledSectionTree = styled('section')(() => ({
     position: 'relative',

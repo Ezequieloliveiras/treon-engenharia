@@ -1,7 +1,7 @@
-import ContentSectionOne from './sections/Section-One'
+import ContentSectionOne from './sections/section-one/Section-One'
 import ContentSectionTwo from './sections/section-two/Section-Two'
-import ContentSectionTree from './sections/Section-Tree'
-import ContentSectionFour from './sections/Section-Four'
+import ContentSectionTree from './sections/section-tree/Section-Tree'
+import ContentSectionFour from './sections/section-four/Section-Four'
 
 function Home() {
     return (

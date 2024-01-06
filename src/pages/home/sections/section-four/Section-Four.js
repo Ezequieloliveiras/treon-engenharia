@@ -9,9 +9,9 @@ import {
 } from '@mui/material'
 
 import './section_four.css'
-import ImageLaudoAr from '../card_images/laudo_técnico_ar_condicionado.jpg'
-import ImageLaudoPpci from '../card_images/laudo_técnico_ppci.jpg'
-import ImageLaudoMaquinas from '../card_images/maquinas_pesadas.png'
+import ImageLaudoAr from './image_section_four/laudo_técnico_ar_condicionado.jpg'
+import ImageLaudoPpci from './image_section_four/laudo_técnico_ppci.jpg'
+import ImageLaudoMaquinas from './image_section_four/maquinas_pesadas.png'
 
 const StyledSectionFour = styled('section')(() => ({
     position: 'relative',
