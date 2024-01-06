@@ -16,7 +16,7 @@ const ContentSectionTree = ({children}) => {
 
     return (
         <>
-            <StyledSectionTree className="section-tree">
+            <StyledSectionTree className="section-tree" id="section-tree">
                 {children}
             </StyledSectionTree>
         </>
