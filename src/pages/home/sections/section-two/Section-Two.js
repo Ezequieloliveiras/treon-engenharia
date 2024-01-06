@@ -1,8 +1,8 @@
-import ContainerTwo from '../section-two/ContainerTwo'
-import MechanicalTitle from './MechanicalTitle'
-import CardPmoc from './CardPmoc'
-import CardPrevIncendio from './CardPrevIncendio'
-import CardAlvara from './CardAlvara'
+import ContainerTwo from './components/ContainerTwo'
+import MechanicalTitle from './components/MechanicalTitle'
+import CardPmoc from './components/CardPmoc'
+import CardPrevIncendio from './components/CardPrevIncendio'
+import CardAlvara from './components/CardAlvara'
 import ButtonDialog from '../../../../partials/buttonDialogo/Button'
 
 import './section_two.css'

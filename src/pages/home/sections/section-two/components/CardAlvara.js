@@ -7,7 +7,7 @@ import {
     Typography,
 } from '@mui/material'
 
-import ImageAlvara from '../../card_images/alvara_de_licenca.png'
+import ImageAlvara from '../../../card_images/alvara_de_licenca.png'
 
 
 function CardAlvara() {
