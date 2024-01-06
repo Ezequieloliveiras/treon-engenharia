@@ -26,7 +26,7 @@ function CardAr() {
                     display: 'flex',
                     justifyContent: 'center'
                 }}
-                title="PMOC"
+                title="Laudo Técnico de Ar-Condicionado"
             >
                 <img src={ImageLaudoAr} alt="Descrição da Imagem"
                     style={{

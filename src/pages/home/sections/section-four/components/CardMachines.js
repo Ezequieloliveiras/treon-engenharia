@@ -23,6 +23,7 @@ function CardMachines() {
                 sx={{
                     height: 300
                 }}
+                title="Laudo Técnico de Máquinas Pesadas"
             >
                 <img src={ImageLaudoMaquinas} alt="Descrição da Imagem"
                     style={{

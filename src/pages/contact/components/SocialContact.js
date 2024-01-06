@@ -3,16 +3,17 @@ import styled from "@emotion/styled"
 import WhatsAppIcon from "./icons/Whatsapp_Icon"
 import LinkedInicon from "./icons/Linkedin_Icon"
 import EmailIcon from "./icons/Email_Icon"
-import '../../general_pages.css'
 
+import '../../general_pages.css'
 
 const Socials = styled('div')(() => ({
     display: 'block',
+    width: 'auto',
+    marginTop:'80px',
     marginBottom: '80px',
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    width: 'auto',
     borderRadius: '10px',
 }))
 

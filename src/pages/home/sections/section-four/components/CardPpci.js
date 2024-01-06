@@ -26,7 +26,7 @@ function cardPpci() {
                     justifyContent: 'center'
                 }
                 }
-                title="PMOC"
+                title="Laudo Técnico de PPCI"
             >
                 <img src={ImageLaudoPpci} alt="Descrição da Imagem"
                     style={{

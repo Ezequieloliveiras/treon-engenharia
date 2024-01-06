@@ -1,5 +1,15 @@
 /* MAIN PAGES */
 
+@media (max-width: 1440px) {
+
+    /*PAGE CONTACT*/
+
+    .contactContainer {
+        height: 100vh !;
+    }
+
+    
+}
 @media (max-width: 1024px) {
 
     /*PAGE CONTACT*/
@@ -33,12 +43,12 @@
         align-items: center;
         padding-top: 30px !important;
         padding-bottom: 150px !important;
-        height: 1090px !important;
+        height: 1030px !important;
     }
 
     .about {
         margin-top: 20px !important;
-        margin-bottom: 150px !important;
+        margin-bottom: 100px !important;
         font-size: 25px !important;
     }
 
@@ -57,7 +67,7 @@
     }
 
     .imageAbout {
-        margin-top: 0px !important;
+        margin-top: -100px !important;
         max-width: 50% !important;
         display: block;
         margin-left: auto;
@@ -72,7 +82,7 @@
     /*PAGE CONTACT*/
 
     .contactContainer {
-        height: 880px !important;
+        height: 1100px !important;
     }
 
     .contact {
@@ -125,7 +135,7 @@
     }
 
     .imageAbout {
-        margin-top: 0px !important;
+        margin-top: -100px !important;
         max-width: 90%;
         display: block;
         margin-left: auto;
@@ -203,7 +213,7 @@
     /*PAGE CONTACT*/
 
     .contactContainer {
-        height: 460px !important;
+        height: 760px !important;
     }
 
     .contact {
@@ -407,7 +417,8 @@
     .contact {
         position: absolute !important;
         font-size: 20px !important;
-        top: 55px !important;
+        top: 50px !important;
+
     }
 
     .email,
@@ -424,16 +435,14 @@
     /*PAGE ABOUT*/
 
     .containerAbout {
+        height: 100vh !important;
         flex-direction: column;
         display: flex;
         align-items: center;
-        padding-top: 30px !important;
-        padding-bottom: 150px !important;
-
     }
 
     .about {
-        margin-top: 20px !important;
+        margin-top: 1px !important;
         margin-bottom: 60px !important;
         font-size: 20px !important;
     }
@@ -453,7 +462,6 @@
     }
 
     .imageAbout {
-        margin-top: 0px !important;
         max-width: 80% !important;
         display: block;
         margin-left: auto;
@@ -495,6 +503,7 @@
     /*PAGE ABOUT*/
 
     .containerAbout {
+        height: auto !important;
         flex-direction: column;
         display: flex;
         align-items: center;
@@ -502,16 +511,9 @@
         padding-bottom: 150px !important;
 
     }
-
-    .about {
-        margin-top: 20px !important;
-        margin-bottom: 60px !important;
-        font-size: 20px !important;
-        width: 150px !important;
-    }
-
+    
     .textStyle {
-        width: 340px;
+        width: 250px !important;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -520,20 +522,12 @@
         margin-bottom: 20px !important;
     }
 
-    p {
-        width: 215px !important;
-    }
 
-    .css-1vrhb60 {
-        margin-bottom: 0px;
-    }
 
     .imageAbout {
         margin-top: 0px !important;
-        max-width: 90%;
+        max-width: 98% !important;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
 

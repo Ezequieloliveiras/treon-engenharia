@@ -1,4 +1,5 @@
 import styled from "@emotion/styled"
+
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 
 const SocialsWhatsapp = styled('div')(() => ({
@@ -6,10 +7,10 @@ const SocialsWhatsapp = styled('div')(() => ({
     marginBottom: '20px'
 }))
 
-const H1 = styled('h3')(() => ({
-    color: '#093170',
+const Text = styled('h3')(() => ({
     marginTop: '14px',
-    marginLeft: '5px'
+    marginLeft: '5px',
+    color: '#093170',
 }))
 
 const WhatsApp_Icon = () => {
@@ -22,9 +23,9 @@ const WhatsApp_Icon = () => {
                         color: '#2BB741',
                         fontSize: '50px'
                     }} />
-                <H1 className="whatsapp">
+                <Text className="whatsapp">
                     (27) 99733-7338
-                </H1>
+                </Text>
             </SocialsWhatsapp>
         </>
     )

@@ -1,17 +1,18 @@
 import styled from "@emotion/styled"
-import EmailIcon from '@mui/icons-material/Email'
-import '../../../general_pages.css'
 
+import EmailIcon from '@mui/icons-material/Email'
+
+import '../../../general_pages.css'
 
 const Email = styled('div')(() => ({
     display: 'flex',
     marginBottom: '20px'
 }))
 
-const H1 = styled('h3')(() => ({
-    color: '#093170',
+const Text = styled('h3')(() => ({
     marginTop: '14px',
-    marginLeft: '5px'
+    marginLeft: '5px',
+    color: '#093170',
 }))
 
 const Email_icon = () => {
@@ -24,9 +25,9 @@ const Email_icon = () => {
                         color: '#093170',
                         fontSize: '50px'
                     }} />
-                <H1 className="email">
+                <Text className="email">
                     contato@treonengenharia.com.br
-                </H1>
+                </Text>
             </Email>
         </>
     )
