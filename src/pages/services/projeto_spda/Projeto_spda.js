@@ -1,7 +1,7 @@
 import Container from "./components/Container"
 import Content from "./components/Content"
 import Text from "./components/Text"
-import ButtonDialogo from '../../../partials/buttonDialogo/Button'
+import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerSpda from './components/banner/projeto_spda.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 import '../general.css'
@@ -29,7 +29,7 @@ function Pmoc() {
                             }} />
                     </div>
                     <Text />
-                    <ButtonDialogo />
+                    <ButtonDialogue />
                 </Content>
             </Container>
         </>

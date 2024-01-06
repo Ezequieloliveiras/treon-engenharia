@@ -33,7 +33,7 @@ function App() {
                     <Route path="/prevencao_a_incendio" element={<PrevencaoIncendio />} />
                     <Route path="/pmoc" element={<Pmoc />} />
                     <Route path="/contact" element={<Contact />} />
-                    <Route path="/sobre" element={<About />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/" element={<Home />} />
                 </Routes>
             </Router>

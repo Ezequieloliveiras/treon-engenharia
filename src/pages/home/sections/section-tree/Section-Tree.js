@@ -3,7 +3,7 @@ import EletricalTitle from './components/EletricalTitle'
 import CardEletrical from './components/CardElectrical '
 import CardSolar from './components/CardSolar'
 import CardSpda from './components/CardSpda'
-import ButtonDialog from '../../../../partials/buttonDialogo/Button'
+import ButtonDialogue from '../../../../partials/buttonDialogue/ButtonDialogue'
 
 import './section_tree.css'
 
@@ -16,7 +16,7 @@ const ContentSectionTree = () => {
                 <CardEletrical />
                 <CardSolar />
                 <CardSpda />
-                <ButtonDialog />
+                <ButtonDialogue />
             </StyledSectionTree>
         </>
     )

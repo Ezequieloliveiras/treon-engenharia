@@ -35,22 +35,24 @@ function CardSpda() {
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     Projetamos o seu sistema de proteção contra descarga atmosférica de acordo com a sua edificação.
-                    <ul
-                        style={{
-                            paddingLeft: '25px',
-                            paddingTop: '15px'
-                        }}>
-                        <li>
-                            Laudo de integridade fisíca
-                        </li>
-                        <li>
-                            Testes de funcionamento
-                        </li>
-                        <li>
-                            Laudo de conformidade
-                        </li>
-                    </ul>
                 </Typography>
+                <ul
+                    style={{
+                        paddingLeft: '25px',
+                        paddingTop: '15px',
+                        fontSize: '0.875rem',
+                        color:'rgba(0, 0, 0, 0.6)'
+                    }}>
+                    <li>
+                        Laudo de integridade fisíca
+                    </li>
+                    <li>
+                        Testes de funcionamento
+                    </li>
+                    <li>
+                        Laudo de conformidade
+                    </li>
+                </ul>
             </CardContent>
             <CardActions sx={{
                 position: 'absolute',

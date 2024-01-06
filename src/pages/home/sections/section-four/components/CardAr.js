@@ -40,13 +40,18 @@ function CardAr() {
                     Laudo Técnico de Ar-condicionado
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    <p>Realizamos laudos técnicos para sistema de ar condicionado conforme necessidade do cliente.</p>
-                    <ul>
-                        <li>Laudo de integridade física</li>
-                        <li>Laudo de instalações e conformidade</li>
-                        <li>Laudo de manutenção em geral</li>
-                    </ul>
+                    Realizamos laudos técnicos para sistema de ar condicionado conforme necessidade do cliente.
                 </Typography>
+                <ul
+                    style={{
+                        marginTop:'10px',
+                        fontSize: '0.875rem',
+                        color: 'rgba(0, 0, 0, 0.6)'
+                    }}>
+                    <li>Laudo de integridade física</li>
+                    <li>Laudo de instalações e conformidade</li>
+                    <li>Laudo de manutenção em geral</li>
+                </ul>
             </CardContent>
             <CardActions
                 sx={{

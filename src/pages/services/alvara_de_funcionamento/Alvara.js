@@ -3,7 +3,7 @@ import React from "react"
 import Container from "./components/Container"
 import Content from "./components/Content"
 import Text from "./components/Text"
-import ButtonDialogo from '../../../partials/buttonDialogo/Button'
+import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerAlvara from "./components/banner/image_alvara.png"
 import BackgroundServices from "../../../partials/background_services/BackgroundServices"
 
@@ -30,7 +30,7 @@ function Alvara() {
                             }} />
                     </div>
                     <Text />
-                    <ButtonDialogo />
+                    <ButtonDialogue />
                 </Content>
             </Container>
         </>

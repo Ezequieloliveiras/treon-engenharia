@@ -3,7 +3,7 @@ import React from "react"
 import Container from "./components/Container"
 import Content from "./components/Content"
 import Text from "./components/Text"
-import ButtonDialogo from '../../../partials/buttonDialogo/Button'
+import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
 import BannerPainelSolar from './components/banner/painel_solar.webp'
 import Background from '../../../partials/background_services/BackgroundServices'
 
@@ -32,7 +32,7 @@ function EnergiaSolar() {
                             }} />
                     </div>
                     <Text />
-                    <ButtonDialogo />
+                    <ButtonDialogue />
                 </Content>
             </Container>
         </>

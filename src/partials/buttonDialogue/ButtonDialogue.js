@@ -1,6 +1,6 @@
 import './index.css'
 
-function ButtonDialogo() {
+function ButtonDialogue() {
     const handleWhatsAppClick = () => {
         const phoneNumber = '+5527996213588'
         const message = encodeURIComponent('Olá, estou entrando em contato através do site.')
@@ -10,7 +10,7 @@ function ButtonDialogo() {
     }
     return (
         <>
-            <a class="animated-button1"
+            <a className="animated-button1"
                 style={{
                     bottom: '0px',
                     position: 'absolute',
@@ -32,4 +32,4 @@ function ButtonDialogo() {
     )
 }
 
-export default ButtonDialogo
+export default ButtonDialogue

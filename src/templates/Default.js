@@ -1,7 +1,7 @@
 import Header from "../partials/header/Header"
 import { styled } from '@mui/system'
 import Footer from '../partials/footer/Footer'
-import ButtonDialogo from "../partials/buttonDialogo/Button"
+
 
 const StyledContainer = styled('div')(() => ({
   width: 'auto',
@@ -19,7 +19,7 @@ const Default = ({ children }) => {
       <Header />
       <StyledContainer>
         {children}
-        <ButtonDialogo />
+
       </StyledContainer>
       <Footer />
     </>

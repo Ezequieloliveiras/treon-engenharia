@@ -12,7 +12,7 @@ const StyledContainerTwo = styled('section')(() => ({
 
 function ContainerTwo({children}) {
     return (
-        <StyledContainerTwo id="section-two" >
+        <StyledContainerTwo className="section-two" >
            {children}
         </StyledContainerTwo>
     )

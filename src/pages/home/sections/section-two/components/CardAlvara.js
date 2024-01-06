@@ -38,22 +38,24 @@ function CardAlvara() {
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     Ajudamos empresas de todos os segmentos na regularização e liberação dos alvarás de funcionamento junto ao CBMES.
-                    <ul
-                        style={{
-                            paddingLeft: '25px',
-                            paddingTop: '15px'
-                        }}>
-                        <li>
-                            Consultoria de ALCB;
-                        </li>
-                        <li>
-                            Renovação de ALCB;
-                        </li>
-                        <li>
-                            Realização de testes e emissão de laudos técnicos.
-                        </li>
-                    </ul>
                 </Typography>
+                <ul
+                    style={{
+                        paddingLeft: '25px',
+                        paddingTop: '15px',
+                        fontSize: '0.875rem',
+                        color:'rgba(0, 0, 0, 0.6)'
+                    }}>
+                    <li>
+                        Consultoria de ALCB;
+                    </li>
+                    <li>
+                        Renovação de ALCB;
+                    </li>
+                    <li>
+                        Realização de testes e emissão de laudos técnicos.
+                    </li>
+                </ul>
             </CardContent>
             <CardActions
                 sx={{

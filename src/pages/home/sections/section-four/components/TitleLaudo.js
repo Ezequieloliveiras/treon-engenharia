@@ -18,7 +18,9 @@ function TitleLaudo() {
                 style={{
                     color: '#093170',
                     fontWeight: '700'
-                }}>Laudos Técnicos</h1>
+                }}>
+                Laudos Técnicos
+            </h1>
         </TitleLaudoTec>
     )
 }

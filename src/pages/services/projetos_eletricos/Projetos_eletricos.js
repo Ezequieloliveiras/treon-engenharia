@@ -1,7 +1,7 @@
 import Container from "./components/Container"
 import Content from "./components/Content"
 import Text from "./components/Text"
-import ButtonDialogo from '../../../partials/buttonDialogo/Button' 
+import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue' 
 import BannerProjetosEletricos from './components/banner/projetos_eletricos.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 
@@ -27,7 +27,7 @@ function ProjetoEletrico() {
                                 }} />
                         </div>
                         <Text />
-                    <ButtonDialogo />
+                    <ButtonDialogue />
                 </Content>
             </Container>
         </>

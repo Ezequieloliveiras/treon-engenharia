@@ -27,22 +27,24 @@ function CardSolar() {
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                     Projetamos o seu sistema fotovoltaico conforme a sua demanda energética.
-                    <ul
-                        style={{
-                            paddingLeft: '25px',
-                            paddingTop: '15px'
-                        }}>
-                        <li>
-                            Acompanhamento de execução
-                        </li>
-                        <li>
-                            Testes + laudos técnicos
-                        </li>
-                        <li>
-                            Projetos residenciais, comerciais e industriais
-                        </li>
-                    </ul>
                 </Typography>
+                <ul
+                    style={{
+                        paddingLeft: '25px',
+                        paddingTop: '15px',
+                        fontSize: '0.875rem',
+                        color:'rgba(0, 0, 0, 0.6)'
+                    }}>
+                    <li>
+                        Acompanhamento de execução
+                    </li>
+                    <li>
+                        Testes + laudos técnicos
+                    </li>
+                    <li>
+                        Projetos residenciais, comerciais e industriais
+                    </li>
+                </ul>
             </CardContent>
             <CardActions
                 sx={{
