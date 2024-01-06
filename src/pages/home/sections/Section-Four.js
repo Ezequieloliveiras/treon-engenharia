@@ -1,5 +1,3 @@
-import { styled } from "@mui/material"
-
 import {
     Card,
     CardActions,
@@ -7,6 +5,7 @@ import {
     CardMedia,
     Button,
     Typography,
+    styled,
 } from '@mui/material'
 
 import './section_four.css'
