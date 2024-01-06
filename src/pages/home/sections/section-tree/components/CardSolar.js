@@ -7,50 +7,39 @@ import {
     Typography,
 } from '@mui/material'
 
-import ImageAlvara from '../image_section_two/alvara_de_licenca.png'
-
-function CardAlvara() {
+function CardSolar() {
     return (
-        <Card className="cardsTwo"
+        <Card className="cardsTree"
             sx={{
-                maxWidth: 400, height: 580,
+                maxWidth: 400,
+                height: 580,
                 boxShadow: '0px 5px 5px 2px rgba(0, 0, 0, 0.4)',
                 position: 'relative'
             }}>
             <CardMedia
-                sx={{
-                    height: 300, display: 'flex',
-                    justifyContent: 'center',
-                    backgroundColor: '#e0e0e0',
-                    padding: '5px 0px 30px'
-                }}
-                title="Alvará"
-            >
-                <img src={ImageAlvara} alt="Descrição da Imagem"
-                    style={{
-                        width: '250px',
-                        height: '290px'
-                    }} />
-            </CardMedia>
-            <CardContent className="cardAlvara">
+                sx={{ height: 300 }}
+                image="https://c1.wallpaperflare.com/preview/965/479/726/solar-system-roof-power-generation-solar-power.jpg"
+                title="Energia Solar"
+            />
+            <CardContent className="cardSolar">
                 <Typography gutterBottom variant="h5" component="div">
-                    Alvará de funcionamento CBMES
+                    Energia Solar
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    Ajudamos empresas de todos os segmentos na regularização e liberação dos alvarás de funcionamento junto ao CBMES.
+                    Projetamos o seu sistema fotovoltaico conforme a sua demanda energética.
                     <ul
                         style={{
                             paddingLeft: '25px',
                             paddingTop: '15px'
                         }}>
                         <li>
-                            Consultoria de ALCB;
+                            Acompanhamento de execução
                         </li>
                         <li>
-                            Renovação de ALCB;
+                            Testes + laudos técnicos
                         </li>
                         <li>
-                            Realização de testes e emissão de laudos técnicos.
+                            Projetos residenciais, comerciais e industriais
                         </li>
                     </ul>
                 </Typography>
@@ -63,7 +52,7 @@ function CardAlvara() {
                     width: '100%'
                 }}>
                 <Button variant="contained"
-                    href="/alvara_de_funcionamento"
+                    href="/projeto_energia_solar"
                     sx={{ width: '100%' }}>
                     Saiba Mais
                 </Button>
@@ -72,4 +61,5 @@ function CardAlvara() {
     )
 }
 
-export default CardAlvara
+
+export default CardSolar
