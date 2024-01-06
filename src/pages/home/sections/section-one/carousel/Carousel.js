@@ -13,7 +13,7 @@ function DarkVariantExample() {
             style={{
                 height: '100vh',
             }}>
-            <Carousel.Item>
+            <Carousel.Item className='carouselItem'>
                 <div
                     style={{
                         backgroundColor: 'rgba(0, 0, 0, 0.8)',
