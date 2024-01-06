@@ -84,7 +84,7 @@ function BasicExample() {
             <Nav.Link href="/contact" id="custom-nav-link">
               Contato
             </Nav.Link>
-            <Nav.Link href="/sobre" id="custom-nav-link">
+            <Nav.Link href="/about" id="custom-nav-link">
               Sobre
             </Nav.Link>
             {isPaginaInicial && (
