@@ -16,7 +16,7 @@ const ContentSectionFour = ({children}) => {
 
     return (
         <>
-            <StyledContainerFour id="section-four" >
+            <StyledContainerFour className="section-four" >
                 {children}
             </StyledContainerFour>
         </>
