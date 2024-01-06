@@ -98,8 +98,6 @@ function BasicExample() {
                 <NavDropdown.Item href="#section-four">
                   Laudos Técnicos
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
               </NavDropdown>
             )}
           </Nav>
