@@ -1,7 +1,7 @@
 import Container from "./components/Container"
 import Content from "./components/Content"
 import Text from "./components/Text"
-import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue' 
+import ButtonDialogue from '../../../partials/button_dialogue/ButtonDialogue' 
 import BannerProjetosEletricos from './components/banner/projetos_eletricos.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
 

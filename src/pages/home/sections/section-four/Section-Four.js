@@ -3,7 +3,7 @@ import TitleLautoTec from './components/TitleLaudo'
 import CardAr from './components/CardAr'
 import CardPpci from './components/CardPpci'
 import CardMachines from './components/CardMachines'
-import ButtonDialogue from '../../../../partials/buttonDialogue/ButtonDialogue'
+import ButtonDialogue from '../../../../partials/button_dialogue/ButtonDialogue'
 
 import './section_four.css'
 

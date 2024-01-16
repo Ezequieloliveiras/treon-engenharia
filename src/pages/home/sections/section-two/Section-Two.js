@@ -3,7 +3,7 @@ import MechanicalTitle from './components/MechanicalTitle'
 import CardPmoc from './components/CardPmoc'
 import CardPrevIncendio from './components/CardPrevIncendio'
 import CardAlvara from './components/CardAlvara'
-import ButtonDialogue from '../../../../partials/buttonDialogue/ButtonDialogue'
+import ButtonDialogue from '../../../../partials/button_dialogue/ButtonDialogue'
 
 import './section_two.css'
 

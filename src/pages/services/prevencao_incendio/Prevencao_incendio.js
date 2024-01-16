@@ -3,7 +3,7 @@ import Content from "./components/Content"
 import Text from "./components/Text"
 import BannerPrevencaoIncendio from './components/banner/prevencao_incendio.jpg'
 import Background from '../../../partials/background_services/BackgroundServices'
-import ButtonDialogue from '../../../partials/buttonDialogue/ButtonDialogue'
+import ButtonDialogue from '../../../partials/button_dialogue/ButtonDialogue'
 
 import '../../general_pages.css'
 
