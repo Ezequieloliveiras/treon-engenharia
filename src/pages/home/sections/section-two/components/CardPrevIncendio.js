@@ -21,11 +21,11 @@ function CardPrevIncendio() {
                 height: 300
             }}
             image="https://www.comefogo.com.br/uploads/pagina/elemento/campo/2020/06/NLeHvUYQwRdigdwP/projeto-de-prevencao-e-combate-a-incendio-qual-a-importancia-e-quem-deve-fazer_875x540.jpg"
-            title="Projetos de Preveção a Incêndio"
+            title="Projetos de Prevenção a Incêndio"
         />
         <CardContent className="cardPrevencao">
             <Typography gutterBottom variant="h5" component="div">
-                Projetos de preveção a incêndio
+                Projetos de prevenção a incêndio
             </Typography>
             <Typography variant="body2" color="text.secondary">
                 Contamos com um time de projetistas experientes para regularizar sua empresa junto ao corpo de bombeiro. Elaboramos o projeto de prevenção e combate a incêndio (PPCI) conforme sua necessidade. Também te ajudamos na liberação do alvará de funcionamento.

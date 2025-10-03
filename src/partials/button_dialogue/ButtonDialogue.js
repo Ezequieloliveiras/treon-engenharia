@@ -2,7 +2,7 @@ import './ButtonDialogue.css'
 
 function ButtonDialogue() {
     const handleWhatsAppClick = () => {
-        const phoneNumber = '+5527996213588'
+        const phoneNumber = '+5527997337338'
         const message = encodeURIComponent('Olá, estou entrando em contato através do site.')
 
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`
